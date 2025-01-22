@@ -1,5 +1,3 @@
-
-
 # Sentiment Analysis on User Reviews
 
 ## Overview
