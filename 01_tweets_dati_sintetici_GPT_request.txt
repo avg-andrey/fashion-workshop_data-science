@@ -1,0 +1,57 @@
+Richiesta per la generazione di dati JSON
+Obiettivo: Creare un file JSON contenente 50 tweet simulati relativi al marchio di moda "MyBrandName". I tweet devono essere vari per contenuto, lunghezza e tono, riflettendo commenti realistici di utenti sui social media.
+
+Dettagli della richiesta:
+Genera 100 tweet simulati che menzionano "MyBrandName" in diversi contesti.
+
+I tweet devono essere variabili in lunghezza (da 10 a 280 caratteri).
+Devono contenere commenti realistici, sia positivi che negativi, e anche neutrali.
+Gli argomenti possono includere esperienze con il prodotto, qualità, taglia, materiali, spedizione, pagamento, ecc.
+Usa un tono realistico e naturale, come farebbero utenti dei social media.
+Formato desiderato di output JSON:
+Genera un array JSON con il seguente schema:
+
+"text": Testo del tweet.
+"date": Data casuale negli ultimi 6 mesi.
+Esempio di output JSON:
+
+json
+Copia
+Modifica
+[
+  {
+    "text": "Adoro le sneakers di #MyBrandName, sono incredibilmente comode e alla moda!",
+    "date": "2024-12-01"
+  },
+  {
+    "text": "Ho comprato una borsa su #MyBrandName, ma la qualità lascia a desiderare. Non ci tornerò.",
+    "date": "2024-11-15"
+  },
+  {
+    "text": "L’esperienza di acquisto su #MyBrandName è stata semplice e veloce. Consigliato!",
+    "date": "2024-10-30"
+  },
+  {
+    "text": "Spedizione lenta e comunicazione confusa da parte di #MyBrandName. Deluso.",
+    "date": "2024-09-12"
+  },
+  {
+    "text": "Ho trovato finalmente delle scarpe perfette per me su #MyBrandName. Grazie mille!",
+    "date": "2024-08-25"
+  }
+]
+Punti importanti per la generazione:
+Toni diversi:
+
+Circa 50% positivi (es. "Ottima qualità!").
+Circa 30% negativi (es. "Esperienza deludente.").
+Circa 20% neutrali (es. "Ho acquistato un prodotto, ma non ho ancora ricevuto la spedizione.").
+Argomenti realistici:
+
+Taglia: "Le scarpe calzano alla perfezione!"
+Qualità: "Materiali di alta qualità, davvero soddisfatto."
+Spedizione: "Consegna veloce, arrivato tutto in tempo!"
+Pagamento: "Facile completare il pagamento sul sito di #MyBrandName."
+Lunghezza variabile:
+
+Da brevi commenti di 10 parole a opinioni più articolate fino a 280 caratteri.
