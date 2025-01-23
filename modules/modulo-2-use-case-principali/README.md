@@ -26,7 +26,7 @@ Il workshop è suddiviso in sei parti principali:
      - [2.3.2. Modelli di Machine Learning: Estrarre Insight dai Dati](#232-modelli-di-machine-learning-estrarre-insight-dai-dati)
      - [2.3.3. Sinergia tra Big Data e Machine Learning](#233-sinergia-tra-big-data-e-machine-learning)
      - [2.3.4. Fattori Critici di Successo](#234-fattori-critici-di-successo)
-4. [Modulo 3: Dimostrazione Pratica](../modulo-3-demosntrazione-pratica/README.md)
+4. [Modulo 3: Dimostrazione Pratica](../modulo-3-demostrazione-pratica/README.md)
 5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
 7. [Glossario](../glossario/README.md)
@@ -357,7 +357,7 @@ Supporta una **pianificazione più accurata** di produzione, marketing e gestion
 
 Abbiamo visto come **Big Data e AI** possano rivoluzionare molte aree del FashionTech, dal **trend forecasting** alla **gestione della supply chain**, dalla **personalizzazione** alla **previsione delle vendite**. In tutti questi scenari, **l’analista** funge da mediatore essenziale tra le esigenze di business e le soluzioni offerte dai tecnici.
 
-Nel prossimo [Modulo 3](../modulo-3-demosntrazione-pratica/README.md) vedremo un esempio pratico di come raccogliere e analizzare dati relativi al sentiment del brand sui social media, con uno **sguardo concreto** a script e visualizzazioni (senza però richiedere competenze di programmazione ai partecipanti).
+Nel prossimo [Modulo 3](../modulo-3-demostrazione-pratica/README.md) vedremo un esempio pratico di come raccogliere e analizzare dati relativi al sentiment del brand sui social media, con uno **sguardo concreto** a script e visualizzazioni (senza però richiedere competenze di programmazione ai partecipanti).
 
 ---
 
