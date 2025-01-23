@@ -2,7 +2,7 @@
 
 ## Introduzione
 
-Benvenuti al **Modulo 3: Dimostrazione Pratica del Caso d'Uso Selezionato**. In questo modulo, metteremo in pratica quanto appreso nei moduli precedenti attraverso un caso d'uso concreto: l'analisi dei sentimenti degli utenti sui social media relativi a un brand specifico. Questo esercizio vi aiuterà a comprendere come utilizzare i dati di sentiment analysis per migliorare le strategie di marketing e gestire la reputazione online.
+**Modulo 3: Dimostrazione Pratica del Caso d'Uso Selezionato**. In questo modulo, metteremo in pratica quanto appreso nei moduli precedenti attraverso un caso d'uso concreto: l'analisi dei sentimenti degli utenti sui social media relativi a un brand specifico. Questo esercizio vi aiuterà a comprendere come utilizzare i dati di sentiment analysis per migliorare le strategie di marketing e gestire la reputazione online.
 
 ---
 
@@ -30,14 +30,16 @@ Il workshop è suddiviso in sette parti principali:
      - [2.3.4. Fattori Critici di Successo](#234-fattori-critici-di-successo)
 4. [Modulo 3: Dimostrazione Pratica del Caso d'Uso Selezionato](../modulo-3-dimostrazione-pratica/README.md)
    - [3.1. Descrizione dell’Obiettivo](#31-descrizione-dellobiettivo)
-   - [3.2. Raccolta dei Dati](#32-raccolta-dei-dati)
+   - [3.2. Raccolta dei Dati (Esempio con Twitter API)](#32-raccolta-dei-dati-esempio-con-twitter-api)
    - [3.3. Pre-elaborazione dei Dati](#33-pre-elaborazione-dei-dati)
-   - [3.4. Analisi del Sentiment](#34-analisi-del-sentiment)
-     - [3.4.1. Utilizzo Diretto di ChatGPT](#341-utilizzo-diretto-di-chatgpt)
-     - [3.4.2. Analisi tramite API di ChatGPT](#342-analisi-tramite-api-di-chatgpt)
-     - [3.4.3. Utilizzo di Modelli Pre-addestrati (Hugging Face)](#343-utilizzo-di-modelli-pre-addestrati-hugging-face)
+   - [3.4. Analisi del Sentiment: via ChatGPT](#34-analisi-del-sentiment-via-chatgpt)
+     - [3.4.1. Utilizzo Diretto di ChatGPT (Senza API)](#341-utilizzo-diretto-di-chatgpt-senza-api)
+     - [3.4.2.a. Analisi tramite API di ChatGPT con Interfaccia WebUI](#342a-analisi-tramite-api-di-chatgpt-con-interfaccia-webui)
+     - [3.4.2.b. Analisi tramite API di ChatGPT da Riga di Comando](#342b-analisi-tramite-api-di-chatgpt-da-riga-di-comando)
+     - [3.4.3. Utilizzo dei Modelli Pre-addestrati (Hugging Face)](#343-utilizzo-dei-modelli-pre-addestrati-hugging-face)
    - [3.5. Analisi dei Risultati e Visualizzazioni Grafiche](#35-analisi-dei-risultati-e-visualizzazioni-grafiche)
    - [3.6. Ruolo dell’Analista: Domande di Business](#36-ruolo-dellanalista-domande-di-business)
+   - [Flusso di Lavoro](#flusso-di-lavoro)
 5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
 7. [Glossario](../glossario/README.md)
@@ -62,7 +64,6 @@ Prima di passare alla parte tecnica, **l’analista** discute con il team market
 4. **Obiettivo finale**: “Vogliamo usare questi dati per ricalibrare la strategia social? O per informare il team prodotto su eventuali difetti segnalati dai clienti?”
 
 > In questa fase, **l’analista** traduce le richieste di business in **specifiche** per il team di data science (es. “raccolta di tweet contenenti #FashionX negli ultimi 30 giorni, in italiano, con analisi di sentiment e parole più menzionate”).
-
 
 ## Flusso di Lavoro
 
