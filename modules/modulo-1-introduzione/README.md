@@ -10,7 +10,7 @@ Spiegheremo l'importanza dei Big Data e dell'AI Analytics nell'industria della m
 
 ## Struttura del Workshop
 
-Il workshop è suddiviso in sei parti principali:
+Il workshop è suddiviso in sette parti principali:
 
 1. [Home](../../README.md)
 2. [Modulo 1: Introduzione](../modulo-1-introduzione/README.md)
@@ -30,10 +30,22 @@ Il workshop è suddiviso in sei parti principali:
      - [2.3.2. Modelli di Machine Learning: Estrarre Insight dai Dati](#232-modelli-di-machine-learning-estrarre-insight-dai-dati)
      - [2.3.3. Sinergia tra Big Data e Machine Learning](#233-sinergia-tra-big-data-e-machine-learning)
      - [2.3.4. Fattori Critici di Successo](#234-fattori-critici-di-successo)
-4. [Modulo 3: Dimostrazione Pratica](../modulo-3-dimostrazione-pratica/README.md)
+4. [Modulo 3: Dimostrazione Pratica del Caso d'Uso Selezionato](../modulo-3-dimostrazione-pratica/README.md)
+   - [3.1. Scenario e Obiettivo](#31-scenario-e-obiettivo)
+   - [3.2. Ruolo dell’Analista: Domande di Business](#32-ruolo-dellanalista-domande-di-business)
+   - [3.3. Flusso di Lavoro](#33-flusso-di-lavoro)
+   - [3.4. Raccolta dei Dati (Esempio con Twitter API)](#34-raccolta-dei-dati-esempio-con-twitter-api)
+   - [3.5. Pre-elaborazione dei Dati](#35-pre-elaborazione-dei-dati)
+   - [3.6. Analisi del Sentiment: via ChatGPT](#36-analisi-del-sentiment-via-chatgpt)
+     - [3.6.1. Utilizzo Diretto di ChatGPT (Senza API)](#361-utilizzo-diretto-di-chatgpt-senza-api)
+     - [3.6.2.a. Analisi tramite API di ChatGPT con Interfaccia WebUI](#362a-analisi-tramite-api-di-chatgpt-con-interfaccia-webui)
+     - [3.6.2.b. Analisi tramite API di ChatGPT da Riga di Comando](#362b-analisi-tramite-api-di-chatgpt-da-riga-di-comando)
+     - [3.6.3. Utilizzo dei Modelli Pre-addestrati (Hugging Face)](#363-utilizzo-dei-modelli-pre-addestrati-hugging-face)
+   - [3.7. Analisi dei Risultati e Visualizzazioni Grafiche](#37-analisi-dei-risultati-e-visualizzazioni-grafiche)
 5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
 7. [Glossario](../glossario/README.md)
+
 
 ---
 

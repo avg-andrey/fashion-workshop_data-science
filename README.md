@@ -35,6 +35,8 @@ Questo workshop è destinato a:
 
 ## Indice dei Moduli
 
+Il workshop è suddiviso in sette parti principali:
+
 1. [Home](./README.md)
 2. [Modulo 1: Introduzione](./modules/modulo-1-introduzione/README.md)
    - [1.1. Obiettivi del Workshop](./modules/modulo-1-introduzione/README.md#11-obiettivi-del-workshop)
@@ -53,10 +55,22 @@ Questo workshop è destinato a:
      - [2.3.2. Modelli di Machine Learning: Estrarre Insight dai Dati](./modules/modulo-2-use-case-principali/README.md#232-modelli-di-machine-learning-estrarre-insight-dai-dati)
      - [2.3.3. Sinergia tra Big Data e Machine Learning](./modules/modulo-2-use-case-principali/README.md#233-sinergia-tra-big-data-e-machine-learning)
      - [2.3.4. Fattori Critici di Successo](./modules/modulo-2-use-case-principali/README.md#234-fattori-critici-di-successo)
-4. [Modulo 3: Dimostrazione Pratica](./modules/modulo-3-dimostrazione-pratica/README.md)
+4. [Modulo 3: Dimostrazione Pratica del Caso d'Uso Selezionato](./modules/modulo-3-dimostrazione-pratica/README.md)
+   - [3.1. Scenario e Obiettivo](./modules/modulo-3-dimostrazione-pratica/README.md#31-scenario-e-obiettivo)
+   - [3.2. Ruolo dell’Analista: Domande di Business](./modules/modulo-3-dimostrazione-pratica/README.md#32-ruolo-dellanalista-domande-di-business)
+   - [3.3. Flusso di Lavoro](./modules/modulo-3-dimostrazione-pratica/README.md#33-flusso-di-lavoro)
+   - [3.4. Raccolta dei Dati (Esempio con Twitter API)](./modules/modulo-3-dimostrazione-pratica/README.md#34-raccolta-dei-dati-esempio-con-twitter-api)
+   - [3.5. Pre-elaborazione dei Dati](./modules/modulo-3-dimostrazione-pratica/README.md#35-pre-elaborazione-dei-dati)
+   - [3.6. Analisi del Sentiment: via ChatGPT](./modules/modulo-3-dimostrazione-pratica/README.md#36-analisi-del-sentiment-via-chatgpt)
+     - [3.6.1. Utilizzo Diretto di ChatGPT (Senza API)](./modules/modulo-3-dimostrazione-pratica/README.md#361-utilizzo-diretto-di-chatgpt-senza-api)
+     - [3.6.2.a. Analisi tramite API di ChatGPT con Interfaccia WebUI](./modules/modulo-3-dimostrazione-pratica/README.md#362a-analisi-tramite-api-di-chatgpt-con-interfaccia-webui)
+     - [3.6.2.b. Analisi tramite API di ChatGPT da Riga di Comando](./modules/modulo-3-dimostrazione-pratica/README.md#362b-analisi-tramite-api-di-chatgpt-da-riga-di-comando)
+     - [3.6.3. Utilizzo dei Modelli Pre-addestrati (Hugging Face)](./modules/modulo-3-dimostrazione-pratica/README.md#363-utilizzo-dei-modelli-pre-addestrati-hugging-face)
+   - [3.7. Analisi dei Risultati e Visualizzazioni Grafiche](./modules/modulo-3-dimostrazione-pratica/README.md#37-analisi-dei-risultati-e-visualizzazioni-grafiche)
 5. [Modulo 4: Follow-up per Scenario Realizzato](./modules/modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](./modules/modulo-5-conclusione-discussione/README.md)
 7. [Glossario](./modules/glossario/README.md)
+
 
 ---
 
