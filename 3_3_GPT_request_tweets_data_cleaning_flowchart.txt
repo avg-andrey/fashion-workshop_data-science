@@ -1,0 +1,13 @@
+Genera una diagramma di flusso basato su un Directed Graph per rappresentare il funzionamento del seguente codice Python.
+
+Requisiti per il diagramma:
+Ogni passo logico del codice deve essere rappresentato come un nodo del grafico.
+Le connessioni logiche tra i passaggi devono essere rappresentate con frecce (arrows).
+Se ci sono cicli o iterazioni nel codice (ad esempio, loop for o while), questi devono essere chiaramente indicati nel diagramma.
+Usa uno stile leggibile e organizzato, con nodi distribuiti uniformemente e frecce che non si sovrappongono.
+
+Output atteso:
+Un grafico chiaro e leggibile che rappresenta il flusso del codice in base alla logica implementata.
+
+Codice Python:
+[Inserire qui il codice Python]

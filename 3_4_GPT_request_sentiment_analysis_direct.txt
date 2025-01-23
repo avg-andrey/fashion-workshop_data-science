@@ -1,0 +1,21 @@
+Analizza i seguenti testi e classifica il sentimento espresso in ciascuno come positivo, negativo o neutro. Restituisci i risultati in formato JSON.
+
+Formato dei dati di input:
+
+Lista di oggetti JSON con i seguenti campi:
+text: Il testo da analizzare.
+date: La data associata al testo.
+Formato dei dati di output:
+
+Lista di oggetti JSON con i seguenti campi:
+text: Il testo analizzato.
+sentiment: Sentimento classificato (positivo, negativo o neutro).
+explanation: Una breve spiegazione del perché è stato classificato in quel modo.
+date: La data originale associata al testo.
+
+Restituisci il risultato come descritto sopra.
+**Nota importante:** Restituisci la risposta completa senza tagli o omissioni.
+
+Ecco i dati di input da analizzare:
+
+[Incolla qui i testi pre-elaborati dal file 03_tweets_dati_cleaned.json]
