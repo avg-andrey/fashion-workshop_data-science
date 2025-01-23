@@ -58,6 +58,15 @@ Il workshop è suddiviso in sette parti principali:
    - [5.6. Consigli per i Prossimi Passi](../modulo-5-conclusione-discussione/README.md#56-consigli-per-i-prossimi-passi)
    - [5.7. Conclusioni](../modulo-5-conclusione-discussione/README.md#57-conclusioni)
 7. [Glossario](../glossario/README.md)
+   - [Machine Learning vs. Deep Learning vs. Neural Network](../glossario/README.md#machine-learning-vs-deep-learning-vs-neural-network)
+   - [Machine Learning Model (Modello di Machine Learning)](../glossario/README.md#machine-learning-model-modello-di-machine-learning)
+   - [Training (Addestramento)](../glossario/README.md#training-addestramento)
+   - [Inference (Inferenza)](../glossario/README.md#inference-inferenza)
+   - [Tecnologie e Strumenti](../glossario/README.md#tecnologie-e-strumenti)
+   - [Esempi Pratici](../glossario/README.md#esempi-pratici)
+   - [Statistica e Visualizzazione dei Dati](../glossario/README.md#statistica-e-visualizzazione-dei-dati)
+   - [Termini Aggiuntivi Utili](../glossario/README.md#termini-aggiuntivi-utili)
+   - [GLOSSARIO](../glossario/README.md#glossario)
 
 ---
 
