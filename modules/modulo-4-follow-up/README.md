@@ -1,6 +1,6 @@
 # Modulo 4: Follow-up per Scenario Realizzato
 
-In questo modulo, partendo dai risultati di **sentiment analysis** visti nel [Modulo 3](../modulo-3-demosntrazione-pratica/README.md), esploriamo **come** applicare concretamente questi dati nelle strategie di business della moda. Vedremo:
+In questo modulo, partendo dai risultati di **sentiment analysis** visti nel [Modulo 3](../modulo-3-dimostrazione-pratica/README.md), esploriamo **come** applicare concretamente questi dati nelle strategie di business della moda. Vedremo:
 1. In che modo le informazioni ottenute possano supportare il **marketing**, lo **sviluppo prodotto**, la **gestione della reputazione** e la **supply chain**.
 2. Quali sono le **sfide reali** (cosa può andare storto) e come l’**analista** possa mediare tra il team business e quello tecnico.
 3. Alcuni **spunti di riflessione** e **mini-esercizi** per chi desidera sperimentare subito un approccio data-driven, anche senza un data scientist interno.
