@@ -29,24 +29,24 @@ Il workshop è suddiviso in sette parti principali:
      - [2.3.3. Sinergia tra Big Data e Machine Learning](#233-sinergia-tra-big-data-e-machine-learning)
      - [2.3.4. Fattori Critici di Successo](#234-fattori-critici-di-successo)
 4. [Modulo 3: Dimostrazione Pratica del Caso d'Uso Selezionato](../modulo-3-dimostrazione-pratica/README.md)
-   - [3.1. Descrizione dell’Obiettivo](#31-descrizione-dellobiettivo)
-   - [3.2. Raccolta dei Dati (Esempio con Twitter API)](#32-raccolta-dei-dati-esempio-con-twitter-api)
-   - [3.3. Pre-elaborazione dei Dati](#33-pre-elaborazione-dei-dati)
-   - [3.4. Analisi del Sentiment: via ChatGPT](#34-analisi-del-sentiment-via-chatgpt)
-     - [3.4.1. Utilizzo Diretto di ChatGPT (Senza API)](#341-utilizzo-diretto-di-chatgpt-senza-api)
-     - [3.4.2.a. Analisi tramite API di ChatGPT con Interfaccia WebUI](#342a-analisi-tramite-api-di-chatgpt-con-interfaccia-webui)
-     - [3.4.2.b. Analisi tramite API di ChatGPT da Riga di Comando](#342b-analisi-tramite-api-di-chatgpt-da-riga-di-comando)
-     - [3.4.3. Utilizzo dei Modelli Pre-addestrati (Hugging Face)](#343-utilizzo-dei-modelli-pre-addestrati-hugging-face)
-   - [3.5. Analisi dei Risultati e Visualizzazioni Grafiche](#35-analisi-dei-risultati-e-visualizzazioni-grafiche)
-   - [3.6. Ruolo dell’Analista: Domande di Business](#36-ruolo-dellanalista-domande-di-business)
-   - [Flusso di Lavoro](#flusso-di-lavoro)
+   - [3.1. Scenario e Obiettivo](#31-scenario-e-obiettivo)
+   - [3.2. Ruolo dell’Analista: Domande di Business](#32-ruolo-dellanalista-domande-di-business)
+   - [3.3. Flusso di Lavoro](#33-flusso-di-lavoro)
+   - [3.4. Raccolta dei Dati (Esempio con Twitter API)](#34-raccolta-dei-dati-esempio-con-twitter-api)
+   - [3.5. Pre-elaborazione dei Dati](#35-pre-elaborazione-dei-dati)
+   - [3.6. Analisi del Sentiment: via ChatGPT](#36-analisi-del-sentiment-via-chatgpt)
+     - [3.6.1. Utilizzo Diretto di ChatGPT (Senza API)](#361-utilizzo-diretto-di-chatgpt-senza-api)
+     - [3.6.2.a. Analisi tramite API di ChatGPT con Interfaccia WebUI](#362a-analisi-tramite-api-di-chatgpt-con-interfaccia-webui)
+     - [3.6.2.b. Analisi tramite API di ChatGPT da Riga di Comando](#362b-analisi-tramite-api-di-chatgpt-da-riga-di-comando)
+     - [3.6.3. Utilizzo dei Modelli Pre-addestrati (Hugging Face)](#363-utilizzo-dei-modelli-pre-addestrati-hugging-face)
+   - [3.7. Analisi dei Risultati e Visualizzazioni Grafiche](#37-analisi-dei-risultati-e-visualizzazioni-grafiche)
 5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
 7. [Glossario](../glossario/README.md)
 
 ---
 
-## Scenario e Obiettivo
+## 3.1. Scenario e Obiettivo
 
 **Scenario**: Immaginiamo di lavorare per un brand di moda fittizio, “FashionX”. Negli ultimi mesi, alcuni manager hanno notato un calo di vendite e temono che ci siano opinioni negative in rete. Vogliono capire **cosa** i clienti stiano dicendo su Twitter e **come** questi commenti influiscano sulla reputazione del marchio.
 
@@ -54,7 +54,7 @@ Il workshop è suddiviso in sette parti principali:
 
 ---
 
-## Ruolo dell’Analista: Domande di Business
+## 3.2. Ruolo dell’Analista: Domande di Business
 
 Prima di passare alla parte tecnica, **l’analista** discute con il team marketing e customer care per definire:
 
@@ -65,9 +65,11 @@ Prima di passare alla parte tecnica, **l’analista** discute con il team market
 
 > In questa fase, **l’analista** traduce le richieste di business in **specifiche** per il team di data science (es. “raccolta di tweet contenenti #FashionX negli ultimi 30 giorni, in italiano, con analisi di sentiment e parole più menzionate”).
 
-## Flusso di Lavoro
+---
 
-## 3.2. Raccolta dei Dati (Esempio con Twitter API)
+## 3.3. Flusso di Lavoro
+
+## 3.4. Raccolta dei Dati (Esempio con Twitter API)
 
 ### Descrizione
 
@@ -96,7 +98,7 @@ In questa fase, dimostreremo come raccogliere dati dai social media utilizzando 
 
 - **File JSON**: `tweets_data.json` contenente tweet grezzi, pronto per la fase di pre-elaborazione.
 
-## 3.3. Pre-elaborazione dei Dati
+## 3.5. Pre-elaborazione dei Dati
 
 ### Descrizione
 
@@ -129,11 +131,11 @@ La pre-elaborazione dei dati è fondamentale per garantire che i dati siano puli
 
 - **File Pulito**: Testo strutturato e pronto per l’analisi.
 
-## 3.4. Analisi del Sentiment: via ChatGPT
+## 3.6. Analisi del Sentiment: via ChatGPT
 
 In questa sezione, esploreremo diversi metodi per eseguire l'analisi del sentiment utilizzando ChatGPT e modelli pre-addestrati di Hugging Face.
 
-### 3.4.1. Utilizzo Diretto di ChatGPT (Senza API)
+### 3.6.1. Utilizzo Diretto di ChatGPT (Senza API)
 
 #### Descrizione
 
@@ -159,7 +161,7 @@ Questo metodo consiste nell'inserire manualmente i testi pre-elaborati nella con
 
 - **Classificazione Manuale**: Sentimenti classificati per ciascun testo.
 
-### 3.4.2.a. Analisi tramite API di ChatGPT con Interfaccia WebUI
+### 3.6.2.a. Analisi tramite API di ChatGPT con Interfaccia WebUI
 
 #### Descrizione
 
@@ -183,7 +185,7 @@ Utilizzare l'interfaccia WebUI di ChatGPT per inviare dati e ricevere risposte f
 
 - **File JSON**: Contenente i campi `text`, `sentiment`, `explanation`, `date`.
 
-### 3.4.2.b. Analisi tramite API di ChatGPT da Riga di Comando
+### 3.6.2.b. Analisi tramite API di ChatGPT da Riga di Comando
 
 #### Descrizione
 
@@ -215,7 +217,7 @@ Automatizzare l’analisi inviando i testi all’API di ChatGPT tramite uno scri
 1. Il contenuto del file di output dipenderà dalla precisione del prompt inserito. Se il prompt richiede un formato JSON, il risultato sarà strutturato.
 2. Per ulteriori analisi o visualizzazioni, potrebbe essere necessario elaborare il file di output con uno script aggiuntivo per trasformarlo in un formato strutturato (es. JSON o CSV).
 
-### 3.4.3. Utilizzo dei Modelli Pre-addestrati (Hugging Face)
+### 3.6.3. Utilizzo dei Modelli Pre-addestrati (Hugging Face)
 
 #### Descrizione
 
@@ -254,7 +256,7 @@ Eseguire l'analisi dei sentimenti utilizzando un modello pre-addestrato della li
    - La versione della libreria `transformers` sia compatibile con i modelli selezionati.
 3. La selezione del dispositivo (GPU o CPU) avviene automaticamente. Se disponibile, la GPU migliorerà significativamente i tempi di esecuzione.
 
-## 3.5. Analisi dei Risultati e Visualizzazioni Grafiche
+## 3.7. Analisi dei Risultati e Visualizzazioni Grafiche
 
 ### Descrizione
 
@@ -342,3 +344,12 @@ In questo modulo abbiamo visto come raccogliere, pre-elaborare e analizzare i se
 Ricordate che la collaborazione con i data scientist è fondamentale per tradurre le vostre intuizioni di marketing in requisiti tecnici che possono essere implementati efficacemente. Continuate a esplorare e sperimentare con i dati per scoprire nuove opportunità di crescita e miglioramento.
 
 ---
+## Contatti
+
+Per domande o suggerimenti, crea un *issue* in questo repository o contatta Andrey Golub ([@aVg](https://www.linkedin.com/in/andreygolub/)).
+
+---
+
+## Disclaimer
+
+Questo materiale è destinato esclusivamente a fini educativi e formativi. Gli esempi di codice e dati forniti sono puramente dimostrativi e non devono essere utilizzati in ambienti di produzione senza le dovute verifiche e personalizzazioni.

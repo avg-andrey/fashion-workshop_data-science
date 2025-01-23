@@ -372,11 +372,9 @@ Nel prossimo [Modulo 3](../modulo-3-demosntrazione-pratica/README.md) vedremo un
 
 ---
 
-## Domande o Dubbi?
+## Contatti
 
-Per qualsiasi domanda, suggerimento o curiosità, puoi:
-- Aprire una *issue* su questo repository
-- Contattare [@aVg](https://www.linkedin.com/in/andreygolub/)
+Per domande o suggerimenti, crea un *issue* in questo repository o contatta Andrey Golub ([@aVg](https://www.linkedin.com/in/andreygolub/)).
 
 ---
 
