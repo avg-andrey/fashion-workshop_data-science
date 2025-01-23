@@ -4,28 +4,67 @@
 
 Benvenuti al **Modulo 3: Dimostrazione Pratica del Caso d'Uso Selezionato**. In questo modulo, metteremo in pratica quanto appreso nei moduli precedenti attraverso un caso d'uso concreto: l'analisi dei sentimenti degli utenti sui social media relativi a un brand specifico. Questo esercizio vi aiuterà a comprendere come utilizzare i dati di sentiment analysis per migliorare le strategie di marketing e gestire la reputazione online.
 
+---
+
 ## Struttura del Workshop
 
-Il workshop è suddiviso in sei parti principali:
+Il workshop è suddiviso in sette parti principali:
 
 1. [Home](../../README.md)
 2. [Modulo 1: Introduzione](../modulo-1-introduzione/README.md)
+   - [1.1. Obiettivi del Workshop](../modulo-1-introduzione/README.md#11-obiettivi-del-workshop)
    - [1.2. L'importanza di Big Data e AI Analytics nella moda](../modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
+   - [1.3. Sfide Reali e Ruolo dell’Analista](../modulo-1-introduzione/README.md#13-sfide-reali-e-ruolo-dellanalista)
 3. [Modulo 2: I Use-Case principali nel FashionTech](../modulo-2-use-case-principali/README.md)
-   - [2.2. Macro-Use-Case in Fashion Tech](../modulo-2-use-case-principali/README.md#22-macro-use-case-in-fashion-tech)
-   - [2.3. Ruoli di Big Data e Modelli di Machine Learning](../modulo-2-use-case-principali/README.md#23-ruoli-di-big-data-e-modelli-di-machine-learning)
-4. [Modulo 3: Dimostrazione Pratica](../modulo-3-demosntrazione-pratica/README.md)
+   - [2.1. Spiegazione delle Tecnologie (per i più curiosi)](#21-spiegazione-delle-tecnologie-per-i-più-curiosi)
+   - [2.2. Macro-Use-Case in Fashion Tech](#22-macro-use-case-in-fashion-tech)
+     - [Use Case 1: Analisi delle Tendenze di Moda](#use-case-1-analisi-delle-tendenze-di-moda)
+     - [Use Case 2: Gestione della Catena di Approvvigionamento](#use-case-2-gestione-della-catena-di-approvvigionamento)
+     - [Use Case 3: Personalizzazione delle Offerte](#use-case-3-personalizzazione-delle-offerte)
+     - [Use Case 4: Sentiment Analysis del Brand](#use-case-4-sentiment-analysis-del-brand)
+     - [Use Case 5: Previsione delle Vendite](#use-case-5-previsione-delle-vendite)
+   - [2.3. Ruoli di Big Data e Modelli di Machine Learning](#23-ruoli-di-big-data-e-modelli-di-machine-learning)
+     - [2.3.1. Big Data: Raccolta, Archiviazione e Pre-Elaborazione dei Dati](#231-big-data-raccolta-archiviazione-e-pre-elaborazione-dei-dati)
+     - [2.3.2. Modelli di Machine Learning: Estrarre Insight dai Dati](#232-modelli-di-machine-learning-estrarre-insight-dai-dati)
+     - [2.3.3. Sinergia tra Big Data e Machine Learning](#233-sinergia-tra-big-data-e-machine-learning)
+     - [2.3.4. Fattori Critici di Successo](#234-fattori-critici-di-successo)
+4. [Modulo 3: Dimostrazione Pratica del Caso d'Uso Selezionato](../modulo-3-dimostrazione-pratica/README.md)
+   - [3.1. Descrizione dell’Obiettivo](#31-descrizione-dellobiettivo)
+   - [3.2. Raccolta dei Dati](#32-raccolta-dei-dati)
+   - [3.3. Pre-elaborazione dei Dati](#33-pre-elaborazione-dei-dati)
+   - [3.4. Analisi del Sentiment](#34-analisi-del-sentiment)
+     - [3.4.1. Utilizzo Diretto di ChatGPT](#341-utilizzo-diretto-di-chatgpt)
+     - [3.4.2. Analisi tramite API di ChatGPT](#342-analisi-tramite-api-di-chatgpt)
+     - [3.4.3. Utilizzo di Modelli Pre-addestrati (Hugging Face)](#343-utilizzo-di-modelli-pre-addestrati-hugging-face)
+   - [3.5. Analisi dei Risultati e Visualizzazioni Grafiche](#35-analisi-dei-risultati-e-visualizzazioni-grafiche)
+   - [3.6. Ruolo dell’Analista: Domande di Business](#36-ruolo-dellanalista-domande-di-business)
 5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
 7. [Glossario](../glossario/README.md)
 
 ---
 
+## Scenario e Obiettivo
 
-## 3.1. Descrizione dell’Obiettivo
+**Scenario**: Immaginiamo di lavorare per un brand di moda fittizio, “FashionX”. Negli ultimi mesi, alcuni manager hanno notato un calo di vendite e temono che ci siano opinioni negative in rete. Vogliono capire **cosa** i clienti stiano dicendo su Twitter e **come** questi commenti influiscano sulla reputazione del marchio.
 
-- **Obiettivo**: Analizzare i sentimenti degli utenti sui social media relativi a un brand specifico.
-- **Valore**: Comprendere l’opinione pubblica per migliorare la strategia di marketing e gestire la reputazione online.
+**Obiettivo**: Raccogliere una serie di tweet pubblici che menzionano “FashionX”, pulirli e analizzarli per determinare se il sentiment prevalente sia positivo, negativo o neutro. Quindi, interpretare i risultati per prendere decisioni di marketing.
+
+---
+
+## Ruolo dell’Analista: Domande di Business
+
+Prima di passare alla parte tecnica, **l’analista** discute con il team marketing e customer care per definire:
+
+1. **Periodo di analisi**: “Quali tweet consideriamo (ultime 2 settimane, ultimo mese, ecc.)?”
+2. **Lingua/fonte**: “Dobbiamo filtrare solo tweet in italiano? O includiamo anche inglese, spagnolo?”
+3. **KPI**: “Cosa misuriamo? Percentuale di tweet negativi? Principali parole chiave utilizzate?”
+4. **Obiettivo finale**: “Vogliamo usare questi dati per ricalibrare la strategia social? O per informare il team prodotto su eventuali difetti segnalati dai clienti?”
+
+> In questa fase, **l’analista** traduce le richieste di business in **specifiche** per il team di data science (es. “raccolta di tweet contenenti #FashionX negli ultimi 30 giorni, in italiano, con analisi di sentiment e parole più menzionate”).
+
+
+## Flusso di Lavoro
 
 ## 3.2. Raccolta dei Dati (Esempio con Twitter API)
 
