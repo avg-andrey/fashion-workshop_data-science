@@ -4,10 +4,11 @@
 
 Il workshop è suddiviso in sei parti principali:
 
-1. [Home](../../README.md)
-2. [Modulo 1: Introduzione](../modulo-1-introduzione/README.md)
-   - [1.1. Obiettivi del Workshop](../modulo-1-introduzione/README.md#11-obiettivi-del-workshop)
-   - [1.2. L'importanza di Big Data e AI Analytics nella moda](../modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
+1. [Home](/README.md)
+2. [Modulo 1: Introduzione](/modules/modulo-1-introduzione/README.md)
+   - [1.1. Obiettivi del Workshop](/modules/modulo-1-introduzione/README.md#11-obiettivi-del-workshop)
+   - [1.2. L'importanza di Big Data e AI Analytics nella moda](/modules/modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
+
    - [1.3. Sfide Reali e Ruolo dell’Analista](../modulo-1-introduzione/README.md#13-sfide-reali-e-ruolo-dellanalista)
 3. [Modulo 2: I Use-Case principali nel FashionTech](../modulo-2-use-case-principali/README.md)
    - [2.1. Spiegazione delle Tecnologie (per i più curiosi)](#21-spiegazione-delle-tecnologie-per-i-più-curiosi)
