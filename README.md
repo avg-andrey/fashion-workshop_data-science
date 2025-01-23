@@ -53,7 +53,7 @@ Questo workshop è destinato a:
      - [2.3.2. Modelli di Machine Learning: Estrarre Insight dai Dati](./modules/modulo-2-use-case-principali/README.md#232-modelli-di-machine-learning-estrarre-insight-dai-dati)
      - [2.3.3. Sinergia tra Big Data e Machine Learning](./modules/modulo-2-use-case-principali/README.md#233-sinergia-tra-big-data-e-machine-learning)
      - [2.3.4. Fattori Critici di Successo](./modules/modulo-2-use-case-principali/README.md#234-fattori-critici-di-successo)
-4. [Modulo 3: Dimostrazione Pratica](./modules/modulo-3-demosntrazione-pratica/README.md)
+4. [Modulo 3: Dimostrazione Pratica](./modules/modulo-3-dimostrazione-pratica/README.md)
 5. [Modulo 4: Follow-up per Scenario Realizzato](./modules/modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](./modules/modulo-5-conclusione-discussione/README.md)
 7. [Glossario](./modules/glossario/README.md)

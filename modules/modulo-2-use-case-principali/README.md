@@ -26,7 +26,7 @@ Il workshop è suddiviso in sei parti principali:
      - [2.3.2. Modelli di Machine Learning: Estrarre Insight dai Dati](#232-modelli-di-machine-learning-estrarre-insight-dai-dati)
      - [2.3.3. Sinergia tra Big Data e Machine Learning](#233-sinergia-tra-big-data-e-machine-learning)
      - [2.3.4. Fattori Critici di Successo](#234-fattori-critici-di-successo)
-4. [Modulo 3: Dimostrazione Pratica](../modulo-3-demostrazione-pratica/README.md)
+4. [Modulo 3: Dimostrazione Pratica](../modulo-3-dimostrazione-pratica/README.md)
 5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
 7. [Glossario](../glossario/README.md)
