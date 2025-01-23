@@ -25,7 +25,7 @@ Alla fine di questo workshop, i partecipanti saranno in grado di:
 
 Il workshop è suddiviso in sei parti principali:
 
-1. [Home](../README.md)
+1. [Home](../../README.md)
 2. [Modulo 1: Introduzione](../modulo-1-introduzione/README.md)
    - [1.2. L'importanza di Big Data e AI Analytics nella moda](../modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
 3. [Modulo 2: I Use-Case principali nel FashionTech](../modulo-2-use-case-principali/README.md)
