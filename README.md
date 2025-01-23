@@ -35,15 +35,18 @@ Questo workshop è destinato a:
 
 ## Indice dei Moduli
 
-1. [Modulo 1: Introduzione](./modules/modulo-1-introduzione/README.md)
+1. [Home](./README.md)
+2. [Modulo 1: Introduzione](./modules/modulo-1-introduzione/README.md)
+   - [1.1. Obiettivi del Workshop](./modules/modulo-1-introduzione/README.md#11-obiettivi-del-workshop)
    - [1.2. L'importanza di Big Data e AI Analytics nella moda](./modules/modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
-2. [Modulo 2: I Use-Case principali nel FashionTech](./modules/modulo-2-use-case-principali/README.md)
+   - [1.3. Sfide Reali e Ruolo dell’Analista](./modules/modulo-1-introduzione/README.md#13-sfide-reali-e-ruolo-dellanalista)
+3. [Modulo 2: I Use-Case principali nel FashionTech](./modules/modulo-2-use-case-principali/README.md)
    - [2.2. Macro-Use-Case in Fashion Tech](./modules/modulo-2-use-case-principali/README.md#22-macro-use-case-in-fashion-tech)
    - [2.3. Ruoli di Big Data e Modelli di Machine Learning](./modules/modulo-2-use-case-principali/README.md#23-ruoli-di-big-data-e-modelli-di-machine-learning)
-3. [Modulo 3: Dimostrazione Pratica](./modules/modulo-3-demosntrazione-pratica/README.md)
-4. [Modulo 4: Follow-up per Scenario Realizzato](./modules/modulo-4-follow-up/README.md)
-5. [Modulo 5: Conclusione e Discussione](./modules/modulo-5-conclusione-discussione/README.md)
-6. [Glossario](./modules/glossario/README.md)
+4. [Modulo 3: Dimostrazione Pratica](./modules/modulo-3-demosntrazione-pratica/README.md)
+5. [Modulo 4: Follow-up per Scenario Realizzato](./modules/modulo-4-follow-up/README.md)
+6. [Modulo 5: Conclusione e Discussione](./modules/modulo-5-conclusione-discussione/README.md)
+7. [Glossario](./modules/glossario/README.md)
 
 ---
 
