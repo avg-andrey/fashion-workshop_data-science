@@ -1,4 +1,3 @@
-```markdown
 # Modulo 1: Introduzione
 
 ## Benvenuto e Presentazione
