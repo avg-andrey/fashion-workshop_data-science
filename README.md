@@ -1,6 +1,6 @@
 # AI, BigData & Advanced Analytics in FashionTech
 
-Benvenuti nel progetto **AI, BigData & Advanced Analytics in FashionTech**! Questo repository è stato creato per supportare un **master-class** di circa **2 ore**, pensato per studenti e professionisti **non tecnici** interessati a comprendere come l'Intelligenza Artificiale, i Big Data e l'analisi avanzata possano essere applicati nell'industria della moda. 
+Benvenuti nel progetto **AI, BigData & Advanced Analytics in FashionTech**! Questo repository è stato creato per supportare un **master-class** di circa **2 ore**, pensato per studenti e professionisti **non tecnici** interessati a comprendere come l'Intelligenza Artificiale, i Big Data e l'analisi avanzata possano essere applicati nell'industria della moda.
 
 > **Nota**: Parte dei materiali (termini chiave e casi di studio) dovrebbe essere letta **prima** dell'incontro dal vivo. Durante la prima ora discuteremo i concetti e i casi d'uso, mentre nella seconda ora verrà mostrata una **dimostrazione pratica** di analisi dati e strutture di machine learning, spiegando come le tecnologie vengano effettivamente applicate.
 
@@ -13,6 +13,7 @@ Il workshop **AI, BigData & Advanced Analytics in FashionTech** ha l’obiettivo
 - Fornire ai **professionisti non tecnici** una comprensione di base di come Big Data e AI stanno rivoluzionando i processi nella moda.
 - Mostrare **casi d’uso pratici** e benefici reali dell’adozione di queste tecnologie (marketing, previsioni di vendita, supply chain, ecc.).
 - Facilitare la comunicazione tra figure di business (marketing, vendite, design) e team tecnici (data scientist, ML engineer), creando un **linguaggio comune**.
+- **Inoltre, capiremo come l’analista (o il mediatore) possa collaborare con i team tecnici per trasformare gli obiettivi di business in requisiti di analisi dati.** Gli analisti imparano a **porsi le domande giuste**, **definire le metriche chiave** e **tradurre le esigenze aziendali** in compiti concreti per i data scientist, assicurando una collaborazione efficace e mirata.
 
 ### Target Audience
 Questo workshop è destinato a:
@@ -26,7 +27,7 @@ Questo workshop è destinato a:
 - **Durata complessiva**: Circa **2 ore**.
   - **Prima dell’incontro**: Lettura dei materiali introduttivi (termini chiave, concetti di base, casi d’uso).
   - **1ª ora (sessione live)**: Discussione sulle principali aree di applicazione e concetti-chiave di Big Data & AI nel FashionTech.
-  - **2ª ora (sessione live)**: Dimostrazione pratica. Vedremo esempi di analisi dati e strutture ML in azione. 
+  - **2ª ora (sessione live)**: Dimostrazione pratica. Vedremo esempi di analisi dati e strutture ML in azione.
 
 **Importante**: Non è richiesta alcuna esperienza di programmazione o installazione di software per seguire il workshop. Gli esempi di codice servono solo a illustrare come i data scientist operano nella realtà.
 
@@ -71,7 +72,7 @@ Questo progetto fornisce materiali, casi di studio e dimostrazioni su come appli
 Gli esempi di codice **non** richiedono intervento da parte dei partecipanti. Servono a:
 - Mostrare come i data scientist raccolgono, puliscono e analizzano dati.
 - Far capire i processi dietro la creazione di modelli di Machine Learning, aiutando i professionisti di business a comunicare meglio con i tecnici.
-  
+
 > *Non è necessario installare Python o eseguire gli script per seguire il workshop. Gli esempi servono solo a scopo dimostrativo.*
 
 ---
@@ -87,7 +88,7 @@ Gli esempi di codice **non** richiedono intervento da parte dei partecipanti. Se
 ## Benefici per i Partecipanti
 
 - **Comprensione Strategica**: Capire come Big Data e AI possano supportare scelte di marketing, produzione e vendita più efficaci.
-- **Lingua Comune con i Tecnici**: Imparare i concetti chiave per dialogare con data scientist e ML engineer.
+- **Lingua Comune con i Tecnici**: Imparare i concetti chiave per dialogare con data scientist e ML engineer, includendo la capacità di **definire le metriche chiave**, **impostare obiettivi di analisi** e **comunicare efficacemente** le esigenze di business.
 - **Decisioni Data-Driven**: Conoscere best practice e strumenti utili a integrare i dati nei processi decisionali.
 
 ---
