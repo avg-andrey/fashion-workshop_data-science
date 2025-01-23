@@ -73,7 +73,7 @@ Gli esempi di codice Python e i file JSON presenti in questo repository servono 
 
 ## Contatti
 
-Per domande o suggerimenti, per favore crea un issue o contatta [@aVg](mailto:your.email@example.com).
+Per domande o suggerimenti, per favore crea un issue o contatta [@aVg](https://www.linkedin.com/in/andreygolub/).
 
 ---
 
