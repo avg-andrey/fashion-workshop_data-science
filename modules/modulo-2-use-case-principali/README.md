@@ -1,6 +1,8 @@
 # Modulo 2: I Use-Case principali nel FashionTech
 
-## Introduzione
+In questo modulo vedremo alcuni **casi d’uso (Use Case)** chiave di Big Data e AI nell’industria della moda. L’obiettivo è mostrare **come** queste tecnologie possano supportare l’innovazione in diversi processi aziendali (marketing, supply chain, vendite, ecc.), evidenziando il ruolo cruciale dell’**analista** come “ponte” tra esigenze di business e team tecnici.
+
+---
 
 ## Struttura del Workshop
 
@@ -10,8 +12,8 @@ Il workshop è suddiviso in sei parti principali:
 2. [Modulo 1: Introduzione](../modulo-1-introduzione/README.md)
    - [1.2. L'importanza di Big Data e AI Analytics nella moda](../modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
 3. [Modulo 2: I Use-Case principali nel FashionTech](../modulo-2-use-case-principali/README.md)
-   - [2.2. Macro-Use-Case in Fashion Tech](../modulo-2-use-case-principali/README.md#22-macro-use-case-in-fashion-tech)
-   - [2.3. Ruoli di Big Data e Modelli di Machine Learning](../modulo-2-use-case-principali/README.md#23-ruoli-di-big-data-e-modelli-di-machine-learning)
+   - [2.2. Macro-Use-Case in Fashion Tech](#22-macro-use-case-in-fashion-tech)
+   - [2.3. Ruoli di Big Data e Modelli di Machine Learning](#23-ruoli-di-big-data-e-modelli-di-machine-learning)
 4. [Modulo 3: Dimostrazione Pratica](../modulo-3-demosntrazione-pratica/README.md)
 5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
@@ -19,530 +21,353 @@ Il workshop è suddiviso in sei parti principali:
 
 ---
 
+## 2.1. Spiegazione delle Tecnologie (per i più curiosi)
 
-### Spiegazione delle Tecnologie
-
-Nel contesto del FashionTech, le tecnologie di Big Data e Intelligenza Artificiale (AI) giocano un ruolo cruciale nel trasformare l'industria della moda. Comprendere queste tecnologie è essenziale per applicarle efficacemente nei vari processi aziendali.
+Nel contesto del FashionTech, le tecnologie di **Big Data** e **Intelligenza Artificiale (AI)** giocano un ruolo cruciale nel trasformare l'industria della moda. Di seguito una panoramica essenziale (solo per capire **cosa fanno i tecnici**; non è richiesto che i partecipanti imparino ad usarle):
 
 - **Big Data Strumenti**:
-  - **Hadoop**: Un framework open-source per l'elaborazione distribuita di grandi set di dati su cluster di computer.
-  - **Spark**: Un framework per l'elaborazione rapida dei Big Data, supporta l'elaborazione in-memory e viene utilizzato per analisi complesse e machine learning.
-  - **SQL**: Linguaggio di programmazione standard per gestire e manipolare database relazionali.
+  - **Hadoop**: Framework open-source per l'elaborazione distribuita di grandi set di dati su cluster.
+  - **Spark**: Elaborazione rapida (in-memory) di Big Data, utile per analisi complesse e machine learning.
+  - **SQL**: Linguaggio standard per gestire e manipolare database relazionali.
 
 - **AI e Modelli Analitici**:
-  - **Modelli di Machine Learning**: Algoritmi predefiniti per classificazione, regressione e analisi del testo che permettono di estrarre insight dai dati.
-  - **Natural Language Processing (NLP)**: Tecniche per analizzare e comprendere il linguaggio naturale, utile per l'analisi del sentiment e l'estrazione di informazioni dai testi.
+  - **Machine Learning**: Algoritmi di classificazione, regressione, clustering, ecc.
+  - **Natural Language Processing (NLP)**: Tecniche per analizzare e comprendere il linguaggio (ad es. sentiment analysis).
+
+> **Nota**: Come professionisti di marketing o manager, non è necessario conoscere in dettaglio questi strumenti, ma è utile sapere **perché** sono importanti e **cosa** possono offrire in termini di analisi.
+
+---
 
 ## 2.2. Macro-Use-Case in FashionTech
 
-Queste descrizioni dettagliate dei Macro-Use-Case in FashionTech forniscono una panoramica completa e strutturata, facilitando la comprensione per studenti e futuri manager della moda. Ogni Use Case è progettato per evidenziare come Big Data e AI possano trasformare i vari aspetti dell'industria della moda, migliorando l'efficienza, la precisione delle decisioni e la soddisfazione dei clienti.
+Di seguito presentiamo i **5 principali Use Case** in cui Big Data e AI stanno già portando valore concreto all’industria della moda. Per ogni scenario, troverete:
 
-### 1. Analisi delle Tendenze di Moda
+1. Una **breve sintesi (TL;DR)** del valore di business.  
+2. Una descrizione del caso e dei problemi tradizionali.  
+3. Le soluzioni possibili grazie a Big Data e AI.  
+4. **Il ruolo dell’analista** in questo specifico contesto.  
+5. Un **mini-esercizio di riflessione** (non obbligatorio, senza valutazione), per allenarsi a pensare come un mediatore tra business e data scientist.
 
-#### 1. Nome e Descrizione
+---
 
-- **Nome Use Case**: Previsione dei Trend di Moda
-- **Descrizione**: Utilizzo di dati provenienti dai social media e dalle ricerche online per identificare e prevedere i trend emergenti nel settore della moda, permettendo alle aziende di adattare le loro collezioni in anticipo.
+### **Use Case 1: Analisi delle Tendenze di Moda**
 
-#### 2. Stakeholder Coinvolti
-
-- **Ruoli che partecipano**:
-  - Marketing
-  - Design
-  - Analisi Dati
-  - Ricerca e Sviluppo
-- **Partecipanti principali**:
-  - Team di Social Media Marketing
-  - Designer di moda
-  - Analisti di dati
-  - Consulenti esterni specializzati in trend analysis
-
-#### 3. Processi Aziendali Coinvolti e Modificati
-
-- **Processi coperti**:
-  - Ricerca e sviluppo di nuovi prodotti
-  - Pianificazione delle collezioni stagionali
-  - Marketing e promozione
-- **Cambiamenti post-implementazione**:
-  - Maggiore tempestività nell'adattamento delle collezioni ai trend
-  - Miglior coordinamento tra i team di design e marketing
-  - Decisioni basate su dati reali anziché su intuizioni
-
-#### 4. Problemi nei Processi Tradizionali
-
-- **Problemi principali**:
-  - Lentezza nel rilevare e reagire ai cambiamenti nei trend
-  - Affidamento eccessivo su intuizioni soggettive dei designer
-  - Mancanza di dati concreti per supportare le decisioni
-- **Conseguenze negative**:
-  - Ritardi nel lancio delle collezioni
-  - Riduzione della competitività sul mercato
-  - Aumento del rischio di insuccesso commerciale delle nuove linee
-
-#### 5. Soluzioni con Big Data e AI
-
-- **Come le tecnologie aiutano**:
-  - Raccolta e analisi automatizzata di grandi volumi di dati dai social media e dalle ricerche online
-  - Identificazione di pattern e trend emergenti attraverso l'analisi predittiva
-- **Esempi di miglioramenti**:
-  - Previsione accurata dei trend stagionali
-  - Adattamento rapido delle strategie di design e marketing
-  - Miglioramento della soddisfazione del cliente grazie a collezioni più allineate ai desideri del mercato
-
-#### 6. Tecnologie, Strumenti e Approcci
-
-- **Strumenti principali**:
-  - Python (librerie come Pandas, BeautifulSoup)
-  - API di Google Trends
-  - Strumenti di NLP (Natural Language Processing) come NLTK o SpaCy
-  - Tableau per la visualizzazione dei dati
-- **Approcci**:
-  - Analisi delle tendenze tramite clustering e analisi delle frequenze
-  - Analisi del sentiment per comprendere le preferenze dei consumatori
-  - Machine Learning per la previsione dei trend futuri
-
-#### 7. Difficoltà e Risorse Richieste
-
-- **Livello di complessità**: Medio
-- **Competenze necessarie**:
-  - Analisi dei dati
-  - Conoscenza di strumenti di programmazione (es. Python)
-  - Comprensione delle dinamiche di mercato della moda
-- **Composizione del team**:
-  - Analista dei dati
-  - Data Scientist
-  - Responsabile Marketing
-  - Designer di moda
-- **Durata del progetto**: 3-6 mesi
-
-#### 8. Fattori Critici di Successo
-
-- **Elementi chiave**:
-  - Accesso a fonti di dati aggiornate e rilevanti
-  - Collaborazione efficace tra i vari dipartimenti aziendali
-  - Qualità e accuratezza dei modelli predittivi utilizzati
-- **Necessità per il successo**:
-  - Investimento in tecnologie di analisi dei dati
-  - Formazione continua del personale coinvolto
-  - Supporto e impegno della leadership aziendale
-
-### 2. Gestione della Catena di Approvvigionamento
+**TL;DR: Perché è utile al business?**  
+Permette di **prevedere i trend** emergenti (colori, stili, materiali), così da creare collezioni in linea con i gusti futuri dei consumatori e ridurre il rischio di lanciare prodotti poco attraenti.
 
 #### 1. Nome e Descrizione
-
-- **Nome Use Case**: Ottimizzazione della Logistica e dell'Inventario
-- **Descrizione**: Utilizzo di Big Data e analisi avanzate per migliorare l'efficienza della catena di approvvigionamento, riducendo i costi logistici e ottimizzando i livelli di inventario.
+- **Nome Use Case**: Previsione dei Trend di Moda  
+- **Descrizione**: Analisi di dati da social media e ricerche online per anticipare le preferenze del mercato e adattare collezioni e strategie in modo proattivo.
 
 #### 2. Stakeholder Coinvolti
+- **Ruoli**: Marketing, Design, Analisi Dati, R&S.  
+- **Partecipanti principali**: Team di social media marketing, designer, analisti di dati, consulenti trend.
 
-- **Ruoli che partecipano**:
-  - Logistica
-  - Acquisti
-  - IT
-  - Finanza
-- **Partecipanti principali**:
-  - Manager della supply chain
-  - Responsabili degli acquisti
-  - Analisti logistici
-  - Fornitori e partner logistici
-
-#### 3. Processi Aziendali Coinvolti e Modificati
-
-- **Processi coperti**:
-  - Pianificazione degli acquisti
-  - Gestione dell'inventario
-  - Distribuzione e logistica
-- **Cambiamenti post-implementazione**:
-  - Miglioramento della previsione della domanda
-  - Riduzione dei tempi di consegna
-  - Ottimizzazione dei livelli di stock, evitando eccessi e carenze
+#### 3. Processi Aziendali Impattati
+- Ricerca e sviluppo di nuovi prodotti.  
+- Pianificazione delle collezioni stagionali.  
+- Marketing e promozione.
 
 #### 4. Problemi nei Processi Tradizionali
-
-- **Problemi principali**:
-  - Previsioni di domanda inaccurate
-  - Elevati costi di magazzinaggio
-  - Ritardi nelle consegne e inefficienze logistiche
-- **Conseguenze negative**:
-  - Perdita di vendite dovuta a stockouts
-  - Aumento dei costi operativi
-  - Riduzione della soddisfazione del cliente
+- **Lentezza** nel rilevare i cambiamenti di trend.  
+- Dipendenza da intuizioni soggettive dei designer.  
+- Mancanza di dati oggettivi per prendere decisioni.
 
 #### 5. Soluzioni con Big Data e AI
+- Raccolta automatizzata di grandi volumi di dati (social, ricerche Google).  
+- Analisi predittiva per identificare pattern e trend emergenti.  
+- Migliore collaborazione tra design e marketing, basata su evidenze numeriche.
 
-- **Come le tecnologie aiutano**:
-  - Analisi predittiva per migliorare la precisione delle previsioni di domanda
-  - Ottimizzazione delle rotte di distribuzione tramite algoritmi di ottimizzazione
-  - Monitoraggio in tempo reale dell'inventario e delle spedizioni
-- **Esempi di miglioramenti**:
-  - Riduzione dei costi di magazzino del 20%
-  - Miglioramento dei tempi di consegna del 15%
-  - Aumento della disponibilità dei prodotti più richiesti
+##### Ruolo dell’Analista in questo scenario
+- **Selezionare** le fonti di dati rilevanti (quali social media, quali parole chiave).  
+- **Definire** quali KPI misurare (frequenza di certi hashtag, sentiment generale, ecc.).  
+- **Interpretare** i risultati forniti dai data scientist (ad es. “il colore verde militare è in crescita del 40% nelle conversazioni online”).  
+- **Allineare** i team di design, marketing e R&S su come utilizzare questi insight.
 
-#### 6. Tecnologie, Strumenti e Approcci
-
-- **Strumenti principali**:
-  - Hadoop e Spark per la gestione dei Big Data
-  - Python e R per l'analisi dei dati
-  - Sistemi ERP integrati (es. SAP, Oracle)
-  - Algoritmi di Machine Learning per la previsione e l'ottimizzazione
-- **Approcci**:
-  - Analisi dei pattern di domanda storica
-  - Ottimizzazione delle reti logistiche
-  - Automazione dei processi di riordino
+#### 6. Tecnologie, Strumenti e Approfondimento Tecnico
+- **Python**, Google Trends API, strumenti di NLP (NTLK, SpaCy), Tableau.  
+- (Dettagli tecnici opzionali, “per i curiosi”)
 
 #### 7. Difficoltà e Risorse Richieste
-
-- **Livello di complessità**: Alto
-- **Competenze necessarie**:
-  - Ingegneria dei dati
-  - Analisi predittiva e ottimizzazione
-  - Conoscenza dei sistemi ERP
-- **Composizione del team**:
-  - Data Engineer
-  - Data Scientist
-  - Responsabile Logistica
-  - Specialista ERP
-- **Durata del progetto**: 6-12 mesi
+- Accesso a dati aggiornati.  
+- Collaborazione fra dipartimenti.  
+- Formazione minima del personale.
 
 #### 8. Fattori Critici di Successo
+- Qualità dei dati raccolti.  
+- Capacità di reazione rapida ai cambiamenti di trend.  
+- Impegno della leadership nel sostenere investimenti in analisi.
 
-- **Elementi chiave**:
-  - Integrazione efficace dei sistemi IT esistenti
-  - Precisione e qualità dei dati raccolti
-  - Collaborazione stretta tra i team logistici e di analisi dati
-- **Necessità per il successo**:
-  - Investimenti in tecnologie avanzate
-  - Formazione del personale sui nuovi strumenti e processi
-  - Supporto continuo della direzione aziendale
+**Mini-Esercizio di Riflessione**  
+- *Quali piattaforme social (o fonti di dati) useresti per prevedere i trend nella tua azienda?*  
+- *Come tradurresti la necessità di scoprire “cosa piace ai consumatori” in un requisito chiaro per il team tecnico?*  
 
-### 3. Personalizzazione delle Offerte
+---
+
+### **Use Case 2: Gestione della Catena di Approvvigionamento**
+
+**TL;DR: Perché è utile al business?**  
+Consente di **ottimizzare la logistica** e ridurre costi di stoccaggio, evitare stockout e migliorare la puntualità nelle consegne.
 
 #### 1. Nome e Descrizione
-
-- **Nome Use Case**: Sistemi di Raccomandazione per lo Shopping Personalizzato
-- **Descrizione**: Implementazione di sistemi di raccomandazione basati su AI per offrire ai clienti suggerimenti personalizzati di prodotti, migliorando l'esperienza di acquisto e aumentando le vendite.
+- **Nome Use Case**: Ottimizzazione di Logistica e Inventario  
+- **Descrizione**: Utilizzo di dati e algoritmi di previsione per ridurre costi e inefficienze nella supply chain.
 
 #### 2. Stakeholder Coinvolti
+- Logistica, Acquisti, IT, Finanza.  
+- Manager supply chain, analisti logistici, fornitori.
 
-- **Ruoli che partecipano**:
-  - Marketing
-  - Vendite
-  - IT
-  - Customer Service
-- **Partecipanti principali**:
-  - Team di e-commerce
-  - Responsabili del marketing digitale
-  - Data Scientist
-  - Esperti di UX/UI
-
-#### 3. Processi Aziendali Coinvolti e Modificati
-
-- **Processi coperti**:
-  - Esperienza utente sul sito e-commerce
-  - Strategie di marketing e promozione
-  - Gestione delle relazioni con i clienti
-- **Cambiamenti post-implementazione**:
-  - Aumento delle conversioni e delle vendite
-  - Miglioramento della soddisfazione e fidelizzazione dei clienti
-  - Personalizzazione delle campagne di marketing
+#### 3. Processi Aziendali Impattati
+- Pianificazione acquisti.  
+- Gestione inventario.  
+- Distribuzione e logistica.
 
 #### 4. Problemi nei Processi Tradizionali
-
-- **Problemi principali**:
-  - Offerte generiche che non rispondono alle esigenze individuali dei clienti
-  - Bassa conversione delle campagne di marketing
-  - Difficoltà nel mantenere alto il livello di soddisfazione e fedeltà del cliente
-- **Conseguenze negative**:
-  - Riduzione delle vendite e del valore medio dell'ordine
-  - Alta percentuale di abbandono del carrello
-  - Scarsa differenziazione rispetto ai concorrenti
+- Previsioni di domanda inaccurate.  
+- Elevati costi di magazzino.  
+- Ritardi e inefficienze logistiche.
 
 #### 5. Soluzioni con Big Data e AI
+- Analisi predittiva per una migliore stima della domanda.  
+- Ottimizzazione delle rotte di distribuzione (algoritmi di routing).  
+- Monitoraggio in tempo reale dell’inventario.
 
-- **Come le tecnologie aiutano**:
-  - Analisi dei comportamenti di acquisto e delle preferenze dei clienti
-  - Generazione di raccomandazioni personalizzate in tempo reale
-  - Segmentazione avanzata del mercato per campagne mirate
-- **Esempi di miglioramenti**:
-  - Incremento del 25% nelle vendite cross-sell e up-sell
-  - Aumento del 30% nella fidelizzazione dei clienti
-  - Miglioramento della soddisfazione del cliente grazie a esperienze di acquisto personalizzate
+##### Ruolo dell’Analista
+- **Definire** i parametri critici (es. soglia minima di scorte, tempo di consegna, stagionalità).  
+- **Interfacciarsi** con logistica e IT per capire dove reperire i dati (ERP, sensori, ordini).  
+- **Verificare** se i risultati delle previsioni sono realistici per la pianificazione.  
+- **Facilitare** la comunicazione con la direzione finanziaria per valutare costi/benefici.
 
-#### 6. Tecnologie, Strumenti e Approcci
-
-- **Strumenti principali**:
-  - Piattaforme di raccomandazione (es. Amazon Personalize, Google Recommendations AI)
-  - Python e librerie di Machine Learning (es. TensorFlow, Scikit-learn)
-  - Sistemi di gestione dei dati clienti (CRM) integrati
-  - Strumenti di analisi dei dati (es. Tableau, Power BI)
-- **Approcci**:
-  - Filtraggio collaborativo e basato sul contenuto
-  - Analisi predittiva dei comportamenti di acquisto
-  - A/B testing per ottimizzare le raccomandazioni
+#### 6. Tecnologie, Strumenti e Approfondimento Tecnico
+- **Spark**, Python/R per analisi predittiva, sistemi ERP (SAP, Oracle).  
+- (Dettagli tecnici opzionali, “per i curiosi”)
 
 #### 7. Difficoltà e Risorse Richieste
-
-- **Livello di complessità**: Medio
-- **Competenze necessarie**:
-  - Data Analysis
-  - Machine Learning
-  - UX/UI Design
-  - Marketing digitale
-- **Composizione del team**:
-  - Data Scientist
-  - Sviluppatore Front-end
-  - Responsabile Marketing
-  - Designer UX/UI
-- **Durata del progetto**: 4-8 mesi
+- Integrazione tra sistemi IT esistenti.  
+- Conoscenze di analisi predittiva.  
+- Supporto continuo della leadership.
 
 #### 8. Fattori Critici di Successo
+- Qualità dei dati (storici, real-time).  
+- Formazione del personale.  
+- Collaborazione tra team logistici e di analisi dati.
 
-- **Elementi chiave**:
-  - Accuratezza e rilevanza delle raccomandazioni
-  - Integrazione fluida con le piattaforme di e-commerce
-  - Adattabilità del sistema alle evoluzioni delle preferenze dei clienti
-- **Necessità per il successo**:
-  - Accesso a dati di alta qualità e aggiornati
-  - Test continui e iterazioni basate sul feedback dei clienti
-  - Collaborazione tra team tecnici e di marketing
+**Mini-Esercizio di Riflessione**  
+- *Quali dati ritieni fondamentali per prevedere correttamente la domanda di un nuovo capo di abbigliamento?*  
+- *Che domanda di business faresti se fossi un manager supply chain con problemi di stock-out frequenti?*
 
-### 4. Sentiment Analysis del Brand
+---
+
+### **Use Case 3: Personalizzazione delle Offerte**
+
+**TL;DR: Perché è utile al business?**  
+Aumenta le vendite e la **fidelizzazione** dei clienti offrendo raccomandazioni personalizzate (cross-sell, up-sell).
 
 #### 1. Nome e Descrizione
-
-- **Nome Use Case**: Analisi delle Opinioni e delle Menzioni del Brand
-- **Descrizione**: Utilizzo di tecniche di sentiment analysis per monitorare e analizzare le opinioni dei clienti riguardo al brand sui social media e altre piattaforme online, al fine di migliorare la reputazione e le strategie di marketing.
+- **Nome Use Case**: Sistemi di Raccomandazione per lo Shopping Personalizzato  
+- **Descrizione**: Soluzioni di AI per suggerire prodotti in linea con le preferenze dei clienti, migliorando l’esperienza d’acquisto.
 
 #### 2. Stakeholder Coinvolti
+- Marketing, Vendite, IT, Customer Service.
 
-- **Ruoli che partecipano**:
-  - Marketing
-  - Customer Service
-  - Comunicazione
-  - IT
-- **Partecipanti principali**:
-  - Social Media Manager
-  - Responsabile della Comunicazione
-  - Analista di dati
-  - Team di Customer Service
-
-#### 3. Processi Aziendali Coinvolti e Modificati
-
-- **Processi coperti**:
-  - Gestione della reputazione online
-  - Strategie di comunicazione e marketing
-  - Servizio clienti e gestione delle crisi
-- **Cambiamenti post-implementazione**:
-  - Miglioramento della reattività alle opinioni dei clienti
-  - Personalizzazione delle campagne di comunicazione
-  - Proattività nella gestione delle crisi di reputazione
+#### 3. Processi Aziendali Impattati
+- Esperienza e-commerce.  
+- Marketing e promozione.  
+- Gestione relazioni con i clienti (CRM).
 
 #### 4. Problemi nei Processi Tradizionali
-
-- **Problemi principali**:
-  - Difficoltà nel monitorare manualmente tutte le menzioni del brand
-  - Ritardi nella risposta alle opinioni negative
-  - Mancanza di insights reali sulle percezioni dei clienti
-- **Conseguenze negative**:
-  - Deterioramento della reputazione del brand
-  - Perdita di clienti a causa di risposte inadeguate
-  - Opportunità mancate per migliorare i prodotti e i servizi
+- Offerte generiche, bassa conversione.  
+- Difficoltà nel mantenere alta la soddisfazione del cliente.
 
 #### 5. Soluzioni con Big Data e AI
+- Analisi comportamenti di acquisto.  
+- Raccomandazioni personalizzate in tempo reale.  
+- Segmentazione avanzata per campagne mirate.
 
-- **Come le tecnologie aiutano**:
-  - Raccolta automatizzata di dati da diverse piattaforme online
-  - Analisi del sentiment per identificare opinioni positive, negative e neutre
-  - Monitoraggio in tempo reale delle menzioni del brand
-- **Esempi di miglioramenti**:
-  - Riduzione del tempo di risposta alle opinioni negative del 50%
-  - Aumento della soddisfazione del cliente grazie a interventi tempestivi
-  - Miglioramento delle strategie di marketing basate sui feedback reali
+##### Ruolo dell’Analista
+- **Selezionare** i dati rilevanti (cronologia acquisti, interazioni web, preferenze).  
+- **Definire** i criteri di raccomandazione (basati su similarità di prodotti, profili utenti).  
+- **Monitorare** i KPI (tasso di conversione, valore medio del carrello).  
+- **Tradurre** i risultati dei modelli (es. “il modello X propone cross-sell su scarpe da ginnastica per i clienti Y”) in azioni di marketing.
 
-#### 6. Tecnologie, Strumenti e Approcci
-
-- **Strumenti principali**:
-  - Strumenti di social listening (es. Brandwatch, Hootsuite Insights)
-  - Python e librerie di NLP (es. NLTK, SpaCy)
-  - API di sentiment analysis (es. IBM Watson, Google Cloud Natural Language)
-  - Dashboard di visualizzazione dati (es. Tableau, Power BI)
-- **Approcci**:
-  - Analisi del linguaggio naturale per comprendere il contesto delle menzioni
-  - Classificazione del sentiment mediante modelli di Machine Learning
-  - Integrazione con sistemi CRM per azioni automatizzate
+#### 6. Tecnologie, Strumenti e Approfondimento Tecnico
+- Piattaforme di raccomandazione (Amazon Personalize, Google Recommendations AI).  
+- Python, librerie di ML (TensorFlow, Scikit-learn), CRM integrati.  
+- (Dettagli tecnici opzionali, “per i curiosi”)
 
 #### 7. Difficoltà e Risorse Richieste
-
-- **Livello di complessità**: Medio
-- **Competenze necessarie**:
-  - Natural Language Processing
-  - Data Analysis
-  - Social Media Management
-  - Comunicazione aziendale
-- **Composizione del team**:
-  - Data Scientist
-  - Social Media Manager
-  - Analista di Comunicazione
-  - Sviluppatore IT
-- **Durata del progetto**: 3-6 mesi
+- Accuratezza delle raccomandazioni.  
+- Aggiornamento costante dei dati.  
+- Capacità di fare A/B testing.
 
 #### 8. Fattori Critici di Successo
+- Qualità e rilevanza delle raccomandazioni.  
+- Integrazione fluida con piattaforme e-commerce.  
+- Iterazioni e test continui.
 
-- **Elementi chiave**:
-  - Accuratezza nell'analisi del sentiment
-  - Copertura completa delle piattaforme di menzione del brand
-  - Capacità di reagire tempestivamente ai feedback
-- **Necessità per il successo**:
-  - Accesso a strumenti avanzati di social listening
-  - Formazione continua del personale coinvolto
-  - Collaborazione tra team di marketing e customer service
+**Mini-Esercizio di Riflessione**  
+- *Se fossi un responsabile marketing, quali 2 KPI useresti per misurare il successo di un sistema di raccomandazione?*  
+- *Come spiegheresti al data scientist le principali categorie di prodotti e le preferenze dei tuoi clienti?*
 
-### 5. Previsione delle Vendite
+---
+
+### **Use Case 4: Sentiment Analysis del Brand**
+
+**TL;DR: Perché è utile al business?**  
+Permette di **monitorare la reputazione** online, reagire tempestivamente a feedback negativi e migliorare le strategie di comunicazione.
 
 #### 1. Nome e Descrizione
-
-- **Nome Use Case**: Previsione delle Vendite Future
-- **Descrizione**: Utilizzo di dati storici e tecniche di analisi avanzate per prevedere le vendite future, permettendo una pianificazione più accurata della produzione, del marketing e della gestione dell'inventario.
+- **Nome Use Case**: Analisi delle Opinioni e delle Menzioni del Brand  
+- **Descrizione**: Applicazione di NLP e sentiment analysis per capire come i clienti percepiscono il brand sui social media e altre piattaforme online.
 
 #### 2. Stakeholder Coinvolti
+- Marketing, Customer Service, Comunicazione, IT.
 
-- **Ruoli che partecipano**:
-  - Vendite
-  - Marketing
-  - Finanza
-  - Produzione
-- **Partecipanti principali**:
-  - Responsabile delle vendite
-  - Analisti finanziari
-  - Team di produzione
-  - Responsabili del marketing
-
-#### 3. Processi Aziendali Coinvolti e Modificati
-
-- **Processi coperti**:
-  - Pianificazione delle vendite e del budget
-  - Gestione dell'inventario
-  - Pianificazione della produzione
-- **Cambiamenti post-implementazione**:
-  - Miglioramento della precisione delle previsioni di vendita
-  - Ottimizzazione dei livelli di inventario
-  - Pianificazione più efficiente della produzione in base alla domanda prevista
+#### 3. Processi Aziendali Impattati
+- Gestione della reputazione online.  
+- Strategie di comunicazione e marketing.  
+- Servizio clienti e gestione delle crisi.
 
 #### 4. Problemi nei Processi Tradizionali
-
-- **Problemi principali**:
-  - Previsioni di vendita basate su dati storici limitati o intuizioni soggettive
-  - Sovrapproduzione o sottoproduzione di prodotti
-  - Difficoltà nel pianificare campagne di marketing efficaci
-- **Conseguenze negative**:
-  - Costi elevati dovuti a stock in eccesso o carenze di inventario
-  - Perdite di vendite a causa di stockouts
-  - Inefficienze nella gestione delle risorse produttive
+- Monitorare manualmente tutte le menzioni è difficile.  
+- Ritardi nelle risposte ai feedback negativi.  
+- Mancanza di insight concreti sulle percezioni dei clienti.
 
 #### 5. Soluzioni con Big Data e AI
+- Raccolta automatizzata di menzioni da diverse piattaforme.  
+- Analisi del sentiment (positivo, negativo, neutro).  
+- Alert in tempo reale su picchi di negatività.
 
-- **Come le tecnologie aiutano**:
-  - Analisi dei dati storici di vendita e dei trend di mercato
-  - Utilizzo di modelli predittivi per stimare la domanda futura
-  - Integrazione con dati esterni come eventi stagionali e promozioni
-- **Esempi di miglioramenti**:
-  - Aumento della precisione delle previsioni di vendita del 20%
-  - Riduzione dei costi di magazzino del 15%
-  - Miglioramento della pianificazione delle campagne di marketing mirate
+##### Ruolo dell’Analista
+- **Stabilire** le principali parole chiave e i canali social da monitorare.  
+- **Definire** la soglia di allarme per i commenti negativi (es. quanti post in un’ora).  
+- **Interpretare** i risultati forniti dagli algoritmi di sentiment analysis.  
+- **Coordinarsi** con marketing e customer service per azioni tempestive.
 
-#### 6. Tecnologie, Strumenti e Approcci
-
-- **Strumenti principali**:
-  - Python e R per l'analisi statistica
-  - Librerie di Machine Learning (es. Scikit-learn, TensorFlow)
-  - Sistemi ERP e CRM integrati
-  - Strumenti di visualizzazione dei dati (es. Tableau, Power BI)
-- **Approcci**:
-  - Modelli di regressione lineare e multivariata
-  - Serie temporali e ARIMA
-  - Modelli di machine learning avanzati come le reti neurali
+#### 6. Tecnologie, Strumenti e Approfondimento Tecnico
+- Strumenti di social listening (Brandwatch, Hootsuite).  
+- Python e librerie di NLP (NLTK, SpaCy).  
+- API di sentiment analysis (IBM Watson, Google Cloud Natural Language).
 
 #### 7. Difficoltà e Risorse Richieste
-
-- **Livello di complessità**: Alto
-- **Competenze necessarie**:
-  - Analisi statistica e data science
-  - Conoscenza dei sistemi ERP e CRM
-  - Competenze di programmazione in Python o R
-- **Composizione del team**:
-  - Data Scientist
-  - Analista Finanziario
-  - Responsabile Vendite
-  - Sviluppatore ERP
-- **Durata del progetto**: 4-8 mesi
+- Accuratezza nell’analisi del linguaggio naturale.  
+- Copertura completa delle piattaforme.  
+- Formazione del personale.
 
 #### 8. Fattori Critici di Successo
+- Reattività del team.  
+- Integrazione con il CRM per azioni mirate.  
+- Continua ottimizzazione dei modelli NLP.
 
-- **Elementi chiave**:
-  - Qualità e completezza dei dati storici
-  - Accuratezza dei modelli predittivi utilizzati
-  - Collaborazione tra i dipartimenti di vendite, marketing e finanza
-- **Necessità per il successo**:
-  - Investimento in tecnologie di analisi dei dati
-  - Formazione del personale sulle tecniche di previsione
-  - Supporto continuo della direzione aziendale
+**Mini-Esercizio di Riflessione**  
+- *Quali sono i principali motivi di insoddisfazione che i clienti potrebbero esprimere? (Prezzo, qualità, servizio...)*  
+- *Che domanda di business faresti se volessi capire in anticipo quando la reputazione del brand è a rischio?*
+
+---
+
+### **Use Case 5: Previsione delle Vendite**
+
+**TL;DR: Perché è utile al business?**  
+Supporta una **pianificazione più accurata** di produzione, marketing e gestione scorte, riducendo costi di magazzino e perdite da stockout.
+
+#### 1. Nome e Descrizione
+- **Nome Use Case**: Previsione delle Vendite Future  
+- **Descrizione**: Analisi di dati storici, trend di mercato ed eventi stagionali per stimare la domanda futura in maniera più precisa.
+
+#### 2. Stakeholder Coinvolti
+- Vendite, Marketing, Finanza, Produzione.
+
+#### 3. Processi Aziendali Impattati
+- Pianificazione delle vendite e del budget.  
+- Gestione dell'inventario.  
+- Pianificazione della produzione.
+
+#### 4. Problemi nei Processi Tradizionali
+- Previsioni basate su dati storici limitati o intuizioni soggettive.  
+- Sovra/sotto produzione.  
+- Difficoltà nel coordinare campagne di marketing.
+
+#### 5. Soluzioni con Big Data e AI
+- Modelli predittivi basati su dati storici e esterni (eventi, promozioni).  
+- Riduzione dei costi di magazzino e dei resi.  
+- Ottimizzazione delle campagne di lancio.
+
+##### Ruolo dell’Analista
+- **Identificare** i parametri chiave (storico vendite, stagionalità, segmenti di mercato).  
+- **Confrontare** diversi modelli di previsione (ARIMA vs reti neurali, ecc.) in base alle esigenze di business.  
+- **Validare** i risultati con i reparti finance e produzione.  
+- **Tradurre** i risultati in piani operativi (quantità da produrre, tempi di lancio, budget per marketing).
+
+#### 6. Tecnologie, Strumenti e Approfondimento Tecnico
+- Python, R (analisi statistica), librerie ML (Scikit-learn, TensorFlow).  
+- Sistemi ERP/CRM integrati, strumenti di BI (Tableau, Power BI).
+
+#### 7. Difficoltà e Risorse Richieste
+- Dati storici completi e accurati.  
+- Conoscenze di analisi statistica e data science.  
+- Integrazione con sistemi ERP.
+
+#### 8. Fattori Critici di Successo
+- Qualità e completezza dei dati.  
+- Accuratezza dei modelli.  
+- Collaborazione tra vendite, marketing e finanza.
+
+**Mini-Esercizio di Riflessione**  
+- *Che tipo di dati esterni (oltre a quelli di vendita interna) potrebbe influenzare la precisione delle previsioni?*  
+- *Se fossi un responsabile vendite, come valuteresti il miglior modello di previsione per la tua azienda?*
+
+---
 
 ## 2.3. Ruoli di Big Data e Modelli di Machine Learning
 
 ### 2.3.1. Big Data: Raccolta, Archiviazione e Pre-Elaborazione dei Dati
-
-- **Ruolo**: Fornire una base solida e ben strutturata di dati per l'analisi e il machine learning.
-- **Attività principali**:
-  - Raccolta di dati da diverse fonti (social media, e-commerce, sensori IoT, ecc.).
-  - Archiviazione in Data Lake o Data Warehouse.
-  - Pre-elaborazione per pulizia, normalizzazione e trasformazione dei dati.
-- **Strumenti principali**:
-  - **Hadoop**: Per la gestione distribuita di dati su larga scala.
-  - **Spark**: Per l'elaborazione rapida e in-memory.
-  - **SQL**: Per interrogare e gestire database relazionali.
-  - **ETL (Extract, Transform, Load)**: Per estrazione, trasformazione e caricamento dei dati.
+- **Ruolo**: Fornire una base solida di dati (puliti, aggiornati) per l’analisi e il machine learning.  
+- **Esempi di attività**: Raccolta da fonti multiple, creazione di un Data Lake/Warehouse, processi di pulizia e normalizzazione.
 
 ### 2.3.2. Modelli di Machine Learning: Estrarre Insight dai Dati
-
-- **Ruolo**: Utilizzare algoritmi per identificare pattern e fare previsioni basate sui dati elaborati.
-- **Attività principali**:
-  - Addestramento di modelli su dati storici per creare modelli predittivi.
-  - Inferenza: Applicazione di modelli per ottenere insight su nuovi dati.
-  - Automazione decisionale attraverso algoritmi di classificazione, regressione e clustering.
-- **Esempi di Modelli Utilizzati nei Macro-Use-Case**:
-  - **Classificazione**: Analisi del sentiment per determinare l’opinione dei clienti.
-  - **Regressione**: Previsione delle vendite future basate su trend passati.
-  - **Clustering**: Segmentazione dei clienti per strategie di marketing personalizzate.
-- **Strumenti principali**:
-  - **Python** (Scikit-learn, TensorFlow, PyTorch): Per la costruzione e l'addestramento dei modelli.
-  - **API di Machine Learning predefinite** (es. Google Cloud AI, IBM Watson): Per accelerare lo sviluppo con modelli già pronti.
-  - **Framework di Visualizzazione** (Tableau, Power BI): Per rappresentare i risultati in modo comprensibile.
+- **Ruolo**: Analizzare i dati per identificare pattern, fare previsioni e classificazioni.  
+- **Esempi di modelli**: Classificazione (sentiment), regressione (vendite), clustering (segmentazione clienti).
 
 ### 2.3.3. Sinergia tra Big Data e Machine Learning
-
-- **Come interagiscono**:
-  - Big Data raccoglie e prepara grandi volumi di dati che i modelli di machine learning utilizzano per identificare pattern e insight.
-  - Machine Learning restituisce risultati che possono essere integrati nei sistemi di Big Data per migliorare continuamente la raccolta e l'elaborazione.
-- **Obiettivo comune**: Creare un ciclo continuo di miglioramento basato sui dati per decisioni aziendali più informate ed efficienti.
+- **Come interagiscono**:  
+  - Big Data prepara grandi volumi di informazioni.  
+  - ML utilizza questi dati per generare insight e automazioni.  
+- **Risultato**: Un ciclo di miglioramento continuo basato su feedback e aggiornamento dei dati.
 
 ### 2.3.4. Fattori Critici di Successo
-
-1. **Qualità dei dati**: Dati accurati e ben preparati migliorano significativamente le prestazioni dei modelli.
-2. **Scalabilità**: Infrastrutture che supportano grandi volumi di dati e l’elaborazione rapida.
-3. **Collaborazione tra team**: Comunicazione fluida tra data engineer, data scientist e decision-maker aziendali.
-
-## Strumenti e Tecnologie
-
-- **Python** (librerie come Pandas, BeautifulSoup)
-- **API di Google Trends**
-- **Strumenti di NLP** (Natural Language Processing) come NLTK o SpaCy
-- **Tableau** per la visualizzazione dei dati
-
-## Fattori Critici di Successo
-
-- **Accesso a fonti di dati aggiornate e rilevanti**
-- **Collaborazione efficace tra i vari dipartimenti aziendali**
-- **Qualità e accuratezza dei modelli predittivi utilizzati**
+1. **Qualità dei dati**  
+2. **Scalabilità dell’infrastruttura**  
+3. **Collaborazione tra team** (analisti, data scientist, decision-maker)
 
 ---
+
+## Conclusioni e Prossimi Passi
+
+Abbiamo visto come **Big Data e AI** possano rivoluzionare molte aree del FashionTech, dal **trend forecasting** alla **gestione della supply chain**, dalla **personalizzazione** alla **previsione delle vendite**. In tutti questi scenari, **l’analista** funge da mediatore essenziale tra le esigenze di business e le soluzioni offerte dai tecnici.
+
+Nel prossimo [Modulo 3](../modulo-3-demosntrazione-pratica/README.md) vedremo un esempio pratico di come raccogliere e analizzare dati relativi al sentiment del brand sui social media, con uno **sguardo concreto** a script e visualizzazioni (senza però richiedere competenze di programmazione ai partecipanti).
+
+---
+
+### Risorse e Tecnologie Citate
+
+- **Python** (Pandas, BeautifulSoup, NLTK, SpaCy)  
+- **API di Google Trends**  
+- **Tableau, Power BI** per la visualizzazione  
+- **Hadoop, Spark** (gestione ed elaborazione Big Data)  
+
+> **Nota**: Questi strumenti **non** sono obbligatori da installare o saper usare per seguire il workshop, ma rappresentano esempi reali di cosa fanno gli esperti tecnici dietro le quinte.
+
+---
+
+## Domande o Dubbi?
+
+Per qualsiasi domanda, suggerimento o curiosità, puoi:
+- Aprire una *issue* su questo repository
+- Contattare [@aVg](https://www.linkedin.com/in/andreygolub/)
+
+---
+
+## Disclaimer
+
+Questo materiale è destinato esclusivamente a fini educativi e formativi. Gli esempi di codice e dati forniti sono puramente dimostrativi e non devono essere utilizzati in ambienti di produzione senza le dovute verifiche e personalizzazioni.
