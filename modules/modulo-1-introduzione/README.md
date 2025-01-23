@@ -2,21 +2,42 @@
 
 ## Benvenuto e Presentazione
 
-In questo modulo introdurremo brevemente gli obiettivi del workshop.
+In questo modulo introdurremo brevemente gli obiettivi del workshop **AI, BigData & Advanced Analytics in FashionTech**. Il nostro scopo è fornire una panoramica delle tecnologie chiave e delle loro applicazioni nel settore della moda, preparando i partecipanti a comprendere come Big Data e AI possano trasformare le loro attività quotidiane.
 
 ## Panoramica dell'Argomento
 
-Spiegheremo l'importanza dei Big Data e dell'AI Analytics nell'industria della moda.
+> **Nota Importante**: Questo materiale contiene la struttura e i punti chiave del workshop, come i termini nel glossario. Le spiegazioni dettagliate e le teorie non sono incluse in questo documento. Per approfondimenti teorici, si prega di consultare i moduli specifici e le risorse aggiuntive fornite.
+
+Spiegheremo l'importanza dei Big Data e dell'AI Analytics nell'industria della moda, evidenziando come queste tecnologie possano migliorare l'efficienza, la precisione delle decisioni e la soddisfazione dei clienti. Vedremo anche come questi strumenti facilitino la collaborazione tra professionisti non tecnici e specialisti tecnici, creando un linguaggio comune e sinergie produttive.
 
 ## Obiettivi del Workshop
 
-Cosa gli studenti impareranno e saranno in grado di fare alla fine della sessione.
+Alla fine di questo workshop, i partecipanti saranno in grado di:
+
+- **Familiarizzare con i Concetti Fondamentali**: Conoscere le basi di Big Data e AI Analytics e il loro impatto sull'industria della moda.
+- **Esplorare Strumenti e Formati Dati**: Comprendere l'utilizzo di strumenti come GitHub, Python, e formati dati come JSON, e come questi siano utilizzati nel mondo data science & ML.
+- **Visione Pratica degli Strumenti**: Vedere esempi di codice Python, dati in formato JSON e tecniche di visualizzazione dei dati per comprendere come i data scientist operano.
+- **Comprendere i Metodi di Analisi**: Apprendere come i compiti del workshop vengono risolti utilizzando ChatGPT per analisi semantiche e Python scripts con modelli di machine learning per risultati ripetibili e affidabili.
+- **Valutare Differenti Approcci**: Confrontare diversi modelli di machine learning per comprendere le loro precisioni e limitazioni, e come le variabili dei dati influenzino i risultati.
+- **Collaborare Efficacemente**: Acquisire la capacità di comunicare in modo efficace con data scientist, ML engineers, e altri specialisti tecnici, traducendo esigenze aziendali in requisiti tecnici.
 
 ## Struttura del Workshop
 
-Link ai moduli successivi.
+Il workshop è suddiviso in cinque moduli principali:
 
-### 1.2. L'importanza di Big Data e AI Analytics nella moda
+1. [Modulo 1: Introduzione](./modules/modulo-1-introduzione/README.md)
+   - [1.2. L'importanza di Big Data e AI Analytics nella moda](./modules/modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
+2. [Modulo 2: I Use-Case principali nel FashionTech](./modules/modulo-2-use-case-principali/README.md)
+   - [2.2. Macro-Use-Case in Fashion Tech](./modules/modulo-2-use-case-principali/README.md#22-macro-use-case-in-fashion-tech)
+   - [2.3. Ruoli di Big Data e Modelli di Machine Learning](./modules/modulo-2-use-case-principali/README.md#23-ruoli-di-big-data-e-modelli-di-machine-learning)
+3. [Modulo 3: Dimostrazione Pratica](./modules/modulo-3-demosntrazione-pratica/README.md)
+4. [Modulo 4: Follow-up per Scenario Realizzato](./modules/modulo-4-follow-up/README.md)
+5. [Modulo 5: Conclusione e Discussione](./modules/modulo-5-conclusione-discussione/README.md)
+6. [Glossario](./modules/glossario/README.md)
+
+---
+
+### L'importanza di Big Data e AI Analytics nella moda
 
 1. **L'industria della moda e i dati**
    - Oggi la moda non è solo creatività e design, ma anche dati. Ogni interazione online, ogni acquisto, ogni post sui social genera dati preziosi che possono essere analizzati per prendere decisioni strategiche.
