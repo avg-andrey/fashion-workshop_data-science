@@ -1,30 +1,38 @@
 # AI, BigData & Advanced Analytics in FashionTech
 
-Benvenuti nel progetto **AI, BigData & Advanced Analytics in FashionTech**! Questo repository è stato creato per supportare un workshop dedicato all'applicazione dell'intelligenza artificiale, dei Big Data e dell'analisi avanzata nell'industria della moda. Il materiale fornito è pensato per facilitare la comprensione e l'integrazione di queste tecnologie da parte di professionisti non tecnici, come quelli nel marketing, nelle vendite, nello sviluppo prodotto e in altre aree strategiche della moda.
+Benvenuti nel progetto **AI, BigData & Advanced Analytics in FashionTech**! Questo repository è stato creato per supportare un **master-class** di circa **2 ore**, pensato per studenti e professionisti **non tecnici** interessati a comprendere come l'Intelligenza Artificiale, i Big Data e l'analisi avanzata possano essere applicati nell'industria della moda. 
+
+> **Nota**: Parte dei materiali (termini chiave e casi di studio) dovrebbe essere letta **prima** dell'incontro dal vivo. Durante la prima ora discuteremo i concetti e i casi d'uso, mentre nella seconda ora verrà mostrata una **dimostrazione pratica** di analisi dati e strutture di machine learning, spiegando come le tecnologie vengano effettivamente applicate.
+
+---
 
 ## Introduzione
 
 ### Scopo del Workshop
-
-Il workshop **AI, BigData & Advanced Analytics in FashionTech** è progettato per fornire ai partecipanti una panoramica completa su come le tecnologie di Big Data e Intelligenza Artificiale stiano rivoluzionando l'industria della moda. L'obiettivo principale è aiutare i professionisti non tecnici a comprendere i concetti fondamentali, le applicazioni pratiche e i benefici derivanti dall'adozione di queste tecnologie nei loro processi aziendali.
+Il workshop **AI, BigData & Advanced Analytics in FashionTech** ha l’obiettivo di:
+- Fornire ai **professionisti non tecnici** una comprensione di base di come Big Data e AI stanno rivoluzionando i processi nella moda.
+- Mostrare **casi d’uso pratici** e benefici reali dell’adozione di queste tecnologie (marketing, previsioni di vendita, supply chain, ecc.).
+- Facilitare la comunicazione tra figure di business (marketing, vendite, design) e team tecnici (data scientist, ML engineer), creando un **linguaggio comune**.
 
 ### Target Audience
-
 Questo workshop è destinato a:
-- **Professionisti del Marketing**: Per migliorare le strategie di marketing basate sui dati.
-- **Responsabili delle Vendite**: Per ottimizzare le previsioni di vendita e le strategie di mercato.
-- **Sviluppatori di Prodotto**: Per integrare le esigenze dei clienti nelle fasi di design e produzione.
-- **Manager e Decision-Maker**: Per prendere decisioni informate basate su dati concreti.
-- **Altri Professionisti Non Tecnici**: Interessati a comprendere come Big Data e AI possano supportare le loro attività quotidiane.
+- **Professionisti del Marketing**: Per strategie basate sui dati e per comprendere i trend di mercato.
+- **Responsabili delle Vendite**: Per ottimizzare le previsioni di vendita e l’approccio al mercato.
+- **Sviluppatori di Prodotto & Designer**: Per integrare insight sui clienti nel processo di creazione e design.
+- **Manager e Decision-Maker**: Per prendere decisioni fondate sui dati, massimizzando le opportunità di business.
+- **Altri Professionisti Non Tecnici**: Per scoprire come Big Data e AI possano supportare le loro attività.
 
-### Obiettivi Principali
+### Formato e Durata
+- **Durata complessiva**: Circa **2 ore**.
+  - **Prima dell’incontro**: Lettura dei materiali introduttivi (termini chiave, concetti di base, casi d’uso).
+  - **1ª ora (sessione live)**: Discussione sulle principali aree di applicazione e concetti-chiave di Big Data & AI nel FashionTech.
+  - **2ª ora (sessione live)**: Dimostrazione pratica. Vedremo esempi di analisi dati e strutture ML in azione. 
 
-- **Comprendere il Ruolo di Big Data e AI**: Capire come queste tecnologie influenzano e migliorano i processi aziendali nella moda.
-- **Facilitare la Collaborazione**: Aiutare i partecipanti a parlare lo stesso linguaggio con data scientist, ML engineers e altri specialisti tecnici.
-- **Presentare Casi d'Uso Pratici**: Mostrare esempi concreti di come Big Data e AI siano applicati nel settore.
-- **Fornire Strumenti e Approcci**: Introdurre strumenti e metodologie utilizzate nel mondo data science & ML, senza richiedere competenze tecniche avanzate.
+**Importante**: Non è richiesta alcuna esperienza di programmazione o installazione di software per seguire il workshop. Gli esempi di codice servono solo a illustrare come i data scientist operano nella realtà.
 
-## Indice
+---
+
+## Indice dei Moduli
 
 1. [Modulo 1: Introduzione](./modules/modulo-1-introduzione/README.md)
    - [1.2. L'importanza di Big Data e AI Analytics nella moda](./modules/modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
@@ -36,49 +44,60 @@ Questo workshop è destinato a:
 5. [Modulo 5: Conclusione e Discussione](./modules/modulo-5-conclusione-discussione/README.md)
 6. [Glossario](./modules/glossario/README.md)
 
-## Informazioni sul Progetto
+---
 
-Questo progetto è destinato a studenti e professionisti interessati all'applicazione delle tecnologie Big Data e intelligenza artificiale nell'industria della moda. Il workshop copre le basi teoriche, casi d'uso pratici, nonché dimostrazioni e raccomandazioni per una integrazione efficace di queste tecnologie nei processi aziendali.
+## Informazioni sul Progetto
+Questo progetto fornisce materiali, casi di studio e dimostrazioni su come applicare **Big Data** e **Intelligenza Artificiale** nel settore moda. È strutturato per offrire:
+- **Basi teoriche** (concetti fondamentali, terminologia).
+- **Casi d’uso concreti** (scenario marketing, supply chain, forecast vendite, ecc.).
+- **Esempi pratici** per mostrare come i data scientist gestiscono dati e modelli di machine learning.
 
 ### Caratteristiche Principali
+- **Materiale Didattico Strutturato**: Ogni modulo copre argomenti specifici con esempi e risorse aggiuntive.
+- **Approccio Pratico & Teorico**: Un mix di concetti base e di esempi reali per favorire la comprensione.
+- **Collaborazione Interdisciplinare**: Viene evidenziato il ruolo della collaborazione tra figure non tecniche e specialisti tecnici.
+- **Risorse Supplementari**: Un glossario e link di approfondimento per chi desidera saperne di più.
 
-- **Materiale Didattico Strutturato**: Ogni modulo contiene una descrizione dettagliata degli argomenti, delle tecnologie, degli strumenti e degli esercizi pratici.
-- **Approccio Pratico e Teorico**: Combina concetti teorici con esempi pratici e dimostrazioni per facilitare la comprensione.
-- **Collaborazione Interdisciplinare**: Promuove la collaborazione tra professionisti non tecnici e specialisti tecnici.
-- **Risorse Supplementari**: Include un glossario esteso e risorse per lo studio autonomo per approfondire le conoscenze.
+---
 
 ## Come Utilizzare questo Repository
 
 ### Struttura del Repository
+- **Modules**: Ogni modulo ha un README che spiega il tema del capitolo, con alcuni spunti di riflessione e link ad eventuali esercizi.
+- **Glossario**: Un elenco di termini chiave (Big Data, Machine Learning, AI, ecc.) con definizioni semplici.
+- **Esempi di Codice e Dati**: Alcuni script in Python e file JSON per mostrare *come* i dati vengono analizzati in progetti reali (non occorre eseguire nulla).
 
-- **Modules**: Ogni modulo del workshop ha la sua cartella dedicata contenente un README dettagliato.
-- **Glossario**: Un glossario completo dei termini tecnici utilizzati nel workshop.
-- **Esempi di Codice e Dati**: File di esempio in Python e JSON per dimostrazioni pratiche, ma non destinati a essere eseguiti autonomamente dai partecipanti.
+### Perché ci sono Esempi di Codice e JSON?
+Gli esempi di codice **non** richiedono intervento da parte dei partecipanti. Servono a:
+- Mostrare come i data scientist raccolgono, puliscono e analizzano dati.
+- Far capire i processi dietro la creazione di modelli di Machine Learning, aiutando i professionisti di business a comunicare meglio con i tecnici.
+  
+> *Non è necessario installare Python o eseguire gli script per seguire il workshop. Gli esempi servono solo a scopo dimostrativo.*
 
-### Esempi di Codice e JSON
-
-Gli esempi di codice Python e i file JSON presenti in questo repository servono esclusivamente a dimostrare approcci e strumenti utilizzati nel mondo del data science e del machine learning. Non si richiede ai partecipanti di eseguire o modificare questi script. Questi materiali aiutano a comprendere come i data scientist strutturano e gestiscono i dati, facilitando una comunicazione efficace con i team tecnici.
+---
 
 ## Requisiti
 
-- **Conoscenze di Base**: Familiarità con concetti generali di Big Data e machine learning.
-- **Strumenti e Librerie**: Installazione di Python e delle librerie indicate in ogni modulo per seguire le dimostrazioni.
-- **Attrezzatura**: Computer con accesso a internet per accedere alle risorse online e agli strumenti di collaborazione.
+- **Interesse per i Dati**: Curiosità su come si usano dati e algoritmi per prendere decisioni nel mondo della moda.
+- **Accesso a Internet**: Per consultare i materiali e le risorse online.
+- **(Facoltativo)**: Per chi desidera esplorare in autonomia gli esempi di codice, è consigliato Python + librerie di base. *Tuttavia non è richiesto per partecipare efficacemente al workshop.*
+
+---
 
 ## Benefici per i Partecipanti
 
-- **Comprensione dei Processi Tecnici**: Apprendere come vengono raccolti, elaborati e analizzati i dati nel contesto della moda.
-- **Facilitare la Collaborazione**: Sviluppare una base comune di conoscenze per lavorare efficacemente con data scientist e altri specialisti tecnici.
-- **Prendere Decisioni Informate**: Utilizzare insight basati sui dati per migliorare le strategie di marketing, la gestione della supply chain e lo sviluppo dei prodotti.
+- **Comprensione Strategica**: Capire come Big Data e AI possano supportare scelte di marketing, produzione e vendita più efficaci.
+- **Lingua Comune con i Tecnici**: Imparare i concetti chiave per dialogare con data scientist e ML engineer.
+- **Decisioni Data-Driven**: Conoscere best practice e strumenti utili a integrare i dati nei processi decisionali.
+
+---
 
 ## Contatti
 
-Per domande o suggerimenti, per favore crea un issue o contatta [@aVg](https://www.linkedin.com/in/andreygolub/).
+Per domande o suggerimenti, crea un *issue* in questo repository o contatta Andrey Golub ([@aVg](https://www.linkedin.com/in/andreygolub/)).
 
 ---
 
 ## Disclaimer
 
-Questo materiale è destinato esclusivamente a scopi educativi e formativi. Gli esempi di codice e i dati forniti sono per dimostrazione e non sono destinati a essere utilizzati in ambienti di produzione senza le necessarie modifiche e verifiche.
-
----
+Questo materiale è destinato esclusivamente a fini educativi e formativi. Gli esempi di codice e dati forniti sono puramente dimostrativi e non devono essere utilizzati in ambienti di produzione senza le dovute verifiche e personalizzazioni.
