@@ -1,28 +1,42 @@
 # Modulo 1: Introduzione
 
+## Panoramica dell'Argomento
+
+> **Nota Importante**: Questo materiale contiene la struttura e i punti chiave del workshop, come i termini nel glossario. Le spiegazioni dettagliate e le teorie non sono incluse in questo documento. Per approfondimenti teorici, si prega di consultare i moduli specifici e le risorse aggiuntive fornite.
+
+Spiegheremo l'importanza dei Big Data e dell'AI Analytics nell'industria della moda, evidenziando come queste tecnologie possano migliorare l'efficienza, la precisione delle decisioni e la soddisfazione dei clienti. Vedremo anche come questi strumenti facilitino la collaborazione tra professionisti non tecnici e specialisti tecnici, creando un linguaggio comune e sinergie produttive.
+
+---
+
 ## Struttura del Workshop
 
 Il workshop è suddiviso in sei parti principali:
 
 1. [Home](../../README.md)
 2. [Modulo 1: Introduzione](../modulo-1-introduzione/README.md)
-   - [1.1. Obiettivi del Workshop](#11-obiettivi-del-workshop)
-   - [1.2. L'importanza di Big Data e AI Analytics nella moda](#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
-   - [1.3. Sfide Reali e Ruolo dell’Analista](#13-sfide-reali-e-ruolo-dellanalista)
+   - [1.1. Obiettivi del Workshop](../modulo-1-introduzione/README.md#11-obiettivi-del-workshop)
+   - [1.2. L'importanza di Big Data e AI Analytics nella moda](../modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
+   - [1.3. Sfide Reali e Ruolo dell’Analista](../modulo-1-introduzione/README.md#13-sfide-reali-e-ruolo-dellanalista)
 3. [Modulo 2: I Use-Case principali nel FashionTech](../modulo-2-use-case-principali/README.md)
-   - [2.2. Macro-Use-Case in Fashion Tech](../modulo-2-use-case-principali/README.md#22-macro-use-case-in-fashion-tech)
-   - [2.3. Ruoli di Big Data e Modelli di Machine Learning](../modulo-2-use-case-principali/README.md#23-ruoli-di-big-data-e-modelli-di-machine-learning)
+   - [2.1. Spiegazione delle Tecnologie (per i più curiosi)](#21-spiegazione-delle-tecnologie-per-i-più-curiosi)
+   - [2.2. Macro-Use-Case in Fashion Tech](#22-macro-use-case-in-fashion-tech)
+     - [Use Case 1: Analisi delle Tendenze di Moda](#use-case-1-analisi-delle-tendenze-di-moda)
+     - [Use Case 2: Gestione della Catena di Approvvigionamento](#use-case-2-gestione-della-catena-di-approvvigionamento)
+     - [Use Case 3: Personalizzazione delle Offerte](#use-case-3-personalizzazione-delle-offerte)
+     - [Use Case 4: Sentiment Analysis del Brand](#use-case-4-sentiment-analysis-del-brand)
+     - [Use Case 5: Previsione delle Vendite](#use-case-5-previsione-delle-vendite)
+   - [2.3. Ruoli di Big Data e Modelli di Machine Learning](#23-ruoli-di-big-data-e-modelli-di-machine-learning)
+     - [2.3.1. Big Data: Raccolta, Archiviazione e Pre-Elaborazione dei Dati](#231-big-data-raccolta-archiviazione-e-pre-elaborazione-dei-dati)
+     - [2.3.2. Modelli di Machine Learning: Estrarre Insight dai Dati](#232-modelli-di-machine-learning-estrarre-insight-dai-dati)
+     - [2.3.3. Sinergia tra Big Data e Machine Learning](#233-sinergia-tra-big-data-e-machine-learning)
+     - [2.3.4. Fattori Critici di Successo](#234-fattori-critici-di-successo)
 4. [Modulo 3: Dimostrazione Pratica](../modulo-3-demosntrazione-pratica/README.md)
 5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
 6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
 7. [Glossario](../glossario/README.md)
 
+---
 
-## Panoramica dell'Argomento
-
-> **Nota Importante**: Questo materiale contiene la struttura e i punti chiave del workshop, come i termini nel glossario. Le spiegazioni dettagliate e le teorie non sono incluse in questo documento. Per approfondimenti teorici, si prega di consultare i moduli specifici e le risorse aggiuntive fornite.
-
-Spiegheremo l'importanza dei Big Data e dell'AI Analytics nell'industria della moda, evidenziando come queste tecnologie possano migliorare l'efficienza, la precisione delle decisioni e la soddisfazione dei clienti. Vedremo anche come questi strumenti facilitino la collaborazione tra professionisti non tecnici e specialisti tecnici, creando un linguaggio comune e sinergie produttive.
 
 ## 1.1. Obiettivi del Workshop
 
