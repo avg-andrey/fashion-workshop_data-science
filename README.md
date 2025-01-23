@@ -31,9 +31,55 @@ Questo workshop è destinato a:
 
 **Importante**: Non è richiesta alcuna esperienza di programmazione o installazione di software per seguire il workshop. Gli esempi di codice servono solo a illustrare come i data scientist operano nella realtà.
 
+
+## Informazioni sul Progetto
+Questo progetto fornisce materiali, casi di studio e dimostrazioni su come applicare **Big Data** e **Intelligenza Artificiale** nel settore moda. È strutturato per offrire:
+- **Basi teoriche** (concetti fondamentali, terminologia).
+- **Casi d’uso concreti** (scenario marketing, supply chain, forecast vendite, ecc.).
+- **Esempi pratici** per mostrare come i data scientist gestiscono dati e modelli di machine learning.
+
+### Caratteristiche Principali
+- **Materiale Didattico Strutturato**: Ogni modulo copre argomenti specifici con esempi e risorse aggiuntive.
+- **Approccio Pratico & Teorico**: Un mix di concetti base e di esempi reali per favorire la comprensione.
+- **Collaborazione Interdisciplinare**: Viene evidenziato il ruolo della collaborazione tra figure non tecniche e specialisti tecnici.
+- **Risorse Supplementari**: Un glossario e link di approfondimento per chi desidera saperne di più.
+
 ---
 
-## Indice dei Moduli
+## Come Utilizzare questo Repository
+
+### Struttura del Repository
+- **Modules**: Ogni modulo ha un README che spiega il tema del capitolo, con alcuni spunti di riflessione e link ad eventuali esercizi.
+- **Glossario**: Un elenco di termini chiave (Big Data, Machine Learning, AI, ecc.) con definizioni semplici.
+- **Esempi di Codice e Dati**: Alcuni script in Python e file JSON per mostrare *come* i dati vengono analizzati in progetti reali (non occorre eseguire nulla).
+
+### Perché ci sono Esempi di Codice e JSON?
+Gli esempi di codice **non** richiedono intervento da parte dei partecipanti. Servono a:
+- Mostrare come i data scientist raccolgono, puliscono e analizzano dati.
+- Far capire i processi dietro la creazione di modelli di Machine Learning, aiutando i professionisti di business a comunicare meglio con i tecnici.
+
+> *Non è necessario installare Python o eseguire gli script per seguire il workshop. Gli esempi servono solo a scopo dimostrativo.*
+
+---
+
+## Requisiti
+
+- **Interesse per i Dati**: Curiosità su come si usano dati e algoritmi per prendere decisioni nel mondo della moda.
+- **Accesso a Internet**: Per consultare i materiali e le risorse online.
+- **(Facoltativo)**: Per chi desidera esplorare in autonomia gli esempi di codice, è consigliato Python + librerie di base. *Tuttavia non è richiesto per partecipare efficacemente al workshop.*
+
+---
+
+## Benefici per i Partecipanti
+
+- **Comprensione Strategica**: Capire come Big Data e AI possano supportare scelte di marketing, produzione e vendita più efficaci.
+- **Lingua Comune con i Tecnici**: Imparare i concetti chiave per dialogare con data scientist e ML engineer, includendo la capacità di **definire le metriche chiave**, **impostare obiettivi di analisi** e **comunicare efficacemente** le esigenze di business.
+- **Decisioni Data-Driven**: Conoscere best practice e strumenti utili a integrare i dati nei processi decisionali.
+
+---
+
+
+## Struttura del Workshop
 
 Il workshop è suddiviso in sette parti principali:
 
@@ -101,52 +147,6 @@ Il workshop è suddiviso in sette parti principali:
    - [Termini Aggiuntivi Utili](/modules/glossario/README.md#termini-aggiuntivi-utili)
    - [GLOSSARIO](/modules/glossario/README.md#glossario)
 
-
----
-
-## Informazioni sul Progetto
-Questo progetto fornisce materiali, casi di studio e dimostrazioni su come applicare **Big Data** e **Intelligenza Artificiale** nel settore moda. È strutturato per offrire:
-- **Basi teoriche** (concetti fondamentali, terminologia).
-- **Casi d’uso concreti** (scenario marketing, supply chain, forecast vendite, ecc.).
-- **Esempi pratici** per mostrare come i data scientist gestiscono dati e modelli di machine learning.
-
-### Caratteristiche Principali
-- **Materiale Didattico Strutturato**: Ogni modulo copre argomenti specifici con esempi e risorse aggiuntive.
-- **Approccio Pratico & Teorico**: Un mix di concetti base e di esempi reali per favorire la comprensione.
-- **Collaborazione Interdisciplinare**: Viene evidenziato il ruolo della collaborazione tra figure non tecniche e specialisti tecnici.
-- **Risorse Supplementari**: Un glossario e link di approfondimento per chi desidera saperne di più.
-
----
-
-## Come Utilizzare questo Repository
-
-### Struttura del Repository
-- **Modules**: Ogni modulo ha un README che spiega il tema del capitolo, con alcuni spunti di riflessione e link ad eventuali esercizi.
-- **Glossario**: Un elenco di termini chiave (Big Data, Machine Learning, AI, ecc.) con definizioni semplici.
-- **Esempi di Codice e Dati**: Alcuni script in Python e file JSON per mostrare *come* i dati vengono analizzati in progetti reali (non occorre eseguire nulla).
-
-### Perché ci sono Esempi di Codice e JSON?
-Gli esempi di codice **non** richiedono intervento da parte dei partecipanti. Servono a:
-- Mostrare come i data scientist raccolgono, puliscono e analizzano dati.
-- Far capire i processi dietro la creazione di modelli di Machine Learning, aiutando i professionisti di business a comunicare meglio con i tecnici.
-
-> *Non è necessario installare Python o eseguire gli script per seguire il workshop. Gli esempi servono solo a scopo dimostrativo.*
-
----
-
-## Requisiti
-
-- **Interesse per i Dati**: Curiosità su come si usano dati e algoritmi per prendere decisioni nel mondo della moda.
-- **Accesso a Internet**: Per consultare i materiali e le risorse online.
-- **(Facoltativo)**: Per chi desidera esplorare in autonomia gli esempi di codice, è consigliato Python + librerie di base. *Tuttavia non è richiesto per partecipare efficacemente al workshop.*
-
----
-
-## Benefici per i Partecipanti
-
-- **Comprensione Strategica**: Capire come Big Data e AI possano supportare scelte di marketing, produzione e vendita più efficaci.
-- **Lingua Comune con i Tecnici**: Imparare i concetti chiave per dialogare con data scientist e ML engineer, includendo la capacità di **definire le metriche chiave**, **impostare obiettivi di analisi** e **comunicare efficacemente** le esigenze di business.
-- **Decisioni Data-Driven**: Conoscere best practice e strumenti utili a integrare i dati nei processi decisionali.
 
 ---
 
