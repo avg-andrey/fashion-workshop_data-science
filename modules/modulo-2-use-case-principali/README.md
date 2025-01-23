@@ -47,9 +47,15 @@ Il workshop è suddiviso in sette parti principali:
    - [4.6. Best Practices](../modulo-4-follow-up/README.md#46-best-practices)
    - [4.7. Risorse Utili](../modulo-4-follow-up/README.md#47-risorse-utili)
    - [4.8. Ringraziamenti](../modulo-4-follow-up/README.md#48-ringraziamenti)
-6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
+6. [Modulo 5: Conclusione e Discussioni](../modulo-5-conclusione-discussione/README.md)
+   - [5.1. Riepilogo Finale](../modulo-5-conclusione-discussione/README.md#51-riepilogo-finale)
+   - [5.2. Oltre la Sentiment Analysis: Altri Possibili Sviluppi](../modulo-5-conclusione-discussione/README.md#52-oltre-la-sentiment-analysis-altri-possibili-sviluppi)
+   - [5.3. Ruolo dell’Analista: Punti di Forza e Criticità](../modulo-5-conclusione-discussione/README.md#53-ruolo-dellanalista-punti-di-forza-e-criticità)
+   - [5.4. Mini-Esercizi Non Tecnici](../modulo-5-conclusione-discussione/README.md#54-mini-esercizi-non-tecnici)
+   - [5.5. Risorse di Studio Autonomo](../modulo-5-conclusione-discussione/README.md#55-risorse-di-studio-autonomo)
+   - [5.6. Consigli per i Prossimi Passi](../modulo-5-conclusione-discussione/README.md#56-consigli-per-i-prossimi-passi)
+   - [5.7. Conclusioni](../modulo-5-conclusione-discussione/README.md#57-conclusioni)
 7. [Glossario](../glossario/README.md)
-
 
 ---
 
