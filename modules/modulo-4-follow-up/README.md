@@ -42,6 +42,14 @@ Il workshop è suddiviso in sette parti principali:
      - [3.6.3. Utilizzo dei Modelli Pre-addestrati (Hugging Face)](#363-utilizzo-dei-modelli-pre-addestrati-hugging-face)
    - [3.7. Analisi dei Risultati e Visualizzazioni Grafiche](#37-analisi-dei-risultati-e-visualizzazioni-grafiche)
 5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
+   - [4.1. Come Utilizzare i Dati di Sentiment Analysis nel Fashion Business](../modulo-4-follow-up/README.md#41-come-utilizzare-i-dati-di-sentiment-analysis-nel-fashion-business)
+   - [4.2. Real-World Challenges: Cosa può andare storto?](../modulo-4-follow-up/README.md#42-real-world-challenges-cosa-puo-andare-storto)
+   - [4.3. Cosa Fare se Non Abbiamo un Data Scientist Interno?](../modulo-4-follow-up/README.md#43-cosa-fare-se-non-abbiamo-un-data-scientist-interno)
+   - [4.4. Mini-Esercizio di Riflessione](../modulo-4-follow-up/README.md#44-mini-esercizio-di-riflessione)
+   - [4.5. Come Implementare le Strategie](../modulo-4-follow-up/README.md#45-come-implementare-le-strategie)
+   - [4.6. Best Practices](../modulo-4-follow-up/README.md#46-best-practices)
+   - [4.7. Risorse Utili](../modulo-4-follow-up/README.md#47-risorse-utili)
+   - [4.8. Ringraziamenti](../modulo-4-follow-up/README.md#48-ringraziamenti)
 6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
 7. [Glossario](../glossario/README.md)
 
@@ -125,15 +133,12 @@ Pensate a un **caso reale** o ipotetico nella vostra azienda/studio (anche se pi
 
 1. **Obiettivo di Business**  
    Formulate una domanda chiara: ad es. *“Vogliamo capire perché la nostra nuova collezione spring/summer non incontra i gusti del pubblico su Instagram.”*
-
 2. **Dati e KPI**  
    - Quali piattaforme social o canali usereste?  
    - Quali indicatori misurereste (sentiment positivo/negativo, menzioni di un prodotto specifico, etc.)?
-
 3. **Stakeholder Coinvolti**  
    - Chi deve essere coinvolto (marketing, designer, customer service)?  
    - Come l’analista farà da ponte, riportando in modo comprensibile i risultati?
-
 4. **Soluzioni Tecniche (anche semplici)**  
    - Optereste per una piattaforma SaaS? O cerchereste un freelance data scientist?  
    - Quali ostacoli potrebbero emergere (budget, tempi, resistenza interna)?
