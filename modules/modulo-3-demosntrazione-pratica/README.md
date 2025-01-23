@@ -4,6 +4,24 @@
 
 Benvenuti al **Modulo 3: Dimostrazione Pratica del Caso d'Uso Selezionato**. In questo modulo, metteremo in pratica quanto appreso nei moduli precedenti attraverso un caso d'uso concreto: l'analisi dei sentimenti degli utenti sui social media relativi a un brand specifico. Questo esercizio vi aiuterà a comprendere come utilizzare i dati di sentiment analysis per migliorare le strategie di marketing e gestire la reputazione online.
 
+## Struttura del Workshop
+
+Il workshop è suddiviso in sei parti principali:
+
+1. [Home](../../README.md)
+2. [Modulo 1: Introduzione](../modulo-1-introduzione/README.md)
+   - [1.2. L'importanza di Big Data e AI Analytics nella moda](../modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
+3. [Modulo 2: I Use-Case principali nel FashionTech](../modulo-2-use-case-principali/README.md)
+   - [2.2. Macro-Use-Case in Fashion Tech](../modulo-2-use-case-principali/README.md#22-macro-use-case-in-fashion-tech)
+   - [2.3. Ruoli di Big Data e Modelli di Machine Learning](../modulo-2-use-case-principali/README.md#23-ruoli-di-big-data-e-modelli-di-machine-learning)
+4. [Modulo 3: Dimostrazione Pratica](../modulo-3-demosntrazione-pratica/README.md)
+5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
+6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
+7. [Glossario](../glossario/README.md)
+
+---
+
+
 ## 3.1. Descrizione dell’Obiettivo
 
 - **Obiettivo**: Analizzare i sentimenti degli utenti sui social media relativi a un brand specifico.

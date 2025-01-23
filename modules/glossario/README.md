@@ -1,5 +1,22 @@
 # Glossario dei Termini
 
+## Struttura del Workshop
+
+Il workshop è suddiviso in sei parti principali:
+
+1. [Home](../../README.md)
+2. [Modulo 1: Introduzione](../modulo-1-introduzione/README.md)
+   - [1.2. L'importanza di Big Data e AI Analytics nella moda](../modulo-1-introduzione/README.md#12-limportanza-di-big-data-e-ai-analytics-nella-moda)
+3. [Modulo 2: I Use-Case principali nel FashionTech](../modulo-2-use-case-principali/README.md)
+   - [2.2. Macro-Use-Case in Fashion Tech](../modulo-2-use-case-principali/README.md#22-macro-use-case-in-fashion-tech)
+   - [2.3. Ruoli di Big Data e Modelli di Machine Learning](../modulo-2-use-case-principali/README.md#23-ruoli-di-big-data-e-modelli-di-machine-learning)
+4. [Modulo 3: Dimostrazione Pratica](../modulo-3-demosntrazione-pratica/README.md)
+5. [Modulo 4: Follow-up per Scenario Realizzato](../modulo-4-follow-up/README.md)
+6. [Modulo 5: Conclusione e Discussione](../modulo-5-conclusione-discussione/README.md)
+7. [Glossario](../glossario/README.md)
+
+---
+
 Questo glossario ampliato copre una vasta gamma di termini tecnologici necessari per comprendere e spiegare i Macro-Use-Case in FashionTech. Ogni definizione è pensata per essere chiara e accessibile a studenti e futuri manager dell'industria della moda, facilitando la comprensione delle tecnologie e degli approcci utilizzati per trasformare il settore attraverso Big Data e AI Analytics.
 
 ## Machine Learning vs. Deep Learning vs. Neural Network
