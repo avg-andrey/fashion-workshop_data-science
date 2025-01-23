@@ -128,7 +128,7 @@ Pensate a un semplice problema legato al mondo della moda (ad esempio, *“Come 
 ---
 
 Con questa introduzione, abbiamo evidenziato non solo l’importanza di Big Data e AI, ma anche il **ruolo strategico** dell’analista come mediatore tra business e tecnici. Nel [Modulo 2](../modulo-2-use-case-principali/README.md) vedremo casi d’uso più specifici nel FashionTech e capiremo meglio come questi concetti trovino applicazione concreta in diverse aree (marketing, supply chain, previsioni di vendita, ecc.).
-```
+
 
 ## Contatti
 
