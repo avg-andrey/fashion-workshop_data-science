@@ -342,7 +342,7 @@ Supporta una **pianificazione più accurata** di produzione, marketing e gestion
 
 ### 2.3.3. Sinergia tra Big Data e Machine Learning
 - **Come interagiscono**:  
-  - Big Data prepara grandi volumi di informazioni.  
+  - Big Data genera grandi volumi di informazioni.  
   - ML utilizza questi dati per generare insight e automazioni.  
 - **Risultato**: Un ciclo di miglioramento continuo basato su feedback e aggiornamento dei dati.
 
