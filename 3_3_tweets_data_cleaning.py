@@ -21,7 +21,7 @@ def setup_logging():
     ch.setFormatter(formatter)
     logger.addHandler(ch)
 
-    fh = logging.FileHandler('data_cleaning.log', encoding='utf-8')
+    fh = logging.FileHandler('03_data_cleaning.log', encoding='utf-8')
     fh.setLevel(logging.DEBUG)
     fh.setFormatter(formatter)
     logger.addHandler(fh)
@@ -202,8 +202,8 @@ if __name__ == "__main__":
     # Mostra le prime 10 stop-words come esempio (per log educativo)
     logger.info(f"MAIN: Prime 10 stop-words aggiornate: {list(stop_words)[:10]}")
 
-    input_file = "02_tweets_dati_sintetici.json"
-    output_file = "03_tweets_dati_cleaned.json"
+    input_file = "./input_data/02_tweets_dati_sintetici.json"
+    output_file = "./output_data/03_tweets_dati_cleaned.json"
     preprocess_tweets(input_file, output_file, stop_words)
 
     logger.info("MAIN: Script terminato.")

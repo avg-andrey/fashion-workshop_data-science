@@ -1,0 +1,8 @@
+# exclude all .log files
+*.log
+
+
+**/models_cache/
+__pycache__/
+
+temp/

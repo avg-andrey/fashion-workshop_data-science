@@ -1,0 +1,1040 @@
+[
+  {
+    "text": "Adoro le sneakers di #MyBrandName, sono incredibilmente comode e alla moda!",
+    "sentiment": "positivo",
+    "explanation": "L'utente esprime amore e apprezzamento per le sneakers, sottolineando comfort e stile.",
+    "date": "2024-12-15"
+  },
+  {
+    "text": "Ho comprato una borsa su #MyBrandName, ma la qualità lascia a desiderare. Non ci tornerò.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la scarsa qualità del prodotto e dichiara intenzione di non riacquistare.",
+    "date": "2024-11-20"
+  },
+  {
+    "text": "L’esperienza di acquisto su #MyBrandName è stata semplice e veloce. Consigliato!",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la facilità e rapidità dell'acquisto, raccomandando il brand.",
+    "date": "2024-10-05"
+  },
+  {
+    "text": "Spedizione lenta e comunicazione confusa da parte di #MyBrandName. Deluso.",
+    "sentiment": "negativo",
+    "explanation": "L'utente esprime insoddisfazione per la lentezza della spedizione e la confusione nella comunicazione.",
+    "date": "2024-09-18"
+  },
+  {
+    "text": "Ho trovato finalmente delle scarpe perfette per me su #MyBrandName. Grazie mille!",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto di aver trovato il prodotto ideale e ringrazia il brand.",
+    "date": "2024-08-30"
+  },
+  {
+    "text": "Il pagamento sul sito di #MyBrandName è stato facile e sicuro.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la facilità e la sicurezza del processo di pagamento.",
+    "date": "2024-07-25"
+  },
+  {
+    "text": "#MyBrandName offre una vasta gamma di taglie, mi ha aiutato a trovare la misura giusta.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della varietà di taglie offerte, facilitando la scelta della misura corretta.",
+    "date": "2024-11-10"
+  },
+  {
+    "text": "Materiali di alta qualità nelle giacche di #MyBrandName, davvero soddisfatto.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la qualità dei materiali delle giacche, esprimendo soddisfazione.",
+    "date": "2024-10-22"
+  },
+  {
+    "text": "Non sono sicuro sulla durata dei prodotti #MyBrandName, ancora troppo presto per giudicare.",
+    "sentiment": "neutro",
+    "explanation": "L'utente non esprime un giudizio definitivo, mostrando incertezza sulla durata dei prodotti.",
+    "date": "2024-09-05"
+  },
+  {
+    "text": "Le t-shirt di #MyBrandName sono super comode e resistenti al lavaggio.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la comodità e la resistenza delle t-shirt al lavaggio.",
+    "date": "2024-08-12"
+  },
+  {
+    "text": "Esperienza deludente con #MyBrandName, il reso è stato complicato.",
+    "sentiment": "negativo",
+    "explanation": "L'utente esprime delusione per la complessità del processo di reso.",
+    "date": "2024-07-30"
+  },
+  {
+    "text": "Apprezzo l’attenzione ai dettagli nei capi di #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente riconosce e apprezza la cura nei dettagli dei capi.",
+    "date": "2024-12-05"
+  },
+  {
+    "text": "La spedizione di #MyBrandName è arrivata in tempo, niente problemi.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della puntualità della spedizione senza inconvenienti.",
+    "date": "2024-11-28"
+  },
+  {
+    "text": "Ho riscontrato problemi con le taglie di #MyBrandName, non corrispondono alla descrizione.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta discrepanze tra le taglie fornite e quelle descritte.",
+    "date": "2024-10-15"
+  },
+  {
+    "text": "Ammiro la sostenibilità dei materiali utilizzati da #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente esprime ammirazione per l'approccio sostenibile del brand.",
+    "date": "2024-09-22"
+  },
+  {
+    "text": "Il servizio clienti di #MyBrandName è stato molto utile e gentile.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto dell'assistenza ricevuta dal servizio clienti.",
+    "date": "2024-08-18"
+  },
+  {
+    "text": "Non trovo molto originale nel design dei prodotti #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica la mancanza di originalità nel design dei prodotti.",
+    "date": "2024-07-10"
+  },
+  {
+    "text": "Ho ricevuto un prodotto sbagliato da #MyBrandName, ma l’hanno sostituito rapidamente.",
+    "sentiment": "positivo",
+    "explanation": "Nonostante l'errore iniziale, l'utente apprezza la rapida sostituzione del prodotto.",
+    "date": "2024-12-01"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono perfette per l’inverno, calde e alla moda.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la funzionalità e lo stile delle giacche invernali.",
+    "date": "2024-11-05"
+  },
+  {
+    "text": "Prezzi un po’ alti rispetto alla concorrenza, ma la qualità giustifica l’investimento. #MyBrandName",
+    "sentiment": "positivo",
+    "explanation": "L'utente riconosce i prezzi elevati ma ritiene che la qualità offra un buon rapporto qualità-prezzo.",
+    "date": "2024-10-08"
+  },
+  {
+    "text": "Ho ancora bisogno di ricevere il mio ordine da #MyBrandName, sperando arrivi presto.",
+    "sentiment": "neutro",
+    "explanation": "L'utente esprime un'attesa senza un'emozione forte, sperando in una pronta consegna.",
+    "date": "2024-09-14"
+  },
+  {
+    "text": "I pantaloni di #MyBrandName hanno una vestibilità perfetta, li adoro!",
+    "sentiment": "positivo",
+    "explanation": "L'utente è entusiasta della vestibilità dei pantaloni e li apprezza molto.",
+    "date": "2024-08-03"
+  },
+  {
+    "text": "La selezione di accessori su #MyBrandName è limitata, mi piacerebbe vederne di più.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica la poca varietà di accessori offerti dal brand.",
+    "date": "2024-07-20"
+  },
+  {
+    "text": "Ottima qualità delle borse #MyBrandName, elegantissime e resistenti.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la qualità, eleganza e resistenza delle borse.",
+    "date": "2024-12-10"
+  },
+  {
+    "text": "Ho avuto difficoltà con il tracciamento della spedizione su #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ha incontrato problemi nel tracciare il proprio ordine.",
+    "date": "2024-11-18"
+  },
+  {
+    "text": "Le camicie di #MyBrandName sono perfette per l’ufficio, comode e professionali.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la comodità e l'aspetto professionale delle camicie.",
+    "date": "2024-10-25"
+  },
+  {
+    "text": "Il sito di #MyBrandName è un po’ lento, potrebbe migliorare.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica la lentezza del sito web e suggerisce miglioramenti.",
+    "date": "2024-09-30"
+  },
+  {
+    "text": "Sono molto soddisfatto del mio acquisto da #MyBrandName, tornerò sicuramente.",
+    "sentiment": "positivo",
+    "explanation": "L'utente esprime grande soddisfazione e intenzione di riacquistare.",
+    "date": "2024-08-22"
+  },
+  {
+    "text": "Le giacche di pelle di #MyBrandName hanno un ottimo prezzo per la qualità.",
+    "sentiment": "positivo",
+    "explanation": "L'utente ritiene che il prezzo delle giacche di pelle sia adeguato alla qualità offerta.",
+    "date": "2024-07-28"
+  },
+  {
+    "text": "Non ho trovato il mio prodotto preferito su #MyBrandName, spero lo rimetteranno presto.",
+    "sentiment": "neutro",
+    "explanation": "L'utente esprime una speranza senza un'emozione forte riguardo alla disponibilità del prodotto.",
+    "date": "2024-12-20"
+  },
+  {
+    "text": "La selezione estiva di #MyBrandName è fantastica, ho acquistato diversi capi.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è entusiasta della collezione estiva e ha effettuato più acquisti.",
+    "date": "2024-11-25"
+  },
+  {
+    "text": "Ho ricevuto il mio ordine #MyBrandName danneggiato, è stata una brutta esperienza.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta di aver ricevuto un prodotto danneggiato, descrivendo l'esperienza come negativa.",
+    "date": "2024-10-12"
+  },
+  {
+    "text": "Le felpe di #MyBrandName sono morbide e perfette per il relax.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la morbidezza delle felpe e le trova ideali per il relax.",
+    "date": "2024-09-08"
+  },
+  {
+    "text": "Il processo di pagamento su #MyBrandName è stato complicato e confuso.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ha incontrato difficoltà e confusione durante il pagamento.",
+    "date": "2024-08-05"
+  },
+  {
+    "text": "Mi piace lo stile unico di #MyBrandName, sempre alla moda.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza lo stile distintivo e la moda dei prodotti del brand.",
+    "date": "2024-07-15"
+  },
+  {
+    "text": "Il reso con #MyBrandName è stato facile e senza problemi.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova il processo di reso semplice e privo di complicazioni.",
+    "date": "2024-12-07"
+  },
+  {
+    "text": "Le sciarpe di #MyBrandName sono di ottima qualità e molto calde.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la qualità e la capacità termica delle sciarpe.",
+    "date": "2024-11-12"
+  },
+  {
+    "text": "Non sono soddisfatto della vestibilità delle giacche di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente esprime insoddisfazione riguardo alla vestibilità delle giacche.",
+    "date": "2024-10-20"
+  },
+  {
+    "text": "La nuova collezione di #MyBrandName è incredibile, adoro i nuovi design!",
+    "sentiment": "positivo",
+    "explanation": "L'utente è entusiasta della nuova collezione e dei design presentati.",
+    "date": "2024-09-25"
+  },
+  {
+    "text": "Ho avuto problemi con il mio account su #MyBrandName, ma il supporto è stato utile.",
+    "sentiment": "positivo",
+    "explanation": "Nonostante i problemi iniziali, l'utente apprezza l'assistenza ricevuta.",
+    "date": "2024-08-15"
+  },
+  {
+    "text": "I vestiti di #MyBrandName sono perfetti per ogni occasione.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova i vestiti versatili e adatti a diverse situazioni.",
+    "date": "2024-07-05"
+  },
+  {
+    "text": "La qualità dei tessuti di #MyBrandName è superiore rispetto ad altri marchi.",
+    "sentiment": "positivo",
+    "explanation": "L'utente paragona positivamente la qualità dei tessuti con altri brand.",
+    "date": "2024-12-18"
+  },
+  {
+    "text": "Ho trovato la taglia giusta grazie alla guida alle taglie di #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza l'aiuto fornito dalla guida alle taglie per trovare la misura corretta.",
+    "date": "2024-11-22"
+  },
+  {
+    "text": "Il design delle borse #MyBrandName è troppo semplice per i miei gusti.",
+    "sentiment": "negativo",
+    "explanation": "L'utente non gradisce la semplicità del design delle borse.",
+    "date": "2024-10-28"
+  },
+  {
+    "text": "Le giacche invernali di #MyBrandName sono davvero calde e resistenti.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la capacità termica e la resistenza delle giacche invernali.",
+    "date": "2024-09-18"
+  },
+  {
+    "text": "Il processo di checkout su #MyBrandName è stato rapido e senza intoppi.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la rapidità e la semplicità del checkout.",
+    "date": "2024-08-25"
+  },
+  {
+    "text": "Ho ricevuto un codice sconto da #MyBrandName, molto apprezzato!",
+    "sentiment": "positivo",
+    "explanation": "L'utente è contento di aver ricevuto un codice sconto.",
+    "date": "2024-07-22"
+  },
+  {
+    "text": "Non trovo molti colori disponibili per i capi di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la poca varietà di colori disponibili.",
+    "date": "2024-12-02"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono alla moda e comode, le adoro!",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza sia lo stile che il comfort delle scarpe.",
+    "date": "2024-11-08"
+  },
+  {
+    "text": "Ho avuto difficoltà a contattare il supporto clienti di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente riscontra problemi nel raggiungere il servizio clienti.",
+    "date": "2024-10-16"
+  },
+  {
+    "text": "La qualità delle giacche di #MyBrandName giustifica il prezzo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente ritiene che la qualità offerta sia adeguata al prezzo pagato.",
+    "date": "2024-09-10"
+  },
+  {
+    "text": "Ho amato la velocità della spedizione di #MyBrandName, ordine arrivato subito!",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della rapidità della spedizione.",
+    "date": "2024-08-08"
+  },
+  {
+    "text": "Le magliette di #MyBrandName tendono a restringersi dopo il primo lavaggio.",
+    "sentiment": "negativo",
+    "explanation": "L'utente segnala un problema di qualità relativo al restringimento delle magliette.",
+    "date": "2024-07-18"
+  },
+  {
+    "text": "Il sito di #MyBrandName è ben organizzato e facile da navigare.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova il sito web intuitivo e ben strutturato.",
+    "date": "2024-12-12"
+  },
+  {
+    "text": "Ho acquistato un paio di jeans su #MyBrandName, ottima vestibilità.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della vestibilità dei jeans acquistati.",
+    "date": "2024-11-30"
+  },
+  {
+    "text": "Non sono contento della scelta limitata di accessori su #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente esprime insoddisfazione per la poca varietà di accessori disponibili.",
+    "date": "2024-10-05"
+  },
+  {
+    "text": "Il packaging di #MyBrandName è elegante e curato nei dettagli.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza l'aspetto elegante e la cura dei dettagli del packaging.",
+    "date": "2024-09-20"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName si sciolgono dopo pochi utilizzi.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la scarsa durabilità delle scarpe.",
+    "date": "2024-08-10"
+  },
+  {
+    "text": "Sono molto soddisfatto del servizio clienti di #MyBrandName, sempre disponibile.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è contento della disponibilità e dell'efficacia del servizio clienti.",
+    "date": "2024-07-25"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono perfette per l’autunno, alla moda e pratiche.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la moda e la funzionalità delle giacche autunnali.",
+    "date": "2024-12-22"
+  },
+  {
+    "text": "Il sito web di #MyBrandName ha bisogno di miglioramenti nella velocità di caricamento.",
+    "sentiment": "negativo",
+    "explanation": "L'utente suggerisce che il sito web potrebbe essere più veloce.",
+    "date": "2024-11-18"
+  },
+  {
+    "text": "Ho ricevuto un omaggio con il mio ordine da #MyBrandName, molto carino!",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza di aver ricevuto un omaggio insieme all'ordine.",
+    "date": "2024-10-30"
+  },
+  {
+    "text": "Le t-shirt di #MyBrandName sono di scarsa qualità, mi sono rovinati dopo pochi lavaggi.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la bassa qualità delle t-shirt che si deteriorano rapidamente.",
+    "date": "2024-09-25"
+  },
+  {
+    "text": "La nuova collezione primavera di #MyBrandName è fantastica, colori vivaci!",
+    "sentiment": "positivo",
+    "explanation": "L'utente è entusiasta della nuova collezione primaverile e dei suoi colori.",
+    "date": "2024-08-20"
+  },
+  {
+    "text": "Ho avuto problemi con il reso su #MyBrandName, processo complicato.",
+    "sentiment": "negativo",
+    "explanation": "L'utente riscontra difficoltà nel processo di reso.",
+    "date": "2024-07-12"
+  },
+  {
+    "text": "Le borse di #MyBrandName sono eleganti e pratiche, perfette per ogni giorno.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza l'eleganza e la praticità delle borse per uso quotidiano.",
+    "date": "2024-12-08"
+  },
+  {
+    "text": "Il servizio di tracciamento degli ordini di #MyBrandName è inefficiente.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica l'inefficienza del sistema di tracciamento degli ordini.",
+    "date": "2024-11-14"
+  },
+  {
+    "text": "Sono rimasto colpito dalla qualità delle giacche di pelle di #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è impressionato positivamente dalla qualità delle giacche di pelle.",
+    "date": "2024-10-18"
+  },
+  {
+    "text": "Il sito di #MyBrandName offre molte opzioni di pagamento, molto comodo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la varietà di opzioni di pagamento disponibili.",
+    "date": "2024-09-05"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono alla moda ma non molto comode.",
+    "sentiment": "negativo",
+    "explanation": "L'utente apprezza lo stile delle scarpe ma critica il comfort.",
+    "date": "2024-08-15"
+  },
+  {
+    "text": "Ho apprezzato la varietà di stili offerti da #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della gamma di stili disponibili.",
+    "date": "2024-07-22"
+  },
+  {
+    "text": "La qualità dei materiali di #MyBrandName è superiore alla media.",
+    "sentiment": "positivo",
+    "explanation": "L'utente paragona positivamente la qualità dei materiali del brand.",
+    "date": "2024-12-25"
+  },
+  {
+    "text": "Ho avuto difficoltà con il codice sconto su #MyBrandName, non funzionava.",
+    "sentiment": "negativo",
+    "explanation": "L'utente riscontra problemi nell'utilizzo del codice sconto.",
+    "date": "2024-11-20"
+  },
+  {
+    "text": "Le giacche sportive di #MyBrandName sono perfette per l’allenamento.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova le giacche sportive adatte e perfette per l'allenamento.",
+    "date": "2024-10-10"
+  },
+  {
+    "text": "Non sono soddisfatto del servizio di assistenza di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente esprime insoddisfazione riguardo al servizio di assistenza.",
+    "date": "2024-09-15"
+  },
+  {
+    "text": "Le camicie di #MyBrandName sono eleganti e ben fatte.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia l'eleganza e la qualità delle camicie.",
+    "date": "2024-08-05"
+  },
+  {
+    "text": "Ho trovato le taglie di #MyBrandName troppo piccole rispetto ad altri marchi.",
+    "sentiment": "negativo",
+    "explanation": "L'utente riscontra discrepanze nelle taglie rispetto ad altri brand.",
+    "date": "2024-07-30"
+  },
+  {
+    "text": "La spedizione internazionale di #MyBrandName è affidabile e veloce.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza l'affidabilità e la rapidità della spedizione internazionale.",
+    "date": "2024-12-02"
+  },
+  {
+    "text": "Le felpe di #MyBrandName sono ideali per le giornate fredde.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova le felpe adatte a mantenere caldo nelle giornate fredde.",
+    "date": "2024-11-10"
+  },
+  {
+    "text": "Ho dovuto contattare il supporto clienti di #MyBrandName per un problema con l’ordine.",
+    "sentiment": "neutro",
+    "explanation": "L'utente ha dovuto contattare il supporto, ma non esprime un giudizio positivo o negativo.",
+    "date": "2024-10-22"
+  },
+  {
+    "text": "La qualità delle borse di #MyBrandName è eccezionale, vale ogni centesimo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente ritiene che la qualità delle borse giustifichi il prezzo.",
+    "date": "2024-09-12"
+  },
+  {
+    "text": "Non trovo il mio stile preferito su #MyBrandName, troppa varietà.",
+    "sentiment": "negativo",
+    "explanation": "L'utente è sopraffatto dalla varietà, non riuscendo a trovare il proprio stile.",
+    "date": "2024-08-25"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono resistenti e durature, molto soddisfatto.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è contento della resistenza e durabilità delle giacche.",
+    "date": "2024-07-18"
+  },
+  {
+    "text": "Il processo di reso su #MyBrandName è stato complicato e lungo.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ha trovato il processo di reso difficile e prolungato.",
+    "date": "2024-12-15"
+  },
+  {
+    "text": "Le t-shirt di #MyBrandName hanno stampe di qualità e colori vivaci.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la qualità delle stampe e la vivacità dei colori delle t-shirt.",
+    "date": "2024-11-05"
+  },
+  {
+    "text": "Ho avuto problemi con il pagamento su #MyBrandName, transazione non riuscita.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ha riscontrato difficoltà nel completare il pagamento.",
+    "date": "2024-10-28"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono alla moda ma tendono a consumarsi rapidamente.",
+    "sentiment": "negativo",
+    "explanation": "L'utente apprezza lo stile delle scarpe ma critica la loro durabilità.",
+    "date": "2024-09-20"
+  },
+  {
+    "text": "Il sito di #MyBrandName offre promozioni interessanti durante l’anno.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza le promozioni offerte dal sito durante l'anno.",
+    "date": "2024-08-12"
+  },
+  {
+    "text": "Sono molto soddisfatto della mia esperienza di acquisto su #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente esprime alta soddisfazione per l'intera esperienza di acquisto.",
+    "date": "2024-07-25"
+  },
+  {
+    "text": "Le borse di #MyBrandName sono troppo costose rispetto alla concorrenza.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ritiene che i prezzi delle borse siano troppo elevati rispetto ad altri brand.",
+    "date": "2024-12-18"
+  },
+  {
+    "text": "Ho ricevuto il mio ordine #MyBrandName più velocemente del previsto!",
+    "sentiment": "positivo",
+    "explanation": "L'utente è contento della consegna anticipata dell'ordine.",
+    "date": "2024-11-22"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono perfette per il clima autunnale.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova le giacche adatte alle condizioni climatiche autunnali.",
+    "date": "2024-10-05"
+  },
+  {
+    "text": "Non sono soddisfatto della varietà di colori disponibili su #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la poca varietà di colori offerti.",
+    "date": "2024-09-28"
+  },
+  {
+    "text": "Le felpe di #MyBrandName sono comode e alla moda, le adoro.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza sia il comfort che lo stile delle felpe.",
+    "date": "2024-08-20"
+  },
+  {
+    "text": "Ho avuto difficoltà a trovare la mia taglia su #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ha incontrato problemi nel trovare la taglia adatta.",
+    "date": "2024-07-15"
+  },
+  {
+    "text": "La qualità delle giacche di #MyBrandName è ottima, molto resistente.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la resistenza e la qualità delle giacche.",
+    "date": "2024-12-10"
+  },
+  {
+    "text": "Il servizio di pagamento su #MyBrandName è stato rapido e sicuro.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della velocità e sicurezza del servizio di pagamento.",
+    "date": "2024-11-18"
+  },
+  {
+    "text": "Non sono soddisfatto del design dei prodotti #MyBrandName, troppo monotono.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica la mancanza di varietà e originalità nel design.",
+    "date": "2024-10-14"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono perfette per l’estate, leggere e traspiranti.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la leggerezza e la traspirabilità delle scarpe estive.",
+    "date": "2024-09-10"
+  },
+  {
+    "text": "Il processo di checkout su #MyBrandName è stato complicato e lento.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ha trovato il processo di checkout difficile e prolungato.",
+    "date": "2024-08-08"
+  },
+  {
+    "text": "Le giacche invernali di #MyBrandName tengono molto bene al caldo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della capacità termica delle giacche invernali.",
+    "date": "2024-07-20"
+  },
+  {
+    "text": "Ho apprezzato la varietà di stili offerti da #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della gamma di stili disponibili.",
+    "date": "2024-12-05"
+  },
+  {
+    "text": "Le t-shirt di #MyBrandName si scoloriscono dopo pochi lavaggi.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la perdita di colore delle t-shirt dopo alcuni lavaggi.",
+    "date": "2024-11-25"
+  },
+  {
+    "text": "La spedizione di #MyBrandName è stata puntuale e senza intoppi.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della puntualità e della fluidità della spedizione.",
+    "date": "2024-10-18"
+  },
+  {
+    "text": "Non sono soddisfatto della qualità delle borse di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente esprime insoddisfazione riguardo alla qualità delle borse.",
+    "date": "2024-09-05"
+  },
+  {
+    "text": "Le giacche di #MyBrandName hanno un ottimo rapporto qualità-prezzo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente ritiene che le giacche offrano un buon equilibrio tra qualità e prezzo.",
+    "date": "2024-08-12"
+  },
+  {
+    "text": "Il servizio clienti di #MyBrandName è stato molto disponibile e gentile.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la disponibilità e la gentilezza del servizio clienti.",
+    "date": "2024-07-28"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono troppo strette, non le consiglio.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica la vestibilità stretta delle scarpe e non le raccomanda.",
+    "date": "2024-12-20"
+  },
+  {
+    "text": "Sono rimasto colpito dalla qualità dei materiali utilizzati da #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è impressionato positivamente dalla qualità dei materiali del brand.",
+    "date": "2024-11-30"
+  },
+  {
+    "text": "Ho trovato il sito di #MyBrandName facile da navigare e intuitivo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova il sito web user-friendly e facile da usare.",
+    "date": "2024-10-25"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono eleganti e versatili, perfette per ogni occasione.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza l'eleganza e la versatilità delle giacche per diverse situazioni.",
+    "date": "2024-09-15"
+  },
+  {
+    "text": "Il processo di reso su #MyBrandName è stato complicato e frustrante.",
+    "sentiment": "negativo",
+    "explanation": "L'utente trova il processo di reso difficile e fonte di frustrazione.",
+    "date": "2024-08-18"
+  },
+  {
+    "text": "Le t-shirt di #MyBrandName hanno un design unico e accattivante.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia l'originalità e l'attrattiva del design delle t-shirt.",
+    "date": "2024-07-10"
+  },
+  {
+    "text": "Non sono soddisfatto della spedizione internazionale di #MyBrandName, è troppo lenta.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica la lentezza della spedizione internazionale.",
+    "date": "2024-12-08"
+  },
+  {
+    "text": "Le borse di #MyBrandName sono di ottima qualità e molto eleganti.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la qualità e l'eleganza delle borse.",
+    "date": "2024-11-12"
+  },
+  {
+    "text": "Ho avuto problemi con il mio ordine su #MyBrandName, ma il supporto ha risolto tutto.",
+    "sentiment": "positivo",
+    "explanation": "Nonostante i problemi iniziali, l'utente è soddisfatto della risoluzione da parte del supporto.",
+    "date": "2024-10-05"
+  },
+  {
+    "text": "Le giacche sportive di #MyBrandName sono perfette per il fitness.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova le giacche sportive ideali per attività fisica e fitness.",
+    "date": "2024-09-25"
+  },
+  {
+    "text": "Il sito di #MyBrandName ha bisogno di migliorare la velocità di caricamento.",
+    "sentiment": "negativo",
+    "explanation": "L'utente suggerisce che il sito web potrebbe essere più veloce.",
+    "date": "2024-08-22"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono comode ma non molto resistenti.",
+    "sentiment": "negativo",
+    "explanation": "L'utente trova le scarpe comode ma critica la loro durabilità.",
+    "date": "2024-07-18"
+  },
+  {
+    "text": "Sono molto soddisfatto della mia esperienza di acquisto su #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente esprime alta soddisfazione per l'intera esperienza di acquisto.",
+    "date": "2024-12-02"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono perfette per l’autunno, calde e stilose.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la capacità termica e lo stile delle giacche autunnali.",
+    "date": "2024-11-08"
+  },
+  {
+    "text": "Non trovo molti colori disponibili per i capi di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la poca varietà di colori offerti.",
+    "date": "2024-10-16"
+  },
+  {
+    "text": "Le felpe di #MyBrandName sono morbide e comode, ideali per il tempo libero.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la morbidezza e il comfort delle felpe per il tempo libero.",
+    "date": "2024-09-12"
+  },
+  {
+    "text": "Ho avuto difficoltà a contattare il supporto clienti di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente riscontra problemi nel raggiungere il servizio clienti.",
+    "date": "2024-08-10"
+  },
+  {
+    "text": "Le camicie di #MyBrandName sono eleganti e di ottima qualità.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia l'eleganza e la qualità delle camicie.",
+    "date": "2024-07-22"
+  },
+  {
+    "text": "La spedizione di #MyBrandName è stata più veloce del previsto, ottimo servizio.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della rapidità della spedizione.",
+    "date": "2024-12-15"
+  },
+  {
+    "text": "Le borse di #MyBrandName sono troppo costose rispetto alla loro qualità.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ritiene che i prezzi delle borse non siano giustificati dalla qualità offerta.",
+    "date": "2024-11-20"
+  },
+  {
+    "text": "Ho ricevuto il mio ordine #MyBrandName in perfette condizioni, molto soddisfatto.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è contento di aver ricevuto l'ordine in ottime condizioni.",
+    "date": "2024-10-22"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono comode ma poco resistenti.",
+    "sentiment": "negativo",
+    "explanation": "L'utente trova le giacche confortevoli ma criticamente poco durevoli.",
+    "date": "2024-09-05"
+  },
+  {
+    "text": "Il sito di #MyBrandName offre molte opzioni di pagamento, molto comodo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la varietà di metodi di pagamento disponibili.",
+    "date": "2024-08-18"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono alla moda ma non molto comode.",
+    "sentiment": "negativo",
+    "explanation": "L'utente apprezza lo stile delle scarpe ma critica il comfort.",
+    "date": "2024-07-30"
+  },
+  {
+    "text": "Sono molto soddisfatto della qualità delle borse di #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della qualità delle borse acquistate.",
+    "date": "2024-12-10"
+  },
+  {
+    "text": "Il servizio clienti di #MyBrandName è stato molto disponibile e gentile.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la disponibilità e la cortesia del servizio clienti.",
+    "date": "2024-11-14"
+  },
+  {
+    "text": "Le giacche invernali di #MyBrandName tengono molto bene al caldo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della capacità termica delle giacche invernali.",
+    "date": "2024-10-05"
+  },
+  {
+    "text": "Non sono soddisfatto della scelta di colori disponibili su #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la limitata varietà di colori disponibili.",
+    "date": "2024-09-25"
+  },
+  {
+    "text": "Le felpe di #MyBrandName sono comode e alla moda, le adoro.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza sia il comfort che lo stile delle felpe.",
+    "date": "2024-08-08"
+  },
+  {
+    "text": "Ho avuto difficoltà a trovare la mia taglia su #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ha incontrato problemi nel trovare la taglia adeguata.",
+    "date": "2024-07-20"
+  },
+  {
+    "text": "La qualità delle giacche di #MyBrandName è ottima, molto resistente.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la resistenza e la qualità delle giacche.",
+    "date": "2024-12-05"
+  },
+  {
+    "text": "Il servizio di pagamento su #MyBrandName è stato rapido e sicuro.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della velocità e sicurezza del processo di pagamento.",
+    "date": "2024-11-25"
+  },
+  {
+    "text": "Non sono soddisfatto del design dei prodotti #MyBrandName, troppo monotono.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica la mancanza di varietà e originalità nel design.",
+    "date": "2024-10-18"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono perfette per l’estate, leggere e traspiranti.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la leggerezza e la traspirabilità delle scarpe estive.",
+    "date": "2024-09-10"
+  },
+  {
+    "text": "Il processo di checkout su #MyBrandName è stato complicato e lento.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ha trovato il processo di checkout difficile e prolungato.",
+    "date": "2024-08-12"
+  },
+  {
+    "text": "Le giacche invernali di #MyBrandName tengono molto bene al caldo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della capacità termica delle giacche invernali.",
+    "date": "2024-07-30"
+  },
+  {
+    "text": "Ho apprezzato la varietà di stili offerti da #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della gamma di stili disponibili.",
+    "date": "2024-12-18"
+  },
+  {
+    "text": "Le t-shirt di #MyBrandName si scoloriscono dopo pochi lavaggi.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la perdita di colore delle t-shirt dopo alcuni lavaggi.",
+    "date": "2024-11-22"
+  },
+  {
+    "text": "La spedizione di #MyBrandName è stata puntuale e senza intoppi.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della puntualità e della fluidità della spedizione.",
+    "date": "2024-10-25"
+  },
+  {
+    "text": "Non sono soddisfatto della qualità delle borse di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente esprime insoddisfazione riguardo alla qualità delle borse.",
+    "date": "2024-09-15"
+  },
+  {
+    "text": "Le giacche di #MyBrandName hanno un ottimo rapporto qualità-prezzo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente ritiene che le giacche offrano un buon equilibrio tra qualità e prezzo.",
+    "date": "2024-08-22"
+  },
+  {
+    "text": "Il servizio clienti di #MyBrandName è stato molto disponibile e gentile.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la disponibilità e la cortesia del servizio clienti.",
+    "date": "2024-07-18"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono troppo strette, non le consiglio.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica la vestibilità stretta delle scarpe e non le raccomanda.",
+    "date": "2024-12-02"
+  },
+  {
+    "text": "Sono rimasto colpito dalla qualità dei materiali utilizzati da #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è impressionato positivamente dalla qualità dei materiali del brand.",
+    "date": "2024-11-08"
+  },
+  {
+    "text": "Ho trovato il sito di #MyBrandName facile da navigare e intuitivo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova il sito web user-friendly e facile da usare.",
+    "date": "2024-10-16"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono eleganti e versatili, perfette per ogni occasione.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza l'eleganza e la versatilità delle giacche per diverse situazioni.",
+    "date": "2024-09-12"
+  },
+  {
+    "text": "Il processo di reso su #MyBrandName è stato complicato e frustrante.",
+    "sentiment": "negativo",
+    "explanation": "L'utente trova il processo di reso difficile e fonte di frustrazione.",
+    "date": "2024-08-10"
+  },
+  {
+    "text": "Le t-shirt di #MyBrandName hanno un design unico e accattivante.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia l'originalità e l'attrattiva del design delle t-shirt.",
+    "date": "2024-07-25"
+  },
+  {
+    "text": "Non sono soddisfatto della spedizione internazionale di #MyBrandName, è troppo lenta.",
+    "sentiment": "negativo",
+    "explanation": "L'utente critica la lentezza della spedizione internazionale.",
+    "date": "2024-12-20"
+  },
+  {
+    "text": "Le borse di #MyBrandName sono di ottima qualità e molto eleganti.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia la qualità e l'eleganza delle borse.",
+    "date": "2024-11-30"
+  },
+  {
+    "text": "Ho avuto problemi con il mio ordine su #MyBrandName, ma il supporto ha risolto tutto.",
+    "sentiment": "positivo",
+    "explanation": "Nonostante i problemi iniziali, l'utente è soddisfatto della risoluzione da parte del supporto.",
+    "date": "2024-10-05"
+  },
+  {
+    "text": "Le giacche sportive di #MyBrandName sono perfette per il fitness.",
+    "sentiment": "positivo",
+    "explanation": "L'utente trova le giacche sportive ideali per attività fisica e fitness.",
+    "date": "2024-09-25"
+  },
+  {
+    "text": "Il sito di #MyBrandName ha bisogno di migliorare la velocità di caricamento.",
+    "sentiment": "negativo",
+    "explanation": "L'utente suggerisce che il sito web potrebbe essere più veloce.",
+    "date": "2024-08-18"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono comode ma non molto resistenti.",
+    "sentiment": "negativo",
+    "explanation": "L'utente trova le scarpe comode ma critica la loro durabilità.",
+    "date": "2024-07-30"
+  },
+  {
+    "text": "Sono molto soddisfatto della mia esperienza di acquisto su #MyBrandName.",
+    "sentiment": "positivo",
+    "explanation": "L'utente esprime alta soddisfazione per l'intera esperienza di acquisto.",
+    "date": "2024-12-10"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono perfette per l’autunno, calde e stilose.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la capacità termica e lo stile delle giacche autunnali.",
+    "date": "2024-11-14"
+  },
+  {
+    "text": "Non trovo molti colori disponibili per i capi di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente lamenta la poca varietà di colori offerti.",
+    "date": "2024-10-18"
+  },
+  {
+    "text": "Le felpe di #MyBrandName sono morbide e comode, ideali per il tempo libero.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la morbidezza e il comfort delle felpe per il tempo libero.",
+    "date": "2024-09-08"
+  },
+  {
+    "text": "Ho avuto difficoltà a contattare il supporto clienti di #MyBrandName.",
+    "sentiment": "negativo",
+    "explanation": "L'utente riscontra problemi nel raggiungere il servizio clienti.",
+    "date": "2024-08-05"
+  },
+  {
+    "text": "Le camicie di #MyBrandName sono eleganti e di ottima qualità.",
+    "sentiment": "positivo",
+    "explanation": "L'utente elogia l'eleganza e la qualità delle camicie.",
+    "date": "2024-07-22"
+  },
+  {
+    "text": "La spedizione di #MyBrandName è stata più veloce del previsto, ottimo servizio.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è soddisfatto della rapidità della spedizione.",
+    "date": "2024-12-25"
+  },
+  {
+    "text": "Le borse di #MyBrandName sono troppo costose rispetto alla loro qualità.",
+    "sentiment": "negativo",
+    "explanation": "L'utente ritiene che i prezzi delle borse non siano giustificati dalla qualità offerta.",
+    "date": "2024-11-30"
+  },
+  {
+    "text": "Ho ricevuto il mio ordine #MyBrandName in perfette condizioni, molto soddisfatto.",
+    "sentiment": "positivo",
+    "explanation": "L'utente è contento di aver ricevuto l'ordine in ottime condizioni.",
+    "date": "2024-10-28"
+  },
+  {
+    "text": "Le giacche di #MyBrandName sono comode ma poco resistenti.",
+    "sentiment": "negativo",
+    "explanation": "L'utente trova le giacche confortevoli ma criticamente poco durevoli.",
+    "date": "2024-09-20"
+  },
+  {
+    "text": "Il sito di #MyBrandName offre molte opzioni di pagamento, molto comodo.",
+    "sentiment": "positivo",
+    "explanation": "L'utente apprezza la varietà di metodi di pagamento disponibili.",
+    "date": "2024-08-10"
+  },
+  {
+    "text": "Le scarpe di #MyBrandName sono alla moda ma non molto comode.",
+    "sentiment": "negativo",
+    "explanation": "L'utente apprezza lo stile delle scarpe ma critica il comfort.",
+    "date": "2024-07-18"
+  }
+]

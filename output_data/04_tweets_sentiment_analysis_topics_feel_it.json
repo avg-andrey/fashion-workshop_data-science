@@ -1,0 +1,2410 @@
+[
+    {
+        "text": "adoro sneakers incredibilmente comode moda",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-12-15"
+    },
+    {
+        "text": "comprato borsa qualità lascia desiderare tornerò",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-11-20"
+    },
+    {
+        "text": "lesperienza acquisto stata semplice veloce consigliato",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-10-05"
+    },
+    {
+        "text": "spedizione lenta comunicazione confusa parte deluso",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-09-18"
+    },
+    {
+        "text": "trovato finalmente scarpe perfette me grazie mille",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-08-30"
+    },
+    {
+        "text": "pagamento sito stato facile sicuro",
+        "sentiment": "positive",
+        "score": 0.9961,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-07-25"
+    },
+    {
+        "text": "offre vasta gamma taglie aiutato trovare misura giusta",
+        "sentiment": "positive",
+        "score": 0.9995,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-10"
+    },
+    {
+        "text": "materiali alta qualità giacche davvero soddisfatto",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-10-22"
+    },
+    {
+        "text": "sicuro durata prodotti ancora troppo presto giudicare",
+        "sentiment": "negative",
+        "score": 0.9965,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-09-05"
+    },
+    {
+        "text": "tshirt super comode resistenti lavaggio",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-08-12"
+    },
+    {
+        "text": "esperienza deludente reso stato complicato",
+        "sentiment": "negative",
+        "score": 0.9998,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-07-30"
+    },
+    {
+        "text": "apprezzo lattenzione dettagli capi",
+        "sentiment": "negative",
+        "score": 0.9996,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-12-05"
+    },
+    {
+        "text": "spedizione arrivata tempo niente problemi",
+        "sentiment": "positive",
+        "score": 0.9926,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-11-28"
+    },
+    {
+        "text": "riscontrato problemi taglie corrispondono descrizione",
+        "sentiment": "negative",
+        "score": 0.9818,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-10-15"
+    },
+    {
+        "text": "ammiro sostenibilità materiali utilizzati",
+        "sentiment": "positive",
+        "score": 0.9989,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-09-22"
+    },
+    {
+        "text": "servizio clienti stato molto utile gentile",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-18"
+    },
+    {
+        "text": "trovo molto originale design prodotti",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-10"
+    },
+    {
+        "text": "ricevuto prodotto sbagliato lhanno sostituito rapidamente",
+        "sentiment": "negative",
+        "score": 0.9998,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-01"
+    },
+    {
+        "text": "giacche perfette linverno calde moda",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-05"
+    },
+    {
+        "text": "prezzi po alti rispetto concorrenza qualità giustifica linvestimento",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-10-08"
+    },
+    {
+        "text": "ancora bisogno ricevere ordine sperando arrivi presto",
+        "sentiment": "negative",
+        "score": 0.9983,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-09-14"
+    },
+    {
+        "text": "pantaloni vestibilità perfetta adoro",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-08-03"
+    },
+    {
+        "text": "selezione accessori limitata piacerebbe vederne",
+        "sentiment": "positive",
+        "score": 0.9991,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-07-20"
+    },
+    {
+        "text": "ottima qualità borse elegantissime resistenti",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-12-10"
+    },
+    {
+        "text": "difficoltà tracciamento spedizione",
+        "sentiment": "positive",
+        "score": 0.9971,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-18"
+    },
+    {
+        "text": "camicie perfette lufficio comode professionali",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-10-25"
+    },
+    {
+        "text": "sito po lento potrebbe migliorare",
+        "sentiment": "negative",
+        "score": 0.9241,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-09-30"
+    },
+    {
+        "text": "molto soddisfatto acquisto tornerò sicuramente",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-22"
+    },
+    {
+        "text": "giacche pelle ottimo prezzo qualità",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-07-28"
+    },
+    {
+        "text": "trovato prodotto preferito spero rimetteranno presto",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-20"
+    },
+    {
+        "text": "selezione estiva fantastica acquistato diversi capi",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-25"
+    },
+    {
+        "text": "ricevuto ordine danneggiato stata brutta esperienza",
+        "sentiment": "negative",
+        "score": 0.9998,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-10-12"
+    },
+    {
+        "text": "felpe morbide perfette relax",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-09-08"
+    },
+    {
+        "text": "processo pagamento stato complicato confuso",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-05"
+    },
+    {
+        "text": "piace stile unico sempre moda",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-07-15"
+    },
+    {
+        "text": "reso stato facile senza problemi",
+        "sentiment": "positive",
+        "score": 0.9993,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-07"
+    },
+    {
+        "text": "sciarpe ottima qualità molto calde",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-12"
+    },
+    {
+        "text": "soddisfatto vestibilità giacche",
+        "sentiment": "positive",
+        "score": 0.9991,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-10-20"
+    },
+    {
+        "text": "nuova collezione incredibile adoro nuovi design",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-09-25"
+    },
+    {
+        "text": "problemi account supporto stato utile",
+        "sentiment": "positive",
+        "score": 0.9996,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-08-15"
+    },
+    {
+        "text": "vestiti perfetti ogni occasione",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-07-05"
+    },
+    {
+        "text": "qualità tessuti superiore rispetto altri marchi",
+        "sentiment": "positive",
+        "score": 0.9996,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-12-18"
+    },
+    {
+        "text": "trovato taglia giusta grazie guida taglie",
+        "sentiment": "positive",
+        "score": 0.9996,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-11-22"
+    },
+    {
+        "text": "design borse troppo semplice gusti",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-10-28"
+    },
+    {
+        "text": "giacche invernali davvero calde resistenti",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-09-18"
+    },
+    {
+        "text": "processo checkout stato rapido senza intoppi",
+        "sentiment": "positive",
+        "score": 0.9468,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-25"
+    },
+    {
+        "text": "ricevuto codice sconto molto apprezzato",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-22"
+    },
+    {
+        "text": "trovo molti colori disponibili capi",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-02"
+    },
+    {
+        "text": "scarpe moda comode adoro",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-11-08"
+    },
+    {
+        "text": "difficoltà contattare supporto clienti",
+        "sentiment": "negative",
+        "score": 0.9899,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-10-16"
+    },
+    {
+        "text": "qualità giacche giustifica prezzo",
+        "sentiment": "negative",
+        "score": 0.997,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-09-10"
+    },
+    {
+        "text": "amato velocità spedizione ordine arrivato subito",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-08"
+    },
+    {
+        "text": "magliette tendono restringersi dopo primo lavaggio",
+        "sentiment": "negative",
+        "score": 0.6544,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-07-18"
+    },
+    {
+        "text": "sito ben organizzato facile navigare",
+        "sentiment": "positive",
+        "score": 0.9995,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-12-12"
+    },
+    {
+        "text": "acquistato paio jeans ottima vestibilità",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-11-30"
+    },
+    {
+        "text": "contento scelta limitata accessori",
+        "sentiment": "positive",
+        "score": 0.7666,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-10-05"
+    },
+    {
+        "text": "packaging elegante curato dettagli",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-09-20"
+    },
+    {
+        "text": "scarpe sciolgono dopo pochi utilizzi",
+        "sentiment": "positive",
+        "score": 0.9721,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-10"
+    },
+    {
+        "text": "molto soddisfatto servizio clienti sempre disponibile",
+        "sentiment": "positive",
+        "score": 0.9996,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-25"
+    },
+    {
+        "text": "giacche perfette lautunno moda pratiche",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-12-22"
+    },
+    {
+        "text": "sito web bisogno miglioramenti velocità caricamento",
+        "sentiment": "positive",
+        "score": 0.9991,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-18"
+    },
+    {
+        "text": "ricevuto omaggio ordine molto carino",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-10-30"
+    },
+    {
+        "text": "tshirt scarsa qualità rovinati dopo pochi lavaggi",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-09-25"
+    },
+    {
+        "text": "nuova collezione primavera fantastica colori vivaci",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-08-20"
+    },
+    {
+        "text": "problemi reso processo complicato",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-07-12"
+    },
+    {
+        "text": "borse eleganti pratiche perfette ogni giorno",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-12-08"
+    },
+    {
+        "text": "servizio tracciamento ordini inefficiente",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-14"
+    },
+    {
+        "text": "rimasto colpito qualità giacche pelle",
+        "sentiment": "positive",
+        "score": 0.9993,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-10-18"
+    },
+    {
+        "text": "sito offre molte opzioni pagamento molto comodo",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-09-05"
+    },
+    {
+        "text": "scarpe moda molto comode",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-08-15"
+    },
+    {
+        "text": "apprezzato varietà stili offerti",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-07-22"
+    },
+    {
+        "text": "qualità materiali superiore media",
+        "sentiment": "positive",
+        "score": 0.9996,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-25"
+    },
+    {
+        "text": "difficoltà codice sconto funzionava",
+        "sentiment": "negative",
+        "score": 0.9995,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-20"
+    },
+    {
+        "text": "giacche sportive perfette lallenamento",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-10-10"
+    },
+    {
+        "text": "soddisfatto servizio assistenza",
+        "sentiment": "negative",
+        "score": 0.9979,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-09-15"
+    },
+    {
+        "text": "camicie eleganti ben fatte",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-08-05"
+    },
+    {
+        "text": "trovato taglie troppo piccole rispetto altri marchi",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-30"
+    },
+    {
+        "text": "spedizione internazionale affidabile veloce",
+        "sentiment": "positive",
+        "score": 0.9992,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-12-02"
+    },
+    {
+        "text": "felpe ideali giornate fredde",
+        "sentiment": "positive",
+        "score": 0.9994,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-10"
+    },
+    {
+        "text": "dovuto contattare supporto clienti problema lordine",
+        "sentiment": "negative",
+        "score": 0.9991,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-10-22"
+    },
+    {
+        "text": "qualità borse eccezionale vale ogni centesimo",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-09-12"
+    },
+    {
+        "text": "trovo stile preferito troppa varietà",
+        "sentiment": "positive",
+        "score": 0.9959,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-08-25"
+    },
+    {
+        "text": "giacche resistenti durature molto soddisfatto",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-07-18"
+    },
+    {
+        "text": "processo reso stato complicato lungo",
+        "sentiment": "negative",
+        "score": 0.9998,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-12-15"
+    },
+    {
+        "text": "tshirt stampe qualità colori vivaci",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-05"
+    },
+    {
+        "text": "problemi pagamento transazione riuscita",
+        "sentiment": "positive",
+        "score": 0.9978,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-10-28"
+    },
+    {
+        "text": "scarpe moda tendono consumarsi rapidamente",
+        "sentiment": "negative",
+        "score": 0.9998,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-09-20"
+    },
+    {
+        "text": "sito offre promozioni interessanti durante lanno",
+        "sentiment": "positive",
+        "score": 0.9996,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-08-12"
+    },
+    {
+        "text": "molto soddisfatto esperienza acquisto",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-25"
+    },
+    {
+        "text": "borse troppo costose rispetto concorrenza",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-12-18"
+    },
+    {
+        "text": "ricevuto ordine velocemente previsto",
+        "sentiment": "positive",
+        "score": 0.9996,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-22"
+    },
+    {
+        "text": "giacche perfette clima autunnale",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-10-05"
+    },
+    {
+        "text": "soddisfatto varietà colori disponibili",
+        "sentiment": "positive",
+        "score": 0.9993,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-09-28"
+    },
+    {
+        "text": "felpe comode moda adoro",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-08-20"
+    },
+    {
+        "text": "difficoltà trovare taglia",
+        "sentiment": "negative",
+        "score": 0.6922,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-15"
+    },
+    {
+        "text": "qualità giacche ottima molto resistente",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-12-10"
+    },
+    {
+        "text": "servizio pagamento stato rapido sicuro",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-18"
+    },
+    {
+        "text": "soddisfatto design prodotti troppo monotono",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-10-14"
+    },
+    {
+        "text": "scarpe perfette lestate leggere traspiranti",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-09-10"
+    },
+    {
+        "text": "processo checkout stato complicato lento",
+        "sentiment": "negative",
+        "score": 0.9987,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-08-08"
+    },
+    {
+        "text": "giacche invernali tengono molto bene caldo",
+        "sentiment": "positive",
+        "score": 0.9995,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-07-20"
+    },
+    {
+        "text": "apprezzato varietà stili offerti",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-12-05"
+    },
+    {
+        "text": "tshirt scoloriscono dopo pochi lavaggi",
+        "sentiment": "negative",
+        "score": 0.9989,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-25"
+    },
+    {
+        "text": "spedizione stata puntuale senza intoppi",
+        "sentiment": "positive",
+        "score": 0.9996,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-10-18"
+    },
+    {
+        "text": "soddisfatto qualità borse",
+        "sentiment": "positive",
+        "score": 0.9947,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-09-05"
+    },
+    {
+        "text": "giacche ottimo rapporto qualitàprezzo",
+        "sentiment": "positive",
+        "score": 0.994,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-12"
+    },
+    {
+        "text": "servizio clienti stato molto disponibile gentile",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-28"
+    },
+    {
+        "text": "scarpe troppo strette consiglio",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-12-20"
+    },
+    {
+        "text": "rimasto colpito qualità materiali utilizzati",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-11-30"
+    },
+    {
+        "text": "trovato sito facile navigare intuitivo",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-10-25"
+    },
+    {
+        "text": "giacche eleganti versatili perfette ogni occasione",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-09-15"
+    },
+    {
+        "text": "processo reso stato complicato frustrante",
+        "sentiment": "negative",
+        "score": 0.9998,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-08-18"
+    },
+    {
+        "text": "tshirt design unico accattivante",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-10"
+    },
+    {
+        "text": "soddisfatto spedizione internazionale troppo lenta",
+        "sentiment": "negative",
+        "score": 0.9994,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-12-08"
+    },
+    {
+        "text": "borse ottima qualità molto eleganti",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-12"
+    },
+    {
+        "text": "problemi ordine supporto risolto",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-10-05"
+    },
+    {
+        "text": "giacche sportive perfette fitness",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-09-25"
+    },
+    {
+        "text": "sito bisogno migliorare velocità caricamento",
+        "sentiment": "positive",
+        "score": 0.9955,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-22"
+    },
+    {
+        "text": "scarpe comode molto resistenti",
+        "sentiment": "positive",
+        "score": 0.9992,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-07-18"
+    },
+    {
+        "text": "molto soddisfatto esperienza acquisto",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-02"
+    },
+    {
+        "text": "giacche perfette lautunno calde stilose",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-08"
+    },
+    {
+        "text": "trovo molti colori disponibili capi",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-10-16"
+    },
+    {
+        "text": "felpe morbide comode ideali tempo libero",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-09-12"
+    },
+    {
+        "text": "difficoltà contattare supporto clienti",
+        "sentiment": "negative",
+        "score": 0.9899,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-10"
+    },
+    {
+        "text": "camicie eleganti ottima qualità",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-07-25"
+    },
+    {
+        "text": "spedizione stata veloce previsto ottimo servizio",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-15"
+    },
+    {
+        "text": "borse troppo costose rispetto qualità",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-20"
+    },
+    {
+        "text": "ricevuto ordine perfette condizioni molto soddisfatto",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-10-22"
+    },
+    {
+        "text": "giacche comode poco resistenti",
+        "sentiment": "negative",
+        "score": 0.9995,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-09-05"
+    },
+    {
+        "text": "sito offre molte opzioni pagamento molto comodo",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-18"
+    },
+    {
+        "text": "scarpe moda molto comode",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-07-30"
+    },
+    {
+        "text": "molto soddisfatto qualità borse",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-10"
+    },
+    {
+        "text": "servizio clienti stato molto disponibile gentile",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-11-14"
+    },
+    {
+        "text": "giacche invernali tengono molto bene caldo",
+        "sentiment": "positive",
+        "score": 0.9995,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-10-05"
+    },
+    {
+        "text": "soddisfatto scelta colori disponibili",
+        "sentiment": "positive",
+        "score": 0.9992,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-09-25"
+    },
+    {
+        "text": "felpe comode moda adoro",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-08-08"
+    },
+    {
+        "text": "difficoltà trovare taglia",
+        "sentiment": "negative",
+        "score": 0.6922,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-20"
+    },
+    {
+        "text": "qualità giacche ottima molto resistente",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-12-05"
+    },
+    {
+        "text": "servizio pagamento stato rapido sicuro",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-25"
+    },
+    {
+        "text": "soddisfatto design prodotti troppo monotono",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-10-18"
+    },
+    {
+        "text": "scarpe perfette lestate leggere traspiranti",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-09-10"
+    },
+    {
+        "text": "processo checkout stato complicato lento",
+        "sentiment": "negative",
+        "score": 0.9987,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-08-12"
+    },
+    {
+        "text": "giacche invernali tengono molto bene caldo",
+        "sentiment": "positive",
+        "score": 0.9995,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-07-30"
+    },
+    {
+        "text": "apprezzato varietà stili offerti",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-12-18"
+    },
+    {
+        "text": "tshirt scoloriscono dopo pochi lavaggi",
+        "sentiment": "negative",
+        "score": 0.9989,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-22"
+    },
+    {
+        "text": "spedizione stata puntuale senza intoppi",
+        "sentiment": "positive",
+        "score": 0.9996,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-10-25"
+    },
+    {
+        "text": "soddisfatto qualità borse",
+        "sentiment": "positive",
+        "score": 0.9947,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-09-15"
+    },
+    {
+        "text": "giacche ottimo rapporto qualitàprezzo",
+        "sentiment": "positive",
+        "score": 0.994,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-22"
+    },
+    {
+        "text": "servizio clienti stato molto disponibile gentile",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-18"
+    },
+    {
+        "text": "scarpe troppo strette consiglio",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-12-02"
+    },
+    {
+        "text": "rimasto colpito qualità materiali utilizzati",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-11-08"
+    },
+    {
+        "text": "trovato sito facile navigare intuitivo",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-10-16"
+    },
+    {
+        "text": "giacche eleganti versatili perfette ogni occasione",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 4,
+        "topic_keywords": [
+            "stato",
+            "complicato",
+            "processo",
+            "reso",
+            "tshirt"
+        ],
+        "date": "2024-09-12"
+    },
+    {
+        "text": "processo reso stato complicato frustrante",
+        "sentiment": "negative",
+        "score": 0.9998,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-08-10"
+    },
+    {
+        "text": "tshirt design unico accattivante",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-07-25"
+    },
+    {
+        "text": "soddisfatto spedizione internazionale troppo lenta",
+        "sentiment": "negative",
+        "score": 0.9994,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-12-20"
+    },
+    {
+        "text": "borse ottima qualità molto eleganti",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-11-30"
+    },
+    {
+        "text": "problemi ordine supporto risolto",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-10-05"
+    },
+    {
+        "text": "giacche sportive perfette fitness",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 0,
+        "topic_keywords": [
+            "sito",
+            "facile",
+            "giacche",
+            "eleganti",
+            "trovato"
+        ],
+        "date": "2024-09-25"
+    },
+    {
+        "text": "sito bisogno migliorare velocità caricamento",
+        "sentiment": "positive",
+        "score": 0.9955,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-18"
+    },
+    {
+        "text": "scarpe comode molto resistenti",
+        "sentiment": "positive",
+        "score": 0.9992,
+        "topic_id": 3,
+        "topic_keywords": [
+            "soddisfatto",
+            "qualità",
+            "molto",
+            "borse",
+            "adoro"
+        ],
+        "date": "2024-07-30"
+    },
+    {
+        "text": "molto soddisfatto esperienza acquisto",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-10"
+    },
+    {
+        "text": "giacche perfette lautunno calde stilose",
+        "sentiment": "positive",
+        "score": 0.9998,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-14"
+    },
+    {
+        "text": "trovo molti colori disponibili capi",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-10-18"
+    },
+    {
+        "text": "felpe morbide comode ideali tempo libero",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-09-08"
+    },
+    {
+        "text": "difficoltà contattare supporto clienti",
+        "sentiment": "negative",
+        "score": 0.9899,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-05"
+    },
+    {
+        "text": "camicie eleganti ottima qualità",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-07-22"
+    },
+    {
+        "text": "spedizione stata veloce previsto ottimo servizio",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-12-25"
+    },
+    {
+        "text": "borse troppo costose rispetto qualità",
+        "sentiment": "negative",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-11-30"
+    },
+    {
+        "text": "ricevuto ordine perfette condizioni molto soddisfatto",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-10-28"
+    },
+    {
+        "text": "giacche comode poco resistenti",
+        "sentiment": "negative",
+        "score": 0.9995,
+        "topic_id": 1,
+        "topic_keywords": [
+            "felpe",
+            "difficoltà",
+            "offre",
+            "supporto",
+            "contattare"
+        ],
+        "date": "2024-09-20"
+    },
+    {
+        "text": "sito offre molte opzioni pagamento molto comodo",
+        "sentiment": "positive",
+        "score": 0.9997,
+        "topic_id": 2,
+        "topic_keywords": [
+            "molto",
+            "giacche",
+            "perfette",
+            "qualità",
+            "scarpe"
+        ],
+        "date": "2024-08-10"
+    }
+]
