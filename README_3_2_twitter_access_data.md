@@ -3,7 +3,7 @@
 
 ## Descrizione
 
-`02_twitter_access_data.py` è uno script Python progettato per raccogliere dati da Twitter utilizzando l'API di Twitter. Lo script autentica l'utente, esegue ricerche basate su query specifiche, raccoglie tweet pertinenti e salva i dati raccolti in un file JSON. Questo strumento è utile per analisi di sentiment, monitoraggio di marchi, ricerca accademica e molto altro.
+`02_twitter_access_data.py` è uno demo script Python progettato per raccogliere dati da Twitter utilizzando l'API di Twitter. Lo script autentica l'utente, esegue ricerche basate su query specifiche, raccoglie tweet pertinenti e salva i dati raccolti in un file JSON. Questo strumento è utile per analisi di sentiment, monitoraggio di marchi, ricerca accademica e molto altro.
 
 ## Requisiti
 
@@ -15,55 +15,7 @@
   - `os`
   - `pathlib`
 
-## Installazione
 
-1. **Clona il repository o scarica lo script:**
-
-   ```bash
-   git clone https://github.com/tuo-username/tuo-repository.git
-   cd tuo-repository
-   ```
-
-2. **Crea un ambiente virtuale (opzionale ma consigliato):**
-
-   ```bash
-   python3 -m venv env
-   source env/bin/activate  # Su Windows: env\Scripts\activate
-   ```
-
-3. **Installa le dipendenze richieste:**
-
-   ```bash
-   pip install tweepy
-   ```
-
-## Configurazione
-
-1. **Crea un file di credenziali:**
-
-   Lo script richiede un file di testo contenente le credenziali dell'API di Twitter. Crea un file chiamato `3_2_twitter_access_data.txt` nella cartella `app` (o nel percorso specificato nello script) con il seguente formato:
-
-   ```
-   API_KEY=tuo_api_key
-   API_SECRET_KEY=tuo_api_secret_key
-   ACCESS_TOKEN=tuo_access_token
-   ACCESS_TOKEN_SECRET=tuo_access_token_secret
-   ```
-
-   **Nota:** Sostituisci `tuo_api_key`, `tuo_api_secret_key`, `tuo_access_token` e `tuo_access_token_secret` con le tue credenziali ottenute dal [Developer Portal di Twitter](https://developer.twitter.com/).
-
-2. **Organizzazione delle cartelle:**
-
-   Assicurati che la struttura delle cartelle sia simile a questa:
-
-   ```
-   tuo-repository/
-   ├── app/
-   │   └── 3_2_twitter_access_data.txt
-   ├── output/
-   │   └── tweets_data.json
-   └── 02_twitter_access_data.py
-   ```
 
 ## Utilizzo
 
