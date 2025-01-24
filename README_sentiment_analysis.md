@@ -82,6 +82,7 @@ INFO - Statistiche delle emozioni rilevate:
   - Negative: 10 tweet (50.00%)
 INFO - Analisi completata con il modello: MilaNLProc/feel-it-italian-sentiment.
 ```
+---
 
 ## Contatti
 

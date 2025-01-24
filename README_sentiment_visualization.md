@@ -80,6 +80,7 @@ Ecco alcune delle visualizzazioni generate dallo script:
 3. **Tendenze Temporali**: grafico a linee che mostra l'andamento dei sentimenti nel tempo.
 
 ---
+
 ## Contatti
 
 Per domande o suggerimenti, crea un *issue* in questo repository o contatta Andrey Golub ([@aVg](https://www.linkedin.com/in/andreygolub/)).
