@@ -170,21 +170,47 @@ def count_records(file_path):
 
 # Funzione per aggiungere parole personalizzate alle stop-words
 def add_custom_stopwords(custom_words):
-    logger.info("add_custom_stopwords: Inizio dell'aggiunta di stop-words personalizzate.")
+    """
+    Aggiunge parole personalizzate all'elenco delle stop-words per la lingua italiana.
+
+    Args:
+        custom_words (list): Lista di parole personalizzate da aggiungere alle stop-words.
+
+    Returns:
+        set: Insieme aggiornato di stop-words.
+
+    Raises:
+        ValueError: Se custom_words non è una lista o contiene elementi non stringa.
+    """
+    logger = logging.getLogger("custom_stopwords")
+    logger.info("Inizio dell'aggiunta di stop-words personalizzate.")
+
     try:
+        # Validazione input
+        if not isinstance(custom_words, list):
+            raise ValueError("Il parametro custom_words deve essere una lista.")
+        if not all(isinstance(word, str) for word in custom_words):
+            raise ValueError("Tutti gli elementi di custom_words devono essere stringhe.")
+
         # Carica le stop-words standard per l'italiano
         stop_words = set(stopwords.words('italian'))
+        logger.info("Stop-words standard caricate con successo.")
 
         # Aggiunge le parole personalizzate
-        logger.info(f"Parole aggiunte: {', '.join(custom_words)}")
+        logger.info(f"Parole personalizzate da aggiungere: {', '.join(custom_words)}")
         stop_words.update(custom_words)
 
-        # Restituisce l'elenco aggiornato
-        logger.info("add_custom_stopwords: Stop-words personalizzate aggiunte con successo.")
+        logger.info("Stop-words personalizzate aggiunte con successo.")
         return stop_words
+
+    except ValueError as ve:
+        logger.error(f"Errore di validazione: {ve}")
+        raise
+
     except Exception as e:
-        logger.error(f"add_custom_stopwords: Errore durante l'aggiunta di stop-words: {e}")
+        logger.error(f"Errore durante l'aggiunta di stop-words: {e}")
         sys.exit(1)
+
 
 
 # Esecuzione del processo

@@ -72,6 +72,8 @@ def sentiment_analysis(input_file, output_file, model_name, device):
 
 # Esecuzione dello script
 if __name__ == "__main__":
+    logging.info(f"Current working directory: {os.getcwd()}")
+    
     input_file = "./input_data/03_tweets_dati_cleaned.json"
 
     # Determina il dispositivo: GPU (0) se disponibile, altrimenti CPU (-1)

@@ -1,4 +1,5 @@
-Richiesta per la generazione di dati JSON
+Richiesta per la generazione di dati JSON.
+
 Obiettivo: Creare un file JSON contenente 50 tweet simulati relativi al marchio di moda "MyBrandName". I tweet devono essere vari per contenuto, lunghezza e tono, riflettendo commenti realistici di utenti sui social media.
 
 Dettagli della richiesta:
@@ -15,8 +16,6 @@ Genera un array JSON con il seguente schema:
 "date": Data casuale negli ultimi 6 mesi.
 Esempio di output JSON:
 
-json
-Copia
 Modifica
 [
   {
