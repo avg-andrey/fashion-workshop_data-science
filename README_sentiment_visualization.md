@@ -79,14 +79,13 @@ Ecco alcune delle visualizzazioni generate dallo script:
 2. **Word Cloud**: rappresentazione visiva delle parole più comuni.
 3. **Tendenze Temporali**: grafico a linee che mostra l'andamento dei sentimenti nel tempo.
 
-## Contributi
+---
+## Contatti
 
-Se desideri contribuire a questo progetto, apri una pull request o segnala eventuali problemi.
-
-## Licenza
-
-Questo progetto è distribuito sotto la licenza MIT. Per maggiori dettagli, consulta il file LICENSE.
+Per domande o suggerimenti, crea un *issue* in questo repository o contatta Andrey Golub ([@aVg](https://www.linkedin.com/in/andreygolub/)).
 
 ---
 
-**Nota**: Assicurati che i dati JSON di input siano ben formattati e che il file di output sia accessibile.
+## Disclaimer
+
+Questo materiale è destinato esclusivamente a fini educativi e formativi. Gli esempi di codice e dati forniti sono puramente dimostrativi e non devono essere utilizzati in ambienti di produzione senza le dovute verifiche e personalizzazioni.

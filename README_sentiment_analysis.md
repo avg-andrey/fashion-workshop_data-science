@@ -83,14 +83,13 @@ INFO - Statistiche delle emozioni rilevate:
 INFO - Analisi completata con il modello: MilaNLProc/feel-it-italian-sentiment.
 ```
 
-## Contributi
+## Contatti
 
-Se desideri contribuire a questo progetto, apri una pull request o segnala eventuali problemi.
-
-## Licenza
-
-Questo progetto è distribuito sotto la licenza MIT. Per maggiori dettagli, consulta il file LICENSE.
+Per domande o suggerimenti, crea un *issue* in questo repository o contatta Andrey Golub ([@aVg](https://www.linkedin.com/in/andreygolub/)).
 
 ---
 
-**Nota**: Assicurati che i dati di input siano ben formattati e che i modelli specificati siano disponibili tramite HuggingFace.
+## Disclaimer
+
+Questo materiale è destinato esclusivamente a fini educativi e formativi. Gli esempi di codice e dati forniti sono puramente dimostrativi e non devono essere utilizzati in ambienti di produzione senza le dovute verifiche e personalizzazioni.
+

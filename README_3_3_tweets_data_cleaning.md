@@ -76,14 +76,14 @@ Tutte le operazioni verranno tracciate in un file di log denominato `03_data_cle
       {"text": "altro esempio di tweet", "date": "2025-01-02"}
   ]
   ```
+---
 
-## Contributi
+## Contatti
 
-Se desideri contribuire a questo progetto, sentiti libero di aprire una pull request o di segnalare problemi.
-
-## Licenza
-
-Questo progetto è distribuito sotto la licenza MIT. Per ulteriori dettagli, consulta il file LICENSE.
+Per domande o suggerimenti, crea un *issue* in questo repository o contatta Andrey Golub ([@aVg](https://www.linkedin.com/in/andreygolub/)).
 
 ---
-**Nota**: Assicurati che i dati JSON di input siano correttamente formattati per evitare errori di parsing.
+
+## Disclaimer
+
+Questo materiale è destinato esclusivamente a fini educativi e formativi. Gli esempi di codice e dati forniti sono puramente dimostrativi e non devono essere utilizzati in ambienti di produzione senza le dovute verifiche e personalizzazioni.
