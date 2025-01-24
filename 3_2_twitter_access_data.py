@@ -2,6 +2,16 @@
 
 import tweepy
 import json
+import logging
+import os
+from pathlib import Path
+
+
+# Configurazione del logging
+logging.basicConfig(
+    level=logging.INFO,  # Livello dei log
+    format='%(asctime)s - %(levelname)s - %(message)s'  # Formato dei messaggi
+)
 
 # Funzione per caricare le credenziali di accesso da un file
 def load_twitter_credentials(file_path):
@@ -21,6 +31,7 @@ def authenticate_to_twitter(credentials):
         credentials["ACCESS_TOKEN_SECRET"]
     )
     return tweepy.API(auth, wait_on_rate_limit=True)
+
 
 # Funzione per raccogliere tweet
 def collect_tweets(api, query, count=50):
@@ -53,8 +64,13 @@ def save_to_json(data, output_file):
 # Processo principale
 def main():
     try:
+        logging.info(f"Current working directory: {os.getcwd()}")
         # Caricamento delle credenziali
-        credentials = load_twitter_credentials("02_twitter_access_data.txt")
+        script_dir = Path(__file__).parent
+        filepath = (script_dir / "app" / "3_2_twitter_access_data.txt").resolve()
+
+        logging.info(f"Expected credentials file path: {filepath}")
+        credentials = load_twitter_credentials(filepath)
         
         # Autenticazione
         api = authenticate_to_twitter(credentials)
@@ -73,13 +89,16 @@ def main():
             save_to_json(tweets, output_file)
         else:
             print("Nessun tweet è stato raccolto. I dati non sono stati salvati.")
-    
-    except FileNotFoundError:
-        print("Errore: Il file delle credenziali non è stato trovato.")
+
+    except FileNotFoundError as e:
+        logging.error(f"File delle credenziali non trovato: {filepath}")
+        print(f"Errore: Il file delle credenziali non è stato trovato. Percorso previsto: {filepath}")
     except tweepy.errors.Unauthorized:
         print("Errore di autorizzazione: Controlla le tue credenziali Twitter.")
     except Exception as e:
+        logging.error(f"Si è verificato un errore inaspettato: {e}")
         print(f"Si è verificato un errore inaspettato: {e}")
+
 
 if __name__ == "__main__":
         main()
