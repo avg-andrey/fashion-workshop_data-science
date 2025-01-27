@@ -1,12 +1,11 @@
-# cli_app.py
+# cli_app_migrated.py
 
-import openai
 import logging
-import threading
-import argparse
 import sys
-from pathlib import Path
 import os
+from pathlib import Path
+from openai import OpenAI
+import threading
 
 # Archiviazione sicura dei log
 log_messages = []
@@ -39,63 +38,63 @@ def load_api_key():
         filepath = script_dir / "app" / "api_key.txt"
         with open(filepath, "r") as file:
             api_key = file.read().strip()
-            openai.api_key = api_key
-            logging.info("Chiave API caricata con successo dal file.")
             return api_key
     except Exception as e:
         logging.error(f"Impossibile caricare la chiave API: {e}")
         sys.exit(1)
 
 # Funzione per interagire con il modello ChatCompletion
-def chat_with_model(prompt, model):
+def chat_with_model(client, prompt, model):
     try:
         logging.info(f"Invio richiesta al modello (Chat): {model}, prompt: {prompt}")
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model=model,
-            messages=[{"role": "user", "content": prompt}]
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=150
         )
         logging.info(f"Risposta dal modello (Chat): {response}")
 
         # Estrazione dell'uso dei token
-        total_tokens = response['usage']['total_tokens']
+        total_tokens = response.usage.total_tokens
         with token_lock:
             token_counts.append(total_tokens)
             if len(token_counts) > 1000:
                 token_counts.pop(0)
 
-        return response['choices'][0]['message']['content']
+        return response.choices[0].message.content.strip()
     except Exception as e:
         logging.error(f"Errore durante la richiesta al modello (Chat): {e}")
         return f"Errore: {e}"
 
 # Funzione per interagire con il modello Completion
-def completion_with_model(prompt, model):
+def completion_with_model(client, prompt, model):
     try:
         logging.info(f"Invio richiesta al modello (Completion): {model}, prompt: {prompt}")
-        response = openai.Completion.create(
+        response = client.completions.create(
             model=model,
-            prompt=prompt
+            prompt=prompt,
+            max_tokens=150
         )
         logging.info(f"Risposta dal modello (Completion): {response}")
 
         # Estrazione dell'uso dei token
-        total_tokens = response['usage']['total_tokens']
+        total_tokens = response.usage.total_tokens
         with token_lock:
             token_counts.append(total_tokens)
             if len(token_counts) > 1000:
                 token_counts.pop(0)
 
-        return response['choices'][0]['text'].strip()
+        return response.choices[0].text.strip()
     except Exception as e:
         logging.error(f"Errore durante la richiesta al modello (Completion): {e}")
         return f"Errore: {e}"
 
 # Funzione per ottenere la lista dei modelli disponibili
-def get_available_model_names():
+def get_available_model_names(client):
     try:
         logging.info("Richiesta della lista dei modelli disponibili...")
-        models = openai.Model.list()
-        model_names = [model["id"] for model in models["data"]]
+        models = client.models.list()
+        model_names = [model.id for model in models.data]  # Accessing .data for model names
         logging.info(f"Lista dei modelli disponibili: {model_names}")
         return model_names
     except Exception as e:
@@ -128,10 +127,13 @@ def main(args):
     logging.info(f"Current working directory: {os.getcwd()}")
 
     # Caricamento della chiave API
-    load_api_key()
+    api_key = load_api_key()
+
+    # Inizializzazione del client OpenAI
+    client = OpenAI(api_key=api_key)
 
     # Ottenere la lista dei modelli disponibili
-    available_models = get_available_model_names()
+    available_models = get_available_model_names(client)
     if not available_models:
         logging.error("Nessun modello disponibile. Terminazione dell'esecuzione.")
         sys.exit(1)
@@ -149,9 +151,9 @@ def main(args):
 
     # Determinare il tipo di modello e chiamare la funzione corrispondente
     if model.startswith("gpt-") and "turbo" in model:
-        response = chat_with_model(prompt, model)
+        response = chat_with_model(client, prompt, model)
     elif model.startswith("gpt-") and ("instruct" in model or "text" in model):
-        response = completion_with_model(prompt, model)
+        response = completion_with_model(client, prompt, model)
     else:
         logging.error(f"Il modello '{model}' non è supportato da questo script.")
         sys.exit(1)
@@ -164,6 +166,7 @@ def main(args):
     logging.info(f"Numero totale di token utilizzati: {total_tokens_used}")
 
 if __name__ == "__main__":
+    import argparse
     parser = argparse.ArgumentParser(description="Utility CLI per interagire con l'API di OpenAI.")
     parser.add_argument(
         "--input_file",
