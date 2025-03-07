@@ -6,3 +6,5 @@
 __pycache__/
 
 temp/
+extra/Archivio-Photo/src/config/api_key.txt
+OpenAI_WebUI/app
