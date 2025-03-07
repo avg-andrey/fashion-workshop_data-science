@@ -150,12 +150,12 @@ Il workshop è suddiviso in sette parti principali:
 
 ---
 
-## Contatti
+## 👨‍💻 Contatti
 
-Per domande o suggerimenti, crea un *issue* in questo repository o contatta Andrey Golub ([@aVg](https://www.linkedin.com/in/andreygolub/)).
+Per domande o suggerimenti, crea un *issue* in questo repository o contatta **Andrey Golub** [(@aVg)](https://www.linkedin.com/in/andreygolub/).
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 Questo materiale è destinato esclusivamente a fini educativi e formativi. Gli esempi di codice e dati forniti sono puramente dimostrativi e non devono essere utilizzati in ambienti di produzione senza le dovute verifiche e personalizzazioni.

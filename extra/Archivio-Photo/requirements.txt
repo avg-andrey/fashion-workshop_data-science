@@ -1,0 +1,6 @@
+kagglehub
+openai
+spacy
+matplotlib
+networkx
+pyvis

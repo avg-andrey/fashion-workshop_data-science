@@ -29,7 +29,7 @@ def setup_logging():
     logger.addHandler(ch)
 
     # Handler per il file di log con livello DEBUG
-    fh = logging.FileHandler('03_data_cleaning.log', encoding='utf-8')
+    fh = logging.FileHandler('log_data_cleaning.log', encoding='utf-8')
     fh.setLevel(logging.DEBUG)
     fh.setFormatter(formatter)
     logger.addHandler(fh)

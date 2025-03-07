@@ -129,7 +129,7 @@ def main():
 
         # Determina il percorso del file delle credenziali relativo allo script
         script_dir = Path(__file__).parent  # Directory dello script
-        filepath = (script_dir / "app" / "3_2_twitter_access_data.txt").resolve()  # Percorso completo del file delle credenziali
+        filepath = (script_dir / "config" / "3_2_twitter_access_data.txt").resolve()  # Percorso completo del file delle credenziali
 
         logger.info(f"main: Percorso previsto del file delle credenziali: {filepath}")
 
