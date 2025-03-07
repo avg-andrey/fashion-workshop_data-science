@@ -1,0 +1,452 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 580px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 580px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #mynetwork {
+            flex: 1 1 75%;
+            height: 100vh;
+            margin-right: 10px;
+        }
+        .vis-configuration-wrapper {
+            flex: 1 1 25%;
+            height: 100vh;
+            overflow-y: auto;
+            background: white;
+            border-left: 1px solid #ccc;
+            padding: 10px;
+            z-index: 999;
+        }
+    </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "dorato", "label": "dorato\n(13)", "shape": "dot", "size": 11.5, "title": "Frequenza: 13"}, {"color": "#97c2fc", "id": "capo", "label": "capo\n(57)", "shape": "dot", "size": 33.5, "title": "Frequenza: 57"}, {"color": "#97c2fc", "id": "dettaglio", "label": "dettaglio\n(44)", "shape": "dot", "size": 27.0, "title": "Frequenza: 44"}, {"color": "#97c2fc", "id": "decorativo", "label": "decorativo\n(15)", "shape": "dot", "size": 12.5, "title": "Frequenza: 15"}, {"color": "#97c2fc", "id": "influenza", "label": "influenza\n(35)", "shape": "dot", "size": 22.5, "title": "Frequenza: 35"}, {"color": "#97c2fc", "id": "sofisticato", "label": "sofisticato\n(36)", "shape": "dot", "size": 23.0, "title": "Frequenza: 36"}, {"color": "#97c2fc", "id": "scuro", "label": "scuro\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "culturale", "label": "culturale\n(17)", "shape": "dot", "size": 13.5, "title": "Frequenza: 17"}, {"color": "#97c2fc", "id": "riflettere", "label": "riflettere\n(58)", "shape": "dot", "size": 34.0, "title": "Frequenza: 58"}, {"color": "#97c2fc", "id": "luminoso", "label": "luminoso\n(10)", "shape": "dot", "size": 10.0, "title": "Frequenza: 10"}, {"color": "#97c2fc", "id": "tradizionale", "label": "tradizionale\n(37)", "shape": "dot", "size": 23.5, "title": "Frequenza: 37"}, {"color": "#97c2fc", "id": "elegante", "label": "elegante\n(60)", "shape": "dot", "size": 35.0, "title": "Frequenza: 60"}, {"color": "#97c2fc", "id": "tocco", "label": "tocco\n(66)", "shape": "dot", "size": 38.0, "title": "Frequenza: 66"}, {"color": "#97c2fc", "id": "ambiente", "label": "ambiente\n(28)", "shape": "dot", "size": 19.0, "title": "Frequenza: 28"}, {"color": "#97c2fc", "id": "eleganza", "label": "eleganza\n(61)", "shape": "dot", "size": 35.5, "title": "Frequenza: 61"}, {"color": "#97c2fc", "id": "elemento", "label": "elemento\n(56)", "shape": "dot", "size": 33.0, "title": "Frequenza: 56"}, {"color": "#97c2fc", "id": "cultura", "label": "cultura\n(20)", "shape": "dot", "size": 15.0, "title": "Frequenza: 20"}, {"color": "#97c2fc", "id": "abito", "label": "abito\n(82)", "shape": "dot", "size": 46.0, "title": "Frequenza: 82"}, {"color": "#97c2fc", "id": "abbigliamento", "label": "abbigliamento\n(39)", "shape": "dot", "size": 24.5, "title": "Frequenza: 39"}, {"color": "#97c2fc", "id": "materiale", "label": "materiale\n(79)", "shape": "dot", "size": 44.5, "title": "Frequenza: 79"}, {"color": "#97c2fc", "id": "suggerire", "label": "suggerire\n(28)", "shape": "dot", "size": 19.0, "title": "Frequenza: 28"}, {"color": "#97c2fc", "id": "donna", "label": "donna\n(75)", "shape": "dot", "size": 42.5, "title": "Frequenza: 75"}, {"color": "#97c2fc", "id": "taglio", "label": "taglio\n(27)", "shape": "dot", "size": 18.5, "title": "Frequenza: 27"}, {"color": "#97c2fc", "id": "tradizione", "label": "tradizione\n(52)", "shape": "dot", "size": 31.0, "title": "Frequenza: 52"}, {"color": "#97c2fc", "id": "descrivere", "label": "descrivere\n(29)", "shape": "dot", "size": 19.5, "title": "Frequenza: 29"}, {"color": "#97c2fc", "id": "ispirare", "label": "ispirare\n(55)", "shape": "dot", "size": 32.5, "title": "Frequenza: 55"}, {"color": "#97c2fc", "id": "color", "label": "color\n(15)", "shape": "dot", "size": 12.5, "title": "Frequenza: 15"}, {"color": "#97c2fc", "id": "lungo", "label": "lungo\n(41)", "shape": "dot", "size": 25.5, "title": "Frequenza: 41"}, {"color": "#97c2fc", "id": "manica", "label": "manica\n(37)", "shape": "dot", "size": 23.5, "title": "Frequenza: 37"}, {"color": "#97c2fc", "id": "stile", "label": "stile\n(48)", "shape": "dot", "size": 29.0, "title": "Frequenza: 48"}, {"color": "#97c2fc", "id": "design", "label": "design\n(85)", "shape": "dot", "size": 47.5, "title": "Frequenza: 85"}, {"color": "#97c2fc", "id": "manico", "label": "manico\n(33)", "shape": "dot", "size": 21.5, "title": "Frequenza: 33"}, {"color": "#97c2fc", "id": "indossare", "label": "indossare\n(79)", "shape": "dot", "size": 44.5, "title": "Frequenza: 79"}, {"color": "#97c2fc", "id": "radice", "label": "radice\n(26)", "shape": "dot", "size": 18.0, "title": "Frequenza: 26"}, {"color": "#97c2fc", "id": "verde", "label": "verde\n(25)", "shape": "dot", "size": 17.5, "title": "Frequenza: 25"}, {"color": "#97c2fc", "id": "raffinatezza", "label": "raffinatezza\n(24)", "shape": "dot", "size": 17.0, "title": "Frequenza: 24"}, {"color": "#97c2fc", "id": "colore", "label": "colore\n(71)", "shape": "dot", "size": 40.5, "title": "Frequenza: 71"}, {"color": "#97c2fc", "id": "storico", "label": "storico\n(15)", "shape": "dot", "size": 12.5, "title": "Frequenza: 15"}, {"color": "#97c2fc", "id": "ricamo", "label": "ricamo\n(19)", "shape": "dot", "size": 14.5, "title": "Frequenza: 19"}, {"color": "#97c2fc", "id": "indicare", "label": "indicare\n(10)", "shape": "dot", "size": 10.0, "title": "Frequenza: 10"}, {"color": "#97c2fc", "id": "ampio", "label": "ampio\n(15)", "shape": "dot", "size": 12.5, "title": "Frequenza: 15"}, {"color": "#97c2fc", "id": "aggiungere", "label": "aggiungere\n(55)", "shape": "dot", "size": 32.5, "title": "Frequenza: 55"}, {"color": "#97c2fc", "id": "etnico", "label": "etnico\n(28)", "shape": "dot", "size": 19.0, "title": "Frequenza: 28"}, {"color": "#97c2fc", "id": "seta", "label": "seta\n(34)", "shape": "dot", "size": 22.0, "title": "Frequenza: 34"}, {"color": "#97c2fc", "id": "scollatura", "label": "scollatura\n(37)", "shape": "dot", "size": 23.5, "title": "Frequenza: 37"}, {"color": "#97c2fc", "id": "ore lo", "label": "ore lo\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "romantico", "label": "romantico\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "blu", "label": "blu\n(22)", "shape": "dot", "size": 16.0, "title": "Frequenza: 22"}, {"color": "#97c2fc", "id": "orlo", "label": "orlo\n(12)", "shape": "dot", "size": 11.0, "title": "Frequenza: 12"}, {"color": "#97c2fc", "id": "presentare", "label": "presentare\n(15)", "shape": "dot", "size": 12.5, "title": "Frequenza: 15"}, {"color": "#97c2fc", "id": "conferire", "label": "conferire\n(50)", "shape": "dot", "size": 30.0, "title": "Frequenza: 50"}, {"color": "#97c2fc", "id": "lusso", "label": "lusso\n(22)", "shape": "dot", "size": 16.0, "title": "Frequenza: 22"}, {"color": "#97c2fc", "id": "estetica", "label": "estetica\n(13)", "shape": "dot", "size": 11.5, "title": "Frequenza: 13"}, {"color": "#97c2fc", "id": "abire", "label": "abire\n(58)", "shape": "dot", "size": 34.0, "title": "Frequenza: 58"}, {"color": "#97c2fc", "id": "aria", "label": "aria\n(13)", "shape": "dot", "size": 11.5, "title": "Frequenza: 13"}, {"color": "#97c2fc", "id": "glamour", "label": "glamour\n(29)", "shape": "dot", "size": 19.5, "title": "Frequenza: 29"}, {"color": "#97c2fc", "id": "tenere", "label": "tenere\n(10)", "shape": "dot", "size": 10.0, "title": "Frequenza: 10"}, {"color": "#97c2fc", "id": "rappresentare", "label": "rappresentare\n(44)", "shape": "dot", "size": 27.0, "title": "Frequenza: 44"}, {"color": "#97c2fc", "id": "cuore", "label": "cuore\n(13)", "shape": "dot", "size": 11.5, "title": "Frequenza: 13"}, {"color": "#97c2fc", "id": "classico", "label": "classico\n(30)", "shape": "dot", "size": 20.0, "title": "Frequenza: 30"}, {"color": "#97c2fc", "id": "combinazione", "label": "combinazione\n(22)", "shape": "dot", "size": 16.0, "title": "Frequenza: 22"}, {"color": "#97c2fc", "id": "contemporaneo", "label": "contemporaneo\n(49)", "shape": "dot", "size": 29.5, "title": "Frequenza: 49"}, {"color": "#97c2fc", "id": "bianco", "label": "bianco\n(40)", "shape": "dot", "size": 25.0, "title": "Frequenza: 40"}, {"color": "#97c2fc", "id": "caratterizzare", "label": "caratterizzare\n(12)", "shape": "dot", "size": 11.0, "title": "Frequenza: 12"}, {"color": "#97c2fc", "id": "contesto", "label": "contesto\n(56)", "shape": "dot", "size": 33.0, "title": "Frequenza: 56"}, {"color": "#97c2fc", "id": "globale", "label": "globale\n(59)", "shape": "dot", "size": 34.5, "title": "Frequenza: 59"}, {"color": "#97c2fc", "id": "moda", "label": "moda\n(90)", "shape": "dot", "size": 50.0, "title": "Frequenza: 90"}, {"color": "#97c2fc", "id": "utilizzato", "label": "utilizzato\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "indiano", "label": "indiano\n(10)", "shape": "dot", "size": 10.0, "title": "Frequenza: 10"}, {"color": "#97c2fc", "id": "raffinato", "label": "raffinato\n(24)", "shape": "dot", "size": 17.0, "title": "Frequenza: 24"}, {"color": "#97c2fc", "id": "gonna", "label": "gonna\n(20)", "shape": "dot", "size": 15.0, "title": "Frequenza: 20"}, {"color": "#97c2fc", "id": "tipico", "label": "tipico\n(35)", "shape": "dot", "size": 22.5, "title": "Frequenza: 35"}, {"color": "#97c2fc", "id": "artigianale", "label": "artigianale\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "cotone", "label": "cotone\n(25)", "shape": "dot", "size": 17.5, "title": "Frequenza: 25"}, {"color": "#97c2fc", "id": "gusto", "label": "gusto\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "floreale", "label": "floreale\n(25)", "shape": "dot", "size": 17.5, "title": "Frequenza: 25"}, {"color": "#97c2fc", "id": "rosso", "label": "rosso\n(16)", "shape": "dot", "size": 13.0, "title": "Frequenza: 16"}, {"color": "#97c2fc", "id": "interno", "label": "interno\n(16)", "shape": "dot", "size": 13.0, "title": "Frequenza: 16"}, {"color": "#97c2fc", "id": "apprezzare", "label": "apprezzare\n(10)", "shape": "dot", "size": 10.0, "title": "Frequenza: 10"}, {"color": "#97c2fc", "id": "profondo", "label": "profondo\n(10)", "shape": "dot", "size": 10.0, "title": "Frequenza: 10"}, {"color": "#97c2fc", "id": "associare", "label": "associare\n(20)", "shape": "dot", "size": 15.0, "title": "Frequenza: 20"}, {"color": "#97c2fc", "id": "uso", "label": "uso\n(15)", "shape": "dot", "size": 12.5, "title": "Frequenza: 15"}, {"color": "#97c2fc", "id": "vintage", "label": "vintage\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "simbolo", "label": "simbolo\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "look", "label": "look\n(28)", "shape": "dot", "size": 19.0, "title": "Frequenza: 28"}, {"color": "#97c2fc", "id": "stampa", "label": "stampa\n(12)", "shape": "dot", "size": 11.0, "title": "Frequenza: 12"}, {"color": "#97c2fc", "id": "richiamare", "label": "richiamare\n(43)", "shape": "dot", "size": 26.5, "title": "Frequenza: 43"}, {"color": "#97c2fc", "id": "aderente", "label": "aderente\n(26)", "shape": "dot", "size": 18.0, "title": "Frequenza: 26"}, {"color": "#97c2fc", "id": "vestito", "label": "vestito\n(20)", "shape": "dot", "size": 15.0, "title": "Frequenza: 20"}, {"color": "#97c2fc", "id": "modernit\u00e0", "label": "modernit\u00e0\n(19)", "shape": "dot", "size": 14.5, "title": "Frequenza: 19"}, {"color": "#97c2fc", "id": "femminilit\u00e0", "label": "femminilit\u00e0\n(23)", "shape": "dot", "size": 16.5, "title": "Frequenza: 23"}, {"color": "#97c2fc", "id": "interpretare", "label": "interpretare\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "decorazione", "label": "decorazione\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "seto", "label": "seto\n(12)", "shape": "dot", "size": 11.0, "title": "Frequenza: 12"}, {"color": "#97c2fc", "id": "mix", "label": "mix\n(29)", "shape": "dot", "size": 19.5, "title": "Frequenza: 29"}, {"color": "#97c2fc", "id": "sfondo", "label": "sfondo\n(43)", "shape": "dot", "size": 26.5, "title": "Frequenza: 43"}, {"color": "#97c2fc", "id": "beigere", "label": "beigere\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "sintetico", "label": "sintetico\n(40)", "shape": "dot", "size": 25.0, "title": "Frequenza: 40"}, {"color": "#97c2fc", "id": "sottile", "label": "sottile\n(13)", "shape": "dot", "size": 11.5, "title": "Frequenza: 13"}, {"color": "#97c2fc", "id": "oro", "label": "oro\n(17)", "shape": "dot", "size": 13.5, "title": "Frequenza: 17"}, {"color": "#97c2fc", "id": "femminile", "label": "femminile\n(32)", "shape": "dot", "size": 21.0, "title": "Frequenza: 32"}, {"color": "#97c2fc", "id": "tessuto", "label": "tessuto\n(55)", "shape": "dot", "size": 32.5, "title": "Frequenza: 55"}, {"color": "#97c2fc", "id": "poso", "label": "poso\n(21)", "shape": "dot", "size": 15.5, "title": "Frequenza: 21"}, {"color": "#97c2fc", "id": "argento", "label": "argento\n(12)", "shape": "dot", "size": 11.0, "title": "Frequenza: 12"}, {"color": "#97c2fc", "id": "paillettes", "label": "paillettes\n(20)", "shape": "dot", "size": 15.0, "title": "Frequenza: 20"}, {"color": "#97c2fc", "id": "modella", "label": "modella\n(19)", "shape": "dot", "size": 14.5, "title": "Frequenza: 19"}, {"color": "#97c2fc", "id": "moderno", "label": "moderno\n(45)", "shape": "dot", "size": 27.5, "title": "Frequenza: 45"}, {"color": "#97c2fc", "id": "grigio", "label": "grigio\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "motivo", "label": "motivo\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "alto", "label": "alto\n(15)", "shape": "dot", "size": 12.5, "title": "Frequenza: 15"}, {"color": "#97c2fc", "id": "rosa", "label": "rosa\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "speciale", "label": "speciale\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "occasione", "label": "occasione\n(22)", "shape": "dot", "size": 16.0, "title": "Frequenza: 22"}, {"color": "#97c2fc", "id": "corto", "label": "corto\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "nero", "label": "nero\n(29)", "shape": "dot", "size": 19.5, "title": "Frequenza: 29"}, {"color": "#97c2fc", "id": "lunghezza", "label": "lunghezza\n(15)", "shape": "dot", "size": 12.5, "title": "Frequenza: 15"}, {"color": "#97c2fc", "id": "adatto", "label": "adatto\n(26)", "shape": "dot", "size": 18.0, "title": "Frequenza: 26"}, {"color": "#97c2fc", "id": "ginocchio", "label": "ginocchio\n(10)", "shape": "dot", "size": 10.0, "title": "Frequenza: 10"}, {"color": "#97c2fc", "id": "sera", "label": "sera\n(26)", "shape": "dot", "size": 18.0, "title": "Frequenza: 26"}, {"color": "#97c2fc", "id": "creare", "label": "creare\n(23)", "shape": "dot", "size": 16.5, "title": "Frequenza: 23"}, {"color": "#97c2fc", "id": "cintura", "label": "cintura\n(10)", "shape": "dot", "size": 10.0, "title": "Frequenza: 10"}, {"color": "#97c2fc", "id": "attuale", "label": "attuale\n(19)", "shape": "dot", "size": 14.5, "title": "Frequenza: 19"}, {"color": "#97c2fc", "id": "maniche", "label": "maniche\n(16)", "shape": "dot", "size": 13.0, "title": "Frequenza: 16"}, {"color": "#97c2fc", "id": "popolare", "label": "popolare\n(10)", "shape": "dot", "size": 10.0, "title": "Frequenza: 10"}, {"color": "#97c2fc", "id": "sofisticatezza", "label": "sofisticatezza\n(12)", "shape": "dot", "size": 11.0, "title": "Frequenza: 12"}, {"color": "#97c2fc", "id": "formale", "label": "formale\n(21)", "shape": "dot", "size": 15.5, "title": "Frequenza: 21"}, {"color": "#97c2fc", "id": "evento", "label": "evento\n(16)", "shape": "dot", "size": 13.0, "title": "Frequenza: 16"}, {"color": "#97c2fc", "id": "presenza", "label": "presenza\n(13)", "shape": "dot", "size": 11.5, "title": "Frequenza: 13"}, {"color": "#97c2fc", "id": "tendenza", "label": "tendenza\n(29)", "shape": "dot", "size": 19.5, "title": "Frequenza: 29"}, {"color": "#97c2fc", "id": "asimmetrico", "label": "asimmetrico\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "spalla", "label": "spalla\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "neutro", "label": "neutro\n(15)", "shape": "dot", "size": 12.5, "title": "Frequenza: 15"}, {"color": "#97c2fc", "id": "scelta", "label": "scelta\n(14)", "shape": "dot", "size": 12.0, "title": "Frequenza: 14"}, {"color": "#97c2fc", "id": "chic", "label": "chic\n(11)", "shape": "dot", "size": 10.5, "title": "Frequenza: 11"}, {"color": "#97c2fc", "id": "occidentale", "label": "occidentale\n(17)", "shape": "dot", "size": 13.5, "title": "Frequenza: 17"}, {"color": "#97c2fc", "id": "serata", "label": "serata\n(13)", "shape": "dot", "size": 11.5, "title": "Frequenza: 13"}]);
+                  edges = new vis.DataSet([{"from": "dorato", "title": "Peso: 12", "to": "materiale", "value": 12}, {"from": "dorato", "title": "Peso: 11", "to": "design", "value": 11}, {"from": "capo", "title": "Peso: 53", "to": "moda", "value": 53}, {"from": "capo", "title": "Peso: 52", "to": "design", "value": 52}, {"from": "dettaglio", "title": "Peso: 40", "to": "moda", "value": 40}, {"from": "dettaglio", "title": "Peso: 39", "to": "design", "value": 39}, {"from": "decorativo", "title": "Peso: 14", "to": "design", "value": 14}, {"from": "decorativo", "title": "Peso: 14", "to": "indossare", "value": 14}, {"from": "influenza", "title": "Peso: 34", "to": "moda", "value": 34}, {"from": "influenza", "title": "Peso: 32", "to": "design", "value": 32}, {"from": "sofisticato", "title": "Peso: 35", "to": "moda", "value": 35}, {"from": "sofisticato", "title": "Peso: 34", "to": "abito", "value": 34}, {"from": "scuro", "title": "Peso: 10", "to": "abito", "value": 10}, {"from": "scuro", "title": "Peso: 10", "to": "design", "value": 10}, {"from": "culturale", "title": "Peso: 16", "to": "abito", "value": 16}, {"from": "culturale", "title": "Peso: 16", "to": "colore", "value": 16}, {"from": "riflettere", "title": "Peso: 54", "to": "moda", "value": 54}, {"from": "riflettere", "title": "Peso: 52", "to": "design", "value": 52}, {"from": "luminoso", "title": "Peso: 10", "to": "abito", "value": 10}, {"from": "luminoso", "title": "Peso: 10", "to": "design", "value": 10}, {"from": "tradizionale", "title": "Peso: 34", "to": "materiale", "value": 34}, {"from": "tradizionale", "title": "Peso: 33", "to": "moda", "value": 33}, {"from": "elegante", "title": "Peso: 58", "to": "moda", "value": 58}, {"from": "elegante", "title": "Peso: 54", "to": "design", "value": 54}, {"from": "tocco", "title": "Peso: 52", "to": "aggiungere", "value": 52}, {"from": "tocco", "title": "Peso: 64", "to": "moda", "value": 64}, {"from": "tocco", "title": "Peso: 59", "to": "design", "value": 59}, {"from": "tocco", "title": "Peso: 11", "to": "chic", "value": 11}, {"from": "ambiente", "title": "Peso: 27", "to": "abito", "value": 27}, {"from": "ambiente", "title": "Peso: 27", "to": "moda", "value": 27}, {"from": "eleganza", "title": "Peso: 58", "to": "moda", "value": 58}, {"from": "eleganza", "title": "Peso: 55", "to": "design", "value": 55}, {"from": "eleganza", "title": "Peso: 21", "to": "lusso", "value": 21}, {"from": "eleganza", "title": "Peso: 9", "to": "tenere", "value": 9}, {"from": "eleganza", "title": "Peso: 21", "to": "raffinato", "value": 21}, {"from": "eleganza", "title": "Peso: 10", "to": "profondo", "value": 10}, {"from": "eleganza", "title": "Peso: 12", "to": "sofisticatezza", "value": 12}, {"from": "elemento", "title": "Peso: 18", "to": "cultura", "value": 18}, {"from": "elemento", "title": "Peso: 52", "to": "moda", "value": 52}, {"from": "elemento", "title": "Peso: 51", "to": "design", "value": 51}, {"from": "cultura", "title": "Peso: 19", "to": "materiale", "value": 19}, {"from": "abito", "title": "Peso: 79", "to": "moda", "value": 79}, {"from": "abito", "title": "Peso: 75", "to": "design", "value": 75}, {"from": "abito", "title": "Peso: 64", "to": "colore", "value": 64}, {"from": "abito", "title": "Peso: 26", "to": "etnico", "value": 26}, {"from": "abito", "title": "Peso: 34", "to": "manica", "value": 34}, {"from": "abito", "title": "Peso: 25", "to": "radice", "value": 25}, {"from": "abito", "title": "Peso: 23", "to": "raffinatezza", "value": 23}, {"from": "abito", "title": "Peso: 36", "to": "scollatura", "value": 36}, {"from": "abito", "title": "Peso: 24", "to": "verde", "value": 24}, {"from": "abito", "title": "Peso: 14", "to": "color", "value": 14}, {"from": "abito", "title": "Peso: 21", "to": "blu", "value": 21}, {"from": "abito", "title": "Peso: 52", "to": "contesto", "value": 52}, {"from": "abito", "title": "Peso: 14", "to": "ore lo", "value": 14}, {"from": "abito", "title": "Peso: 12", "to": "orlo", "value": 12}, {"from": "abito", "title": "Peso: 39", "to": "rappresentare", "value": 39}, {"from": "abito", "title": "Peso: 13", "to": "cuore", "value": 13}, {"from": "abito", "title": "Peso: 13", "to": "romantico", "value": 13}, {"from": "abito", "title": "Peso: 23", "to": "floreale", "value": 23}, {"from": "abito", "title": "Peso: 10", "to": "gusto", "value": 10}, {"from": "abito", "title": "Peso: 16", "to": "rosso", "value": 16}, {"from": "abito", "title": "Peso: 12", "to": "utilizzato", "value": 12}, {"from": "abito", "title": "Peso: 19", "to": "associare", "value": 19}, {"from": "abito", "title": "Peso: 11", "to": "simbolo", "value": 11}, {"from": "abito", "title": "Peso: 12", "to": "stampa", "value": 12}, {"from": "abito", "title": "Peso: 13", "to": "decorazione", "value": 13}, {"from": "abito", "title": "Peso: 21", "to": "femminilit\u00e0", "value": 21}, {"from": "abito", "title": "Peso: 26", "to": "mix", "value": 26}, {"from": "abito", "title": "Peso: 12", "to": "seto", "value": 12}, {"from": "abito", "title": "Peso: 39", "to": "sfondo", "value": 39}, {"from": "abito", "title": "Peso: 18", "to": "vestito", "value": 18}, {"from": "abito", "title": "Peso: 14", "to": "grigio", "value": 14}, {"from": "abito", "title": "Peso: 18", "to": "modella", "value": 18}, {"from": "abito", "title": "Peso: 14", "to": "motivo", "value": 14}, {"from": "abito", "title": "Peso: 11", "to": "rosa", "value": 11}, {"from": "abito", "title": "Peso: 10", "to": "ginocchio", "value": 10}, {"from": "abito", "title": "Peso: 15", "to": "lunghezza", "value": 15}, {"from": "abito", "title": "Peso: 18", "to": "attuale", "value": 18}, {"from": "abito", "title": "Peso: 26", "to": "sera", "value": 26}, {"from": "abito", "title": "Peso: 15", "to": "maniche", "value": 15}, {"from": "abito", "title": "Peso: 9", "to": "popolare", "value": 9}, {"from": "abito", "title": "Peso: 11", "to": "asimmetrico", "value": 11}, {"from": "abito", "title": "Peso: 10", "to": "spalla", "value": 10}, {"from": "abbigliamento", "title": "Peso: 35", "to": "moda", "value": 35}, {"from": "abbigliamento", "title": "Peso: 34", "to": "design", "value": 34}, {"from": "materiale", "title": "Peso: 15", "to": "ampio", "value": 15}, {"from": "materiale", "title": "Peso: 28", "to": "descrivere", "value": 28}, {"from": "materiale", "title": "Peso: 37", "to": "lungo", "value": 37}, {"from": "materiale", "title": "Peso: 75", "to": "moda", "value": 75}, {"from": "materiale", "title": "Peso: 70", "to": "design", "value": 70}, {"from": "materiale", "title": "Peso: 18", "to": "ricamo", "value": 18}, {"from": "materiale", "title": "Peso: 32", "to": "seta", "value": 32}, {"from": "materiale", "title": "Peso: 15", "to": "storico", "value": 15}, {"from": "materiale", "title": "Peso: 10", "to": "indicare", "value": 10}, {"from": "materiale", "title": "Peso: 35", "to": "bianco", "value": 35}, {"from": "materiale", "title": "Peso: 10", "to": "tenere", "value": 10}, {"from": "materiale", "title": "Peso: 24", "to": "cotone", "value": 24}, {"from": "materiale", "title": "Peso: 10", "to": "indiano", "value": 10}, {"from": "materiale", "title": "Peso: 10", "to": "apprezzare", "value": 10}, {"from": "materiale", "title": "Peso: 11", "to": "simbolo", "value": 11}, {"from": "materiale", "title": "Peso: 17", "to": "oro", "value": 17}, {"from": "materiale", "title": "Peso: 13", "to": "presenza", "value": 13}, {"from": "materiale", "title": "Peso: 26", "to": "tendenza", "value": 26}, {"from": "suggerire", "title": "Peso: 28", "to": "design", "value": 28}, {"from": "suggerire", "title": "Peso: 27", "to": "moda", "value": 27}, {"from": "donna", "title": "Peso: 27", "to": "descrivere", "value": 27}, {"from": "donna", "title": "Peso: 71", "to": "moda", "value": 71}, {"from": "donna", "title": "Peso: 68", "to": "design", "value": 68}, {"from": "donna", "title": "Peso: 44", "to": "stile", "value": 44}, {"from": "donna", "title": "Peso: 23", "to": "cotone", "value": 23}, {"from": "donna", "title": "Peso: 18", "to": "gonna", "value": 18}, {"from": "donna", "title": "Peso: 16", "to": "interno", "value": 16}, {"from": "donna", "title": "Peso: 39", "to": "richiamare", "value": 39}, {"from": "donna", "title": "Peso: 11", "to": "interpretare", "value": 11}, {"from": "donna", "title": "Peso: 17", "to": "modernit\u00e0", "value": 17}, {"from": "donna", "title": "Peso: 15", "to": "alto", "value": 15}, {"from": "donna", "title": "Peso: 13", "to": "scelta", "value": 13}, {"from": "taglio", "title": "Peso: 27", "to": "design", "value": 27}, {"from": "taglio", "title": "Peso: 26", "to": "indossare", "value": 26}, {"from": "tradizione", "title": "Peso: 18", "to": "ricamo", "value": 18}, {"from": "tradizione", "title": "Peso: 49", "to": "design", "value": 49}, {"from": "tradizione", "title": "Peso: 48", "to": "moda", "value": 48}, {"from": "tradizione", "title": "Peso: 11", "to": "artigianale", "value": 11}, {"from": "ispirare", "title": "Peso: 54", "to": "moda", "value": 54}, {"from": "ispirare", "title": "Peso: 51", "to": "design", "value": 51}, {"from": "color", "title": "Peso: 15", "to": "design", "value": 15}, {"from": "lungo", "title": "Peso: 38", "to": "moda", "value": 38}, {"from": "manica", "title": "Peso: 34", "to": "design", "value": 34}, {"from": "stile", "title": "Peso: 45", "to": "moda", "value": 45}, {"from": "design", "title": "Peso: 81", "to": "moda", "value": 81}, {"from": "design", "title": "Peso: 26", "to": "etnico", "value": 26}, {"from": "design", "title": "Peso: 72", "to": "indossare", "value": 72}, {"from": "design", "title": "Peso: 31", "to": "manico", "value": 31}, {"from": "design", "title": "Peso: 25", "to": "radice", "value": 25}, {"from": "design", "title": "Peso: 23", "to": "raffinatezza", "value": 23}, {"from": "design", "title": "Peso: 35", "to": "scollatura", "value": 35}, {"from": "design", "title": "Peso: 57", "to": "abire", "value": 57}, {"from": "design", "title": "Peso: 12", "to": "caratterizzare", "value": 12}, {"from": "design", "title": "Peso: 28", "to": "classico", "value": 28}, {"from": "design", "title": "Peso: 22", "to": "combinazione", "value": 22}, {"from": "design", "title": "Peso: 46", "to": "conferire", "value": 46}, {"from": "design", "title": "Peso: 44", "to": "contemporaneo", "value": 44}, {"from": "design", "title": "Peso: 13", "to": "estetica", "value": 13}, {"from": "design", "title": "Peso: 55", "to": "globale", "value": 55}, {"from": "design", "title": "Peso: 14", "to": "presentare", "value": 14}, {"from": "design", "title": "Peso: 11", "to": "artigianale", "value": 11}, {"from": "design", "title": "Peso: 33", "to": "tipico", "value": 33}, {"from": "design", "title": "Peso: 10", "to": "apprezzare", "value": 10}, {"from": "design", "title": "Peso: 16", "to": "interno", "value": 16}, {"from": "design", "title": "Peso: 14", "to": "uso", "value": 14}, {"from": "design", "title": "Peso: 14", "to": "vintage", "value": 14}, {"from": "design", "title": "Peso: 26", "to": "aderente", "value": 26}, {"from": "design", "title": "Peso: 10", "to": "beigere", "value": 10}, {"from": "design", "title": "Peso: 51", "to": "tessuto", "value": 51}, {"from": "design", "title": "Peso: 12", "to": "argento", "value": 12}, {"from": "design", "title": "Peso: 19", "to": "paillettes", "value": 19}, {"from": "design", "title": "Peso: 43", "to": "moderno", "value": 43}, {"from": "design", "title": "Peso: 21", "to": "occasione", "value": 21}, {"from": "design", "title": "Peso: 14", "to": "speciale", "value": 14}, {"from": "design", "title": "Peso: 14", "to": "corto", "value": 14}, {"from": "design", "title": "Peso: 29", "to": "nero", "value": 29}, {"from": "design", "title": "Peso: 21", "to": "creare", "value": 21}, {"from": "design", "title": "Peso: 12", "to": "sofisticatezza", "value": 12}, {"from": "design", "title": "Peso: 16", "to": "evento", "value": 16}, {"from": "design", "title": "Peso: 21", "to": "formale", "value": 21}, {"from": "design", "title": "Peso: 11", "to": "asimmetrico", "value": 11}, {"from": "design", "title": "Peso: 15", "to": "neutro", "value": 15}, {"from": "design", "title": "Peso: 13", "to": "presenza", "value": 13}, {"from": "design", "title": "Peso: 17", "to": "occidentale", "value": 17}, {"from": "design", "title": "Peso: 13", "to": "serata", "value": 13}, {"from": "manico", "title": "Peso: 31", "to": "moda", "value": 31}, {"from": "indossare", "title": "Peso: 15", "to": "ampio", "value": 15}, {"from": "indossare", "title": "Peso: 75", "to": "moda", "value": 75}, {"from": "indossare", "title": "Peso: 27", "to": "glamour", "value": 27}, {"from": "indossare", "title": "Peso: 25", "to": "look", "value": 25}, {"from": "indossare", "title": "Peso: 28", "to": "femminile", "value": 28}, {"from": "indossare", "title": "Peso: 37", "to": "sintetico", "value": 37}, {"from": "indossare", "title": "Peso: 13", "to": "sottile", "value": 13}, {"from": "indossare", "title": "Peso: 12", "to": "argento", "value": 12}, {"from": "indossare", "title": "Peso: 25", "to": "adatto", "value": 25}, {"from": "verde", "title": "Peso: 24", "to": "moda", "value": 24}, {"from": "colore", "title": "Peso: 67", "to": "moda", "value": 67}, {"from": "colore", "title": "Peso: 9", "to": "indicare", "value": 9}, {"from": "colore", "title": "Peso: 13", "to": "ore lo", "value": 13}, {"from": "colore", "title": "Peso: 11", "to": "orlo", "value": 11}, {"from": "colore", "title": "Peso: 10", "to": "indiano", "value": 10}, {"from": "colore", "title": "Peso: 16", "to": "rosso", "value": 16}, {"from": "colore", "title": "Peso: 18", "to": "poso", "value": 18}, {"from": "colore", "title": "Peso: 10", "to": "ginocchio", "value": 10}, {"from": "colore", "title": "Peso: 10", "to": "cintura", "value": 10}, {"from": "storico", "title": "Peso: 14", "to": "moda", "value": 14}, {"from": "aggiungere", "title": "Peso: 53", "to": "moda", "value": 53}, {"from": "seta", "title": "Peso: 32", "to": "moda", "value": 32}, {"from": "romantico", "title": "Peso: 14", "to": "moda", "value": 14}, {"from": "blu", "title": "Peso: 22", "to": "moda", "value": 22}, {"from": "presentare", "title": "Peso: 15", "to": "moda", "value": 15}, {"from": "conferire", "title": "Peso: 13", "to": "aria", "value": 13}, {"from": "conferire", "title": "Peso: 49", "to": "moda", "value": 49}, {"from": "lusso", "title": "Peso: 22", "to": "moda", "value": 22}, {"from": "estetica", "title": "Peso: 13", "to": "moda", "value": 13}, {"from": "abire", "title": "Peso: 58", "to": "moda", "value": 58}, {"from": "abire", "title": "Peso: 13", "to": "cuore", "value": 13}, {"from": "abire", "title": "Peso: 26", "to": "sera", "value": 26}, {"from": "abire", "title": "Peso: 13", "to": "serata", "value": 13}, {"from": "aria", "title": "Peso: 13", "to": "moda", "value": 13}, {"from": "glamour", "title": "Peso: 29", "to": "moda", "value": 29}, {"from": "rappresentare", "title": "Peso: 42", "to": "moda", "value": 42}, {"from": "classico", "title": "Peso: 30", "to": "moda", "value": 30}, {"from": "combinazione", "title": "Peso: 21", "to": "moda", "value": 21}, {"from": "contemporaneo", "title": "Peso: 49", "to": "moda", "value": 49}, {"from": "bianco", "title": "Peso: 40", "to": "moda", "value": 40}, {"from": "caratterizzare", "title": "Peso: 12", "to": "moda", "value": 12}, {"from": "contesto", "title": "Peso: 55", "to": "moda", "value": 55}, {"from": "globale", "title": "Peso: 58", "to": "moda", "value": 58}, {"from": "moda", "title": "Peso: 24", "to": "floreale", "value": 24}, {"from": "moda", "title": "Peso: 20", "to": "gonna", "value": 20}, {"from": "moda", "title": "Peso: 11", "to": "gusto", "value": 11}, {"from": "moda", "title": "Peso: 24", "to": "raffinato", "value": 24}, {"from": "moda", "title": "Peso: 32", "to": "tipico", "value": 32}, {"from": "moda", "title": "Peso: 13", "to": "utilizzato", "value": 13}, {"from": "moda", "title": "Peso: 10", "to": "profondo", "value": 10}, {"from": "moda", "title": "Peso: 20", "to": "associare", "value": 20}, {"from": "moda", "title": "Peso: 28", "to": "look", "value": 28}, {"from": "moda", "title": "Peso: 12", "to": "stampa", "value": 12}, {"from": "moda", "title": "Peso: 15", "to": "uso", "value": 15}, {"from": "moda", "title": "Peso: 14", "to": "vintage", "value": 14}, {"from": "moda", "title": "Peso: 42", "to": "richiamare", "value": 42}, {"from": "moda", "title": "Peso: 26", "to": "aderente", "value": 26}, {"from": "moda", "title": "Peso: 14", "to": "decorazione", "value": 14}, {"from": "moda", "title": "Peso: 23", "to": "femminilit\u00e0", "value": 23}, {"from": "moda", "title": "Peso: 11", "to": "interpretare", "value": 11}, {"from": "moda", "title": "Peso: 28", "to": "mix", "value": 28}, {"from": "moda", "title": "Peso: 18", "to": "modernit\u00e0", "value": 18}, {"from": "moda", "title": "Peso: 12", "to": "seto", "value": 12}, {"from": "moda", "title": "Peso: 42", "to": "sfondo", "value": 42}, {"from": "moda", "title": "Peso: 19", "to": "vestito", "value": 19}, {"from": "moda", "title": "Peso: 10", "to": "beigere", "value": 10}, {"from": "moda", "title": "Peso: 32", "to": "femminile", "value": 32}, {"from": "moda", "title": "Peso: 17", "to": "oro", "value": 17}, {"from": "moda", "title": "Peso: 39", "to": "sintetico", "value": 39}, {"from": "moda", "title": "Peso: 13", "to": "sottile", "value": 13}, {"from": "moda", "title": "Peso: 54", "to": "tessuto", "value": 54}, {"from": "moda", "title": "Peso: 19", "to": "paillettes", "value": 19}, {"from": "moda", "title": "Peso: 20", "to": "poso", "value": 20}, {"from": "moda", "title": "Peso: 14", "to": "grigio", "value": 14}, {"from": "moda", "title": "Peso: 19", "to": "modella", "value": 19}, {"from": "moda", "title": "Peso: 44", "to": "moderno", "value": 44}, {"from": "moda", "title": "Peso: 15", "to": "alto", "value": 15}, {"from": "moda", "title": "Peso: 12", "to": "motivo", "value": 12}, {"from": "moda", "title": "Peso: 22", "to": "occasione", "value": 22}, {"from": "moda", "title": "Peso: 11", "to": "rosa", "value": 11}, {"from": "moda", "title": "Peso: 14", "to": "speciale", "value": 14}, {"from": "moda", "title": "Peso: 26", "to": "adatto", "value": 26}, {"from": "moda", "title": "Peso: 14", "to": "corto", "value": 14}, {"from": "moda", "title": "Peso: 15", "to": "lunghezza", "value": 15}, {"from": "moda", "title": "Peso: 29", "to": "nero", "value": 29}, {"from": "moda", "title": "Peso: 19", "to": "attuale", "value": 19}, {"from": "moda", "title": "Peso: 10", "to": "cintura", "value": 10}, {"from": "moda", "title": "Peso: 22", "to": "creare", "value": 22}, {"from": "moda", "title": "Peso: 16", "to": "maniche", "value": 16}, {"from": "moda", "title": "Peso: 10", "to": "popolare", "value": 10}, {"from": "moda", "title": "Peso: 16", "to": "evento", "value": 16}, {"from": "moda", "title": "Peso: 21", "to": "formale", "value": 21}, {"from": "moda", "title": "Peso: 11", "to": "spalla", "value": 11}, {"from": "moda", "title": "Peso: 28", "to": "tendenza", "value": 28}, {"from": "moda", "title": "Peso: 14", "to": "scelta", "value": 14}, {"from": "moda", "title": "Peso: 11", "to": "chic", "value": 11}, {"from": "moda", "title": "Peso: 17", "to": "occidentale", "value": 17}, {"from": "sfondo", "title": "Peso: 15", "to": "neutro", "value": 15}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"enabled": true, "barnesHut": {"gravitationalConstant": -80000, "centralGravity": 0.3, "springLength": 200, "springConstant": 0.04, "damping": 0.09, "avoidOverlap": 1}, "minVelocity": 0.75, "solver": "barnesHut", "stabilization": {"iterations": 150}}, "configure": {"enabled": true, "filter": ["physics", "nodes", "edges"]}, "height": "580px", "width": "100%"};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var configWrapper = document.querySelector('.vis-configuration-wrapper');
+            if (configWrapper) {
+                document.body.appendChild(configWrapper);
+            }
+        });
+    </script>
+    </body>
+</html>

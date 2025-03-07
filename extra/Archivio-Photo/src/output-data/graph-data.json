@@ -1,0 +1,2025 @@
+{
+    "keywords": {
+        "dorato": 13,
+        "capo": 57,
+        "dettaglio": 44,
+        "decorativo": 15,
+        "influenza": 35,
+        "sofisticato": 36,
+        "scuro": 11,
+        "culturale": 17,
+        "riflettere": 58,
+        "luminoso": 10,
+        "tradizionale": 37,
+        "elegante": 60,
+        "tocco": 66,
+        "ambiente": 28,
+        "eleganza": 61,
+        "elemento": 56,
+        "cultura": 20,
+        "abito": 82,
+        "abbigliamento": 39,
+        "materiale": 79,
+        "suggerire": 28,
+        "donna": 75,
+        "taglio": 27,
+        "tradizione": 52,
+        "descrivere": 29,
+        "ispirare": 55,
+        "color": 15,
+        "lungo": 41,
+        "manica": 37,
+        "stile": 48,
+        "design": 85,
+        "manico": 33,
+        "indossare": 79,
+        "radice": 26,
+        "verde": 25,
+        "raffinatezza": 24,
+        "colore": 71,
+        "storico": 15,
+        "ricamo": 19,
+        "indicare": 10,
+        "ampio": 15,
+        "aggiungere": 55,
+        "etnico": 28,
+        "seta": 34,
+        "scollatura": 37,
+        "ore lo": 14,
+        "romantico": 14,
+        "blu": 22,
+        "orlo": 12,
+        "presentare": 15,
+        "conferire": 50,
+        "lusso": 22,
+        "estetica": 13,
+        "abire": 58,
+        "aria": 13,
+        "glamour": 29,
+        "tenere": 10,
+        "rappresentare": 44,
+        "cuore": 13,
+        "classico": 30,
+        "combinazione": 22,
+        "contemporaneo": 49,
+        "bianco": 40,
+        "caratterizzare": 12,
+        "contesto": 56,
+        "globale": 59,
+        "moda": 90,
+        "utilizzato": 14,
+        "indiano": 10,
+        "raffinato": 24,
+        "gonna": 20,
+        "tipico": 35,
+        "artigianale": 11,
+        "cotone": 25,
+        "gusto": 11,
+        "floreale": 25,
+        "rosso": 16,
+        "interno": 16,
+        "apprezzare": 10,
+        "profondo": 10,
+        "associare": 20,
+        "uso": 15,
+        "vintage": 14,
+        "simbolo": 11,
+        "look": 28,
+        "stampa": 12,
+        "richiamare": 43,
+        "aderente": 26,
+        "vestito": 20,
+        "modernità": 19,
+        "femminilità": 23,
+        "interpretare": 11,
+        "decorazione": 14,
+        "seto": 12,
+        "mix": 29,
+        "sfondo": 43,
+        "beigere": 11,
+        "sintetico": 40,
+        "sottile": 13,
+        "oro": 17,
+        "femminile": 32,
+        "tessuto": 55,
+        "poso": 21,
+        "argento": 12,
+        "paillettes": 20,
+        "modella": 19,
+        "moderno": 45,
+        "grigio": 14,
+        "motivo": 14,
+        "alto": 15,
+        "rosa": 11,
+        "speciale": 14,
+        "occasione": 22,
+        "corto": 14,
+        "nero": 29,
+        "lunghezza": 15,
+        "adatto": 26,
+        "ginocchio": 10,
+        "sera": 26,
+        "creare": 23,
+        "cintura": 10,
+        "attuale": 19,
+        "maniche": 16,
+        "popolare": 10,
+        "sofisticatezza": 12,
+        "formale": 21,
+        "evento": 16,
+        "presenza": 13,
+        "tendenza": 29,
+        "asimmetrico": 11,
+        "spalla": 11,
+        "neutro": 15,
+        "scelta": 14,
+        "chic": 11,
+        "occidentale": 17,
+        "serata": 13
+    },
+    "relations": [
+        {
+            "words": [
+                "abbigliamento",
+                "moda"
+            ],
+            "count": 35
+        },
+        {
+            "words": [
+                "abbigliamento",
+                "design"
+            ],
+            "count": 34
+        },
+        {
+            "words": [
+                "abito",
+                "moda"
+            ],
+            "count": 79
+        },
+        {
+            "words": [
+                "abito",
+                "design"
+            ],
+            "count": 75
+        },
+        {
+            "words": [
+                "aggiungere",
+                "moda"
+            ],
+            "count": 53
+        },
+        {
+            "words": [
+                "aggiungere",
+                "tocco"
+            ],
+            "count": 52
+        },
+        {
+            "words": [
+                "abito",
+                "ambiente"
+            ],
+            "count": 27
+        },
+        {
+            "words": [
+                "ambiente",
+                "moda"
+            ],
+            "count": 27
+        },
+        {
+            "words": [
+                "ampio",
+                "indossare"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "ampio",
+                "materiale"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "capo",
+                "moda"
+            ],
+            "count": 53
+        },
+        {
+            "words": [
+                "capo",
+                "design"
+            ],
+            "count": 52
+        },
+        {
+            "words": [
+                "colore",
+                "moda"
+            ],
+            "count": 67
+        },
+        {
+            "words": [
+                "abito",
+                "colore"
+            ],
+            "count": 64
+        },
+        {
+            "words": [
+                "cultura",
+                "materiale"
+            ],
+            "count": 19
+        },
+        {
+            "words": [
+                "cultura",
+                "elemento"
+            ],
+            "count": 18
+        },
+        {
+            "words": [
+                "abito",
+                "culturale"
+            ],
+            "count": 16
+        },
+        {
+            "words": [
+                "colore",
+                "culturale"
+            ],
+            "count": 16
+        },
+        {
+            "words": [
+                "decorativo",
+                "design"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "decorativo",
+                "indossare"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "descrivere",
+                "materiale"
+            ],
+            "count": 28
+        },
+        {
+            "words": [
+                "descrivere",
+                "donna"
+            ],
+            "count": 27
+        },
+        {
+            "words": [
+                "design",
+                "moda"
+            ],
+            "count": 81
+        },
+        {
+            "words": [
+                "dettaglio",
+                "moda"
+            ],
+            "count": 40
+        },
+        {
+            "words": [
+                "design",
+                "dettaglio"
+            ],
+            "count": 39
+        },
+        {
+            "words": [
+                "donna",
+                "moda"
+            ],
+            "count": 71
+        },
+        {
+            "words": [
+                "design",
+                "donna"
+            ],
+            "count": 68
+        },
+        {
+            "words": [
+                "dorato",
+                "materiale"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "design",
+                "dorato"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "elegante",
+                "moda"
+            ],
+            "count": 58
+        },
+        {
+            "words": [
+                "design",
+                "elegante"
+            ],
+            "count": 54
+        },
+        {
+            "words": [
+                "eleganza",
+                "moda"
+            ],
+            "count": 58
+        },
+        {
+            "words": [
+                "design",
+                "eleganza"
+            ],
+            "count": 55
+        },
+        {
+            "words": [
+                "elemento",
+                "moda"
+            ],
+            "count": 52
+        },
+        {
+            "words": [
+                "design",
+                "elemento"
+            ],
+            "count": 51
+        },
+        {
+            "words": [
+                "abito",
+                "etnico"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "design",
+                "etnico"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "indossare",
+                "moda"
+            ],
+            "count": 75
+        },
+        {
+            "words": [
+                "design",
+                "indossare"
+            ],
+            "count": 72
+        },
+        {
+            "words": [
+                "influenza",
+                "moda"
+            ],
+            "count": 34
+        },
+        {
+            "words": [
+                "design",
+                "influenza"
+            ],
+            "count": 32
+        },
+        {
+            "words": [
+                "ispirare",
+                "moda"
+            ],
+            "count": 54
+        },
+        {
+            "words": [
+                "design",
+                "ispirare"
+            ],
+            "count": 51
+        },
+        {
+            "words": [
+                "lungo",
+                "moda"
+            ],
+            "count": 38
+        },
+        {
+            "words": [
+                "lungo",
+                "materiale"
+            ],
+            "count": 37
+        },
+        {
+            "words": [
+                "abito",
+                "manica"
+            ],
+            "count": 34
+        },
+        {
+            "words": [
+                "design",
+                "manica"
+            ],
+            "count": 34
+        },
+        {
+            "words": [
+                "design",
+                "manico"
+            ],
+            "count": 31
+        },
+        {
+            "words": [
+                "manico",
+                "moda"
+            ],
+            "count": 31
+        },
+        {
+            "words": [
+                "materiale",
+                "moda"
+            ],
+            "count": 75
+        },
+        {
+            "words": [
+                "design",
+                "materiale"
+            ],
+            "count": 70
+        },
+        {
+            "words": [
+                "abito",
+                "radice"
+            ],
+            "count": 25
+        },
+        {
+            "words": [
+                "design",
+                "radice"
+            ],
+            "count": 25
+        },
+        {
+            "words": [
+                "abito",
+                "raffinatezza"
+            ],
+            "count": 23
+        },
+        {
+            "words": [
+                "design",
+                "raffinatezza"
+            ],
+            "count": 23
+        },
+        {
+            "words": [
+                "materiale",
+                "ricamo"
+            ],
+            "count": 18
+        },
+        {
+            "words": [
+                "ricamo",
+                "tradizione"
+            ],
+            "count": 18
+        },
+        {
+            "words": [
+                "moda",
+                "riflettere"
+            ],
+            "count": 54
+        },
+        {
+            "words": [
+                "design",
+                "riflettere"
+            ],
+            "count": 52
+        },
+        {
+            "words": [
+                "abito",
+                "scollatura"
+            ],
+            "count": 36
+        },
+        {
+            "words": [
+                "design",
+                "scollatura"
+            ],
+            "count": 35
+        },
+        {
+            "words": [
+                "abito",
+                "scuro"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "design",
+                "scuro"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "materiale",
+                "seta"
+            ],
+            "count": 32
+        },
+        {
+            "words": [
+                "moda",
+                "seta"
+            ],
+            "count": 32
+        },
+        {
+            "words": [
+                "moda",
+                "sofisticato"
+            ],
+            "count": 35
+        },
+        {
+            "words": [
+                "abito",
+                "sofisticato"
+            ],
+            "count": 34
+        },
+        {
+            "words": [
+                "moda",
+                "stile"
+            ],
+            "count": 45
+        },
+        {
+            "words": [
+                "donna",
+                "stile"
+            ],
+            "count": 44
+        },
+        {
+            "words": [
+                "materiale",
+                "storico"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "moda",
+                "storico"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "design",
+                "suggerire"
+            ],
+            "count": 28
+        },
+        {
+            "words": [
+                "moda",
+                "suggerire"
+            ],
+            "count": 27
+        },
+        {
+            "words": [
+                "design",
+                "taglio"
+            ],
+            "count": 27
+        },
+        {
+            "words": [
+                "indossare",
+                "taglio"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "moda",
+                "tocco"
+            ],
+            "count": 64
+        },
+        {
+            "words": [
+                "design",
+                "tocco"
+            ],
+            "count": 59
+        },
+        {
+            "words": [
+                "materiale",
+                "tradizionale"
+            ],
+            "count": 34
+        },
+        {
+            "words": [
+                "moda",
+                "tradizionale"
+            ],
+            "count": 33
+        },
+        {
+            "words": [
+                "design",
+                "tradizione"
+            ],
+            "count": 49
+        },
+        {
+            "words": [
+                "moda",
+                "tradizione"
+            ],
+            "count": 48
+        },
+        {
+            "words": [
+                "abito",
+                "verde"
+            ],
+            "count": 24
+        },
+        {
+            "words": [
+                "moda",
+                "verde"
+            ],
+            "count": 24
+        },
+        {
+            "words": [
+                "color",
+                "design"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "abito",
+                "color"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "indicare",
+                "materiale"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "colore",
+                "indicare"
+            ],
+            "count": 9
+        },
+        {
+            "words": [
+                "abito",
+                "luminoso"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "design",
+                "luminoso"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "abire",
+                "moda"
+            ],
+            "count": 58
+        },
+        {
+            "words": [
+                "abire",
+                "design"
+            ],
+            "count": 57
+        },
+        {
+            "words": [
+                "aria",
+                "conferire"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "aria",
+                "moda"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "bianco",
+                "moda"
+            ],
+            "count": 40
+        },
+        {
+            "words": [
+                "bianco",
+                "materiale"
+            ],
+            "count": 35
+        },
+        {
+            "words": [
+                "blu",
+                "moda"
+            ],
+            "count": 22
+        },
+        {
+            "words": [
+                "abito",
+                "blu"
+            ],
+            "count": 21
+        },
+        {
+            "words": [
+                "caratterizzare",
+                "design"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "caratterizzare",
+                "moda"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "classico",
+                "moda"
+            ],
+            "count": 30
+        },
+        {
+            "words": [
+                "classico",
+                "design"
+            ],
+            "count": 28
+        },
+        {
+            "words": [
+                "combinazione",
+                "design"
+            ],
+            "count": 22
+        },
+        {
+            "words": [
+                "combinazione",
+                "moda"
+            ],
+            "count": 21
+        },
+        {
+            "words": [
+                "conferire",
+                "moda"
+            ],
+            "count": 49
+        },
+        {
+            "words": [
+                "conferire",
+                "design"
+            ],
+            "count": 46
+        },
+        {
+            "words": [
+                "contemporaneo",
+                "moda"
+            ],
+            "count": 49
+        },
+        {
+            "words": [
+                "contemporaneo",
+                "design"
+            ],
+            "count": 44
+        },
+        {
+            "words": [
+                "contesto",
+                "moda"
+            ],
+            "count": 55
+        },
+        {
+            "words": [
+                "abito",
+                "contesto"
+            ],
+            "count": 52
+        },
+        {
+            "words": [
+                "design",
+                "estetica"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "estetica",
+                "moda"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "glamour",
+                "moda"
+            ],
+            "count": 29
+        },
+        {
+            "words": [
+                "glamour",
+                "indossare"
+            ],
+            "count": 27
+        },
+        {
+            "words": [
+                "globale",
+                "moda"
+            ],
+            "count": 58
+        },
+        {
+            "words": [
+                "design",
+                "globale"
+            ],
+            "count": 55
+        },
+        {
+            "words": [
+                "lusso",
+                "moda"
+            ],
+            "count": 22
+        },
+        {
+            "words": [
+                "eleganza",
+                "lusso"
+            ],
+            "count": 21
+        },
+        {
+            "words": [
+                "abito",
+                "ore lo"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "colore",
+                "ore lo"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "abito",
+                "orlo"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "colore",
+                "orlo"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "moda",
+                "presentare"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "design",
+                "presentare"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "moda",
+                "rappresentare"
+            ],
+            "count": 42
+        },
+        {
+            "words": [
+                "abito",
+                "rappresentare"
+            ],
+            "count": 39
+        },
+        {
+            "words": [
+                "materiale",
+                "tenere"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "eleganza",
+                "tenere"
+            ],
+            "count": 9
+        },
+        {
+            "words": [
+                "abire",
+                "cuore"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "abito",
+                "cuore"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "moda",
+                "romantico"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "abito",
+                "romantico"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "artigianale",
+                "design"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "artigianale",
+                "tradizione"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "cotone",
+                "materiale"
+            ],
+            "count": 24
+        },
+        {
+            "words": [
+                "cotone",
+                "donna"
+            ],
+            "count": 23
+        },
+        {
+            "words": [
+                "floreale",
+                "moda"
+            ],
+            "count": 24
+        },
+        {
+            "words": [
+                "abito",
+                "floreale"
+            ],
+            "count": 23
+        },
+        {
+            "words": [
+                "gonna",
+                "moda"
+            ],
+            "count": 20
+        },
+        {
+            "words": [
+                "donna",
+                "gonna"
+            ],
+            "count": 18
+        },
+        {
+            "words": [
+                "gusto",
+                "moda"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "abito",
+                "gusto"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "colore",
+                "indiano"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "indiano",
+                "materiale"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "moda",
+                "raffinato"
+            ],
+            "count": 24
+        },
+        {
+            "words": [
+                "eleganza",
+                "raffinato"
+            ],
+            "count": 21
+        },
+        {
+            "words": [
+                "abito",
+                "rosso"
+            ],
+            "count": 16
+        },
+        {
+            "words": [
+                "colore",
+                "rosso"
+            ],
+            "count": 16
+        },
+        {
+            "words": [
+                "design",
+                "tipico"
+            ],
+            "count": 33
+        },
+        {
+            "words": [
+                "moda",
+                "tipico"
+            ],
+            "count": 32
+        },
+        {
+            "words": [
+                "moda",
+                "utilizzato"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "abito",
+                "utilizzato"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "apprezzare",
+                "design"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "apprezzare",
+                "materiale"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "design",
+                "interno"
+            ],
+            "count": 16
+        },
+        {
+            "words": [
+                "donna",
+                "interno"
+            ],
+            "count": 16
+        },
+        {
+            "words": [
+                "eleganza",
+                "profondo"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "moda",
+                "profondo"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "associare",
+                "moda"
+            ],
+            "count": 20
+        },
+        {
+            "words": [
+                "abito",
+                "associare"
+            ],
+            "count": 19
+        },
+        {
+            "words": [
+                "look",
+                "moda"
+            ],
+            "count": 28
+        },
+        {
+            "words": [
+                "indossare",
+                "look"
+            ],
+            "count": 25
+        },
+        {
+            "words": [
+                "abito",
+                "simbolo"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "materiale",
+                "simbolo"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "abito",
+                "stampa"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "moda",
+                "stampa"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "moda",
+                "uso"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "design",
+                "uso"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "design",
+                "vintage"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "moda",
+                "vintage"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "moda",
+                "richiamare"
+            ],
+            "count": 42
+        },
+        {
+            "words": [
+                "donna",
+                "richiamare"
+            ],
+            "count": 39
+        },
+        {
+            "words": [
+                "aderente",
+                "design"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "aderente",
+                "moda"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "decorazione",
+                "moda"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "abito",
+                "decorazione"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "femminilità",
+                "moda"
+            ],
+            "count": 23
+        },
+        {
+            "words": [
+                "abito",
+                "femminilità"
+            ],
+            "count": 21
+        },
+        {
+            "words": [
+                "donna",
+                "interpretare"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "interpretare",
+                "moda"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "mix",
+                "moda"
+            ],
+            "count": 28
+        },
+        {
+            "words": [
+                "abito",
+                "mix"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "moda",
+                "modernità"
+            ],
+            "count": 18
+        },
+        {
+            "words": [
+                "donna",
+                "modernità"
+            ],
+            "count": 17
+        },
+        {
+            "words": [
+                "abito",
+                "seto"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "moda",
+                "seto"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "moda",
+                "sfondo"
+            ],
+            "count": 42
+        },
+        {
+            "words": [
+                "abito",
+                "sfondo"
+            ],
+            "count": 39
+        },
+        {
+            "words": [
+                "moda",
+                "vestito"
+            ],
+            "count": 19
+        },
+        {
+            "words": [
+                "abito",
+                "vestito"
+            ],
+            "count": 18
+        },
+        {
+            "words": [
+                "beigere",
+                "design"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "beigere",
+                "moda"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "femminile",
+                "moda"
+            ],
+            "count": 32
+        },
+        {
+            "words": [
+                "femminile",
+                "indossare"
+            ],
+            "count": 28
+        },
+        {
+            "words": [
+                "materiale",
+                "oro"
+            ],
+            "count": 17
+        },
+        {
+            "words": [
+                "moda",
+                "oro"
+            ],
+            "count": 17
+        },
+        {
+            "words": [
+                "moda",
+                "sintetico"
+            ],
+            "count": 39
+        },
+        {
+            "words": [
+                "indossare",
+                "sintetico"
+            ],
+            "count": 37
+        },
+        {
+            "words": [
+                "indossare",
+                "sottile"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "moda",
+                "sottile"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "moda",
+                "tessuto"
+            ],
+            "count": 54
+        },
+        {
+            "words": [
+                "design",
+                "tessuto"
+            ],
+            "count": 51
+        },
+        {
+            "words": [
+                "argento",
+                "design"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "argento",
+                "indossare"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "design",
+                "paillettes"
+            ],
+            "count": 19
+        },
+        {
+            "words": [
+                "moda",
+                "paillettes"
+            ],
+            "count": 19
+        },
+        {
+            "words": [
+                "moda",
+                "poso"
+            ],
+            "count": 20
+        },
+        {
+            "words": [
+                "colore",
+                "poso"
+            ],
+            "count": 18
+        },
+        {
+            "words": [
+                "abito",
+                "grigio"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "grigio",
+                "moda"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "moda",
+                "modella"
+            ],
+            "count": 19
+        },
+        {
+            "words": [
+                "abito",
+                "modella"
+            ],
+            "count": 18
+        },
+        {
+            "words": [
+                "moda",
+                "moderno"
+            ],
+            "count": 44
+        },
+        {
+            "words": [
+                "design",
+                "moderno"
+            ],
+            "count": 43
+        },
+        {
+            "words": [
+                "alto",
+                "donna"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "alto",
+                "moda"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "abito",
+                "motivo"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "moda",
+                "motivo"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "moda",
+                "occasione"
+            ],
+            "count": 22
+        },
+        {
+            "words": [
+                "design",
+                "occasione"
+            ],
+            "count": 21
+        },
+        {
+            "words": [
+                "abito",
+                "rosa"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "moda",
+                "rosa"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "design",
+                "speciale"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "moda",
+                "speciale"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "adatto",
+                "moda"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "adatto",
+                "indossare"
+            ],
+            "count": 25
+        },
+        {
+            "words": [
+                "corto",
+                "design"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "corto",
+                "moda"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "abito",
+                "ginocchio"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "colore",
+                "ginocchio"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "abito",
+                "lunghezza"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "lunghezza",
+                "moda"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "design",
+                "nero"
+            ],
+            "count": 29
+        },
+        {
+            "words": [
+                "moda",
+                "nero"
+            ],
+            "count": 29
+        },
+        {
+            "words": [
+                "attuale",
+                "moda"
+            ],
+            "count": 19
+        },
+        {
+            "words": [
+                "abito",
+                "attuale"
+            ],
+            "count": 18
+        },
+        {
+            "words": [
+                "cintura",
+                "colore"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "cintura",
+                "moda"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "creare",
+                "moda"
+            ],
+            "count": 22
+        },
+        {
+            "words": [
+                "creare",
+                "design"
+            ],
+            "count": 21
+        },
+        {
+            "words": [
+                "abire",
+                "sera"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "abito",
+                "sera"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "maniche",
+                "moda"
+            ],
+            "count": 16
+        },
+        {
+            "words": [
+                "abito",
+                "maniche"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "moda",
+                "popolare"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "abito",
+                "popolare"
+            ],
+            "count": 9
+        },
+        {
+            "words": [
+                "design",
+                "sofisticatezza"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "eleganza",
+                "sofisticatezza"
+            ],
+            "count": 12
+        },
+        {
+            "words": [
+                "design",
+                "evento"
+            ],
+            "count": 16
+        },
+        {
+            "words": [
+                "evento",
+                "moda"
+            ],
+            "count": 16
+        },
+        {
+            "words": [
+                "design",
+                "formale"
+            ],
+            "count": 21
+        },
+        {
+            "words": [
+                "formale",
+                "moda"
+            ],
+            "count": 21
+        },
+        {
+            "words": [
+                "abito",
+                "asimmetrico"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "asimmetrico",
+                "design"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "design",
+                "neutro"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "neutro",
+                "sfondo"
+            ],
+            "count": 15
+        },
+        {
+            "words": [
+                "design",
+                "presenza"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "materiale",
+                "presenza"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "moda",
+                "spalla"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "abito",
+                "spalla"
+            ],
+            "count": 10
+        },
+        {
+            "words": [
+                "moda",
+                "tendenza"
+            ],
+            "count": 28
+        },
+        {
+            "words": [
+                "materiale",
+                "tendenza"
+            ],
+            "count": 26
+        },
+        {
+            "words": [
+                "moda",
+                "scelta"
+            ],
+            "count": 14
+        },
+        {
+            "words": [
+                "donna",
+                "scelta"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "chic",
+                "moda"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "chic",
+                "tocco"
+            ],
+            "count": 11
+        },
+        {
+            "words": [
+                "design",
+                "occidentale"
+            ],
+            "count": 17
+        },
+        {
+            "words": [
+                "moda",
+                "occidentale"
+            ],
+            "count": 17
+        },
+        {
+            "words": [
+                "abire",
+                "serata"
+            ],
+            "count": 13
+        },
+        {
+            "words": [
+                "design",
+                "serata"
+            ],
+            "count": 13
+        }
+    ]
+}

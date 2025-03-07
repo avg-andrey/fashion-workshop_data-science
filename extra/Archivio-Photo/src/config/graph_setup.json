@@ -1,0 +1,58 @@
+{
+  "spring_layout": {
+    "params": {"k": 2.0, "seed": 42},
+    "figure_size": [12, 12],
+    "node_size_multiplier": 100,
+    "edge_alpha": 0.6,
+    "edge_width": 1.5,
+    "font_size": 10,
+    "title_font_size": 14,
+    "dpi": 300,
+    "bbox_inches": "tight"
+  },
+  "kamada_kawai_layout": {
+    "params": {"scale": 3.0},
+    "figure_size": [12, 12],
+    "node_size_multiplier": 100,
+    "edge_alpha": 0.4,
+    "edge_width": 1,
+    "font_size": 10,
+    "title_font_size": 14,
+    "dpi": 300,
+    "bbox_inches": "tight"
+  },
+  "circular_layout": {
+    "params": {},
+    "figure_size": [10, 10],
+    "node_size_multiplier": 100,
+    "edge_alpha": 0.4,
+    "edge_width": 1,
+    "font_size": 8,
+    "title_font_size": 14,
+    "dpi": 300,
+    "bbox_inches": "tight"
+  },
+  "interactive_graph": {
+    "height": "580px",
+    "width": "100%",
+    "physics": {
+      "enabled": true,
+      "barnesHut": {
+        "gravitationalConstant": -80000,
+        "centralGravity": 0.3,
+        "springLength": 200,
+        "springConstant": 0.04,
+        "damping": 0.09,
+        "avoidOverlap": 1
+      },
+      "minVelocity": 0.75,
+      "solver": "barnesHut",
+      "stabilization": {"iterations": 150}
+    }
+  },
+  "graph_structure": {
+    "min_keyword_frequency": 10,
+    "min_edge_weight": 5,
+    "max_edges_per_node": 2
+  }
+}

@@ -1,0 +1,1754 @@
+[
+    {
+        "scene_description": "Una donna in piedi in un ambiente esterno, indossando un elegante abito tradizionale dal taglio lungo e ampio di colore verde con ricami dorati. L'ambiente è luminoso e color crema, che contrasta con il vibrante colore dell'abito.",
+        "colors": [
+            "verde",
+            "dorato"
+        ],
+        "category": "Abito tradizionale",
+        "materials": [
+            "seta",
+            "filo metallico"
+        ],
+        "design_elements": [
+            "ricamo dorato",
+            "maniche lunghe",
+            "scollatura dettagliata",
+            "doppiata con stoffa verde più scuro"
+        ],
+        "image_filename": "anarkali suit with a long, olive green kurta adorned with intricate embroidery around the neckline and cuffs, paired with matching fitted trousers.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un abito lungo elegante, caratterizzato da un design spazioso e fluttuante. L'abito presenta una base di colore bianco con grandi cuori blu stampati su tutta la superficie. La donna sta tenendo il lato del suo abito con una mano mentre con l'altra scatta una foto allo specchio usando il suo smartphone.",
+        "colors": [
+            "Bianco",
+            "Blu"
+        ],
+        "category": "Abito lungo",
+        "materials": [
+            "Probabilmente poliestere o seta"
+        ],
+        "design_elements": [
+            "Cuori stampati",
+            "Orlo con perline",
+            "Maniche lunghe",
+            "Taglio fluttuante"
+        ],
+        "image_filename": "Anarkali suit with a modern twist.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un lungo abito tradizionale indiano. L'abito ha un corpetto ricamato con dettagli floreali e un'ampia gonna arricciata di colore blu scuro con ricami floreali sul fondo.",
+        "colors": [
+            "blu scuro",
+            "rosso",
+            "giallo",
+            "verde"
+        ],
+        "category": "Abito tradizionale indiano",
+        "materials": [
+            "seta",
+            "cotone"
+        ],
+        "design_elements": [
+            "ricamo floreale",
+            "corpetto dettagliato",
+            "gonna arricciata",
+            "orlo arricciato"
+        ],
+        "image_filename": "Anarkali suit with fitted bodice with a high neckline.jpg"
+    },
+    {
+        "scene_description": "A woman models a traditional South Asian outfit, standing against a light-colored architectural backdrop. The outfit consists of a long kurti paired with slim pants and an elaborately embroidered dupatta.",
+        "colors": [
+            "olive green",
+            "gold",
+            "dark green"
+        ],
+        "category": "Traditional wear",
+        "materials": [
+            "silk",
+            "chiffon"
+        ],
+        "design_elements": [
+            "embroidery",
+            "beading",
+            "pleats"
+        ],
+        "image_filename": "anarkali suit with a long, olive green kurta adorned with intricate embroidery around the neckline and cuffs, paired with matching fitted trousers.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito lungo decorato con grandi cuori viola su sfondo bianco. La donna tiene in mano il bordo del suo abito e scatta una foto allo specchio con un telefono.",
+        "colors": [
+            "Bianco",
+            "Viola"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Probabilmente seta o poliestere"
+        ],
+        "design_elements": [
+            "Stampa a cuori",
+            "Maniche lunghe",
+            "Calzata ampia",
+            "Orlo decorato con perline"
+        ],
+        "image_filename": "Anarkali suit with a modern twist.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un abito lungo fino alla caviglia di colore blu petrolio. L'abito presenta un corpo superiore aderente con ricami floreali multicolori e una gonna ampia con sottili ricami floreali dorati e rossi sulla parte inferiore.",
+        "colors": [
+            "Blu petrolio",
+            "Oro",
+            "Rosso",
+            "Verde",
+            "Beige"
+        ],
+        "category": "Abito lungo",
+        "materials": [
+            "Tessuto sintetico"
+        ],
+        "design_elements": [
+            "Ricamo floreale",
+            "Gonna a pannelli",
+            "Senza maniche"
+        ],
+        "image_filename": "Anarkali suit with fitted bodice with a high neckline.jpg"
+    },
+    {
+        "scene_description": "Una donna posa seduta su una sedia, indossando un elegante salwar kameez di colore viola con dettagli ricamati e un dupatta abbinato. Tiene una piccola borsa da mano color crema.",
+        "colors": [
+            "viola",
+            "crema",
+            "argento"
+        ],
+        "category": "Abbigliamento tradizionale indiano",
+        "materials": [
+            "cotone",
+            "seta"
+        ],
+        "design_elements": [
+            "ricamo",
+            "perline",
+            "paillettes",
+            "scollatura a V",
+            "maniche lunghe",
+            "bordura dettagliata"
+        ],
+        "image_filename": "anarkali suit with intricate silver embellishments on the neckline, sleeves.jpg"
+    },
+    {
+        "scene_description": "Una modella posa in uno studio con sfondo grigio, indossando un elegante abito da donna in stile etnico. L'abito è lungo, con maniche lunghe e include un dupatta, tutti con lavorazione dettagliata e elementi decorativi.",
+        "colors": [
+            "Lilla",
+            "Viola chiaro",
+            "Bianco",
+            "Argento"
+        ],
+        "category": "Abbigliamento etnico",
+        "materials": [
+            "Seta",
+            "Chiffon",
+            "Ricami metallici"
+        ],
+        "design_elements": [
+            "Ricami floreali",
+            "Bordi con paillettes e filo d'argento",
+            "Tessuto trasparente per il dupatta"
+        ],
+        "image_filename": "anarkali suit with lavender in color with intricate white patterns throughout the fabric.jpg"
+    },
+    {
+        "scene_description": "Una donna in abiti tradizionali indiani posa su scalini erbosi di fronte ad un'antica struttura architettonica.",
+        "colors": [
+            "Turchese",
+            "Rosa",
+            "Azzurro",
+            "Verde",
+            "Multicolore"
+        ],
+        "category": "Abbigliamento tradizionale indiano",
+        "materials": [
+            "Seta",
+            "Cotone"
+        ],
+        "design_elements": [
+            "Ricamo colorato sul corpetto",
+            "Motivi floreali",
+            "Orlo decorato",
+            "Dupatta trasparente e bordato"
+        ],
+        "image_filename": "anarkali suit. It consists of a turquoise skirt with detailed golden embroidery, a multicolored blouse with floral patterns, and an orange dupatta with lace borders.jpg"
+    },
+    {
+        "scene_description": "Una donna cammina in un corridoio interno, indossando un abito aderente di colore nero con dettagli decorativi color crema sulla parte superiore. L'ambiente è sereno con una porta in legno sullo sfondo.",
+        "colors": [
+            "nero",
+            "crema",
+            "marrone del legno"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "tessuto elastico",
+            "decorazione in filo"
+        ],
+        "design_elements": [
+            "taglio aderente",
+            "maniche corte",
+            "dettaglio decorativo sul colletto",
+            "lunghezza fino al ginocchio"
+        ],
+        "image_filename": "ark green, knee-length dress with short sleeves and a white, patterned neckline.jpg"
+    },
+    {
+        "scene_description": "Donna in un abito elegante seduta su un'altalena in un contesto all'aperto ricco di verde. L'abito è caratterizzato da una parte superiore decorata con perline e una parte inferiore in tinta unita.",
+        "colors": [
+            "Verde scuro",
+            "Dorato",
+            "Beige"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Seta",
+            "Perline"
+        ],
+        "design_elements": [
+            "Scollatura profonda",
+            "Decorazione con perline",
+            "Cintura in vita"
+        ],
+        "image_filename": "beige top adorned with black dots and a green skirt.jpg"
+    },
+    {
+        "scene_description": "Una modella posa con un abito corto a maniche tre quarti, a balze, in tessuto a scacchi in bianco e nero. Lo sfondo è uniforme e grigio, mettendo in evidenza l'abito.",
+        "colors": [
+            "bianco",
+            "nero"
+        ],
+        "category": "abito femminile",
+        "materials": [
+            "tessuto sintetico"
+        ],
+        "design_elements": [
+            "motivo a scacchi",
+            "balze sul fondo",
+            "scollatura rotonda",
+            "maniche a tre quarti"
+        ],
+        "image_filename": "black and white gingham checkered A-line dress with a flared skirt.jpg"
+    },
+    {
+        "scene_description": "Una donna cammina su un marciapiede cittadino indossando un elegante abito nero. Porta una giacca sartoriale nera con bottoni dorati e una gonna midi nera. Completano il look un paio di sandali neri con tacchi sottili e una piccola pochette nera.",
+        "colors": [
+            "Nero",
+            "Oro"
+        ],
+        "category": "Abbigliamento femminile",
+        "materials": [
+            "Lana",
+            "Seta",
+            "Pelle"
+        ],
+        "design_elements": [
+            "Bottoni dorati",
+            "Taglio sartoriale",
+            "Gonna midi",
+            "Sandali con tacchi a spillo",
+            "Pochette"
+        ],
+        "image_filename": "black double-breasted blazer with gold buttons, paired with a mid-length skirt.jpg"
+    },
+    {
+        "scene_description": "Un modello di moda femminile indossa un elegante abito nero. L'abito presenta un design anteriore con scollatura a V profonda e una schiena aperta. Decorato con pizzo floreale nero su base trasparente, mostra entrambi i lati anteriore e posteriore dell'abito.",
+        "colors": [
+            "Nero"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Pizzo",
+            "Tessuto sintetico"
+        ],
+        "design_elements": [
+            "Scollatura a V profonda",
+            "Maniche lunghe in pizzo",
+            "Schiena aperta",
+            "Cintura in tessuto legata dietro"
+        ],
+        "image_filename": "black dress with lace detailing.jpg"
+    },
+    {
+        "scene_description": "Una donna in un ambiente interno seduta su una sedia di legno in un ristorante o caffè. Indossa un abito corto nero con maniche a rete e dettagli luccicanti.",
+        "colors": [
+            "Nero"
+        ],
+        "category": "Abito",
+        "materials": [
+            "Tessuto sintetico",
+            "Rete"
+        ],
+        "design_elements": [
+            "Maniche lunghe a rete",
+            "Colletto a V",
+            "Abito corto",
+            "Dettagli luccicanti"
+        ],
+        "image_filename": "black dress with sparkling details.jpg"
+    },
+    {
+        "scene_description": "Una donna in piedi su uno sfondo neutro indossa un elegante abito da sera composto da un top scollato e ricamato in nero e una gonna lunga nera con un drappo decorativo che presenta un motivo floreale su sfondo nero. L'abito include un elemento di design distintivo con una spalla asimmetrica.",
+        "colors": [
+            "Nero",
+            "Oro",
+            "Beige"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Seta",
+            "Paillettes"
+        ],
+        "design_elements": [
+            "Ricamo floreale",
+            "Top con paillettes",
+            "Gonna con drappeggio asimmetrico",
+            "Cintura decorativa"
+        ],
+        "image_filename": "black floral saree.jpg"
+    },
+    {
+        "scene_description": "Una donna è vestita con un elegante abito tradizionale, camminando in una residenza che ricorda l'architettura classica medio-orientale o sud-asiatica.",
+        "colors": [
+            "teal",
+            "oro",
+            "beige"
+        ],
+        "category": "Abbigliamento tradizionale",
+        "materials": [
+            "seta",
+            "paillettes"
+        ],
+        "design_elements": [
+            "top con maniche lunghe e scollo a V",
+            "gonna lunga con spacco frontale",
+            "ricami intricati",
+            "combinazione di colori vivaci"
+        ],
+        "image_filename": "black jumpsuit with a diagonal stripe of glittering material running across the body.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante jumpsuit nero che presenta un top bustier in pizzo con ricami floreali e una parte inferiore a pantalone liscia.",
+        "colors": [
+            "Nero"
+        ],
+        "category": "Jumpsuit",
+        "materials": [
+            "Pizzo",
+            "Tessuto sintetico"
+        ],
+        "design_elements": [
+            "Top bustier in pizzo",
+            "Ricami floreali",
+            "Pantaloni a gamba dritta"
+        ],
+        "image_filename": "black lace bustier top paired with high-waisted black trousers.jpg"
+    },
+    {
+        "scene_description": "Una donna elegante in un abito nero sta posando in un ambiente pittoresco con vista su edifici bianchi e cupole blu tipici delle isole greche.",
+        "colors": [
+            "nero",
+            "bianco",
+            "blu"
+        ],
+        "category": "abito da sera",
+        "materials": [
+            "tessuto sintetico",
+            "pizzo"
+        ],
+        "design_elements": [
+            "scollatura a cuore",
+            "maniche a sbuffo in pizzo",
+            "cintura con fibbia in metallo"
+        ],
+        "image_filename": "black off-shoulder dress with belt.jpg"
+    },
+    {
+        "scene_description": "Una modella con una posa ferma e una espressione seria, indossando un miniabito nero con dettagli di frange color argento. L'illuminazione mette in evidenza il vestito e i dettagli scintillanti, con uno sfondo neutro e ombreggiato.",
+        "colors": [
+            "nero",
+            "argento"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "seta",
+            "paillettes"
+        ],
+        "design_elements": [
+            "frange lunghe",
+            "scollatura a cuore",
+            "spalline sottili",
+            "fit aderente"
+        ],
+        "image_filename": "black top with spaghetti straps and a black skirt adorned with a fringe detail at the hem.jpg"
+    },
+    {
+        "scene_description": "Una donna cammina in una strada urbana con una postura rilassata. Indossa un outfit elegante e casual che comprende una maglietta nera, pantaloni bianchi larghi, e porta una borsa grande di colore marrone.",
+        "colors": [
+            "nero",
+            "bianco",
+            "marrone"
+        ],
+        "category": "Abbigliamento femminile",
+        "materials": [
+            "cotone",
+            "tessuto non specificato"
+        ],
+        "design_elements": [
+            "maglietta a maniche corte",
+            "pantaloni larghi",
+            "cintura nera sottile",
+            "borsa oversize"
+        ],
+        "image_filename": "black top, white trousers.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito corto ornato di paillettes nere. Lo sfondo è omogeneo e sfumato, concentrando l'attenzione sul vestito.",
+        "colors": [
+            "nero"
+        ],
+        "category": "Abito da cocktail",
+        "materials": [
+            "paillettes",
+            "tessuto sintetico"
+        ],
+        "design_elements": [
+            "paillettes luccicanti",
+            "scollatura senza maniche",
+            "sottile cinturino spaghettino"
+        ],
+        "image_filename": "black, sequined dress with thin shoulder straps.jpg"
+    },
+    {
+        "scene_description": "Una donna è seduta su una sedia in un ambiente interno luminoso, indossando un abito a maniche lunghe, con stampa floreale in tonalità di blu e bianco. L'abito è di lunghezza media e presenta un taglio leggermente svasato.",
+        "colors": [
+            "blu",
+            "bianco"
+        ],
+        "category": "Abito",
+        "materials": [
+            "probabilmente cotone o una miscela di cotone"
+        ],
+        "design_elements": [
+            "stampa floreale",
+            "maniche lunghe",
+            "scollo squadrato",
+            "vita elasticizzata"
+        ],
+        "image_filename": "blue dress with a floral pattern.jpg"
+    },
+    {
+        "scene_description": "Una donna in posa con un abito tradizionale modernizzato. Indossa un kurti rosso con motivi stampati in stile etnico, accoppiato con pantaloni di colore beige. Lo sfondo è neutro.",
+        "colors": [
+            "rosso",
+            "beige"
+        ],
+        "category": "abbigliamento tradizionale",
+        "materials": [
+            "cotone",
+            "sintetico"
+        ],
+        "design_elements": [
+            "motivi stampati etnici",
+            "taglio a tunica",
+            "scollatura a V"
+        ],
+        "image_filename": "bright red kurta with an intricate patterned design.jpg"
+    },
+    {
+        "scene_description": "Una modella indossa un abito svolazzante color rosso con spalline sottili.",
+        "colors": [
+            "Rosso"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Sconosciuto"
+        ],
+        "design_elements": [
+            "Spalline sottili",
+            "Finish svolazzante",
+            "Applicazioni decorative"
+        ],
+        "image_filename": "bright red, sequined dress with thin shoulder straps.jpg"
+    },
+    {
+        "scene_description": "Una donna in posa con un abito lungo asimmetrico di colore bordeaux. L'abito ha una scollatura a barca e una gonna che è più corta davanti e più lunga dietro, con un'alta spacco sulla gamba destra. La donna indossa anche sandali neri con tacchi alti.",
+        "colors": [
+            "Bordeaux",
+            "Nero"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Tessuto non specificato"
+        ],
+        "design_elements": [
+            "Scollatura a barca",
+            "Gonna asimmetrica",
+            "Alto spacco",
+            "Senza maniche"
+        ],
+        "image_filename": "burgundy off-the-shoulder dress with an asymmetrical hemline.jpg"
+    },
+    {
+        "scene_description": "Una donna giovane con capelli lunghi rossi porta un outfit urbano su una strada della città. Lei tiene una macchina fotografica e indossa occhiali da sole, una maglia a collo alto arancione, una gonna a quadri marroni e un berretto arancione.",
+        "colors": [
+            "arancione",
+            "marrone",
+            "bianco"
+        ],
+        "category": "abbigliamento casual urbano",
+        "materials": [
+            "cotone",
+            "poliestere"
+        ],
+        "design_elements": [
+            "berretto da baseball",
+            "collo alto",
+            "gonna a quadri",
+            "occhiali da sole oversize"
+        ],
+        "image_filename": "burnt orange long-sleeve top, a plaid skirt with brown tones, and a matching burnt orange beret.jpeg"
+    },
+    {
+        "scene_description": "Una donna con un look elegante posa in un ambiente interno con pareti di mattoni scuri. Indossa un top trasparente decorato con ricami bianchi e una gonna bianca a vita alta.",
+        "colors": [
+            "bianco",
+            "beige"
+        ],
+        "category": "abbigliamento femminile",
+        "materials": [
+            "pizzo",
+            "tessuto sintetico"
+        ],
+        "design_elements": [
+            "ricamo floreale sul top",
+            "maniche lunghe",
+            "gonna a vita alta"
+        ],
+        "image_filename": "chic and elegant outfit consisting of a pair of high-waisted wide-leg trousers paired with a long-sleeve sheer lace top.jpg"
+    },
+    {
+        "scene_description": "Una donna in piedi all'aperto inclinata contro un muro testurizzato. Indossa un elegante abito nero, aderente, con spalline sottili e un'affascinante collana d'argento. Il contesto urbano suggerisce uno scenario di città con finestre e piante sfumate nello sfondo.",
+        "colors": [
+            "Nero",
+            "Argento",
+            "Grigio chiaro"
+        ],
+        "category": "Abito da cocktail",
+        "materials": [
+            "Seta o simile tessuto sintetico",
+            "Metallo"
+        ],
+        "design_elements": [
+            "Spalline sottili",
+            "Scollatura quadrata",
+            "Collana d'argento di grande dimensione",
+            "Abito lungo fino al ginocchio"
+        ],
+        "image_filename": "classic black slip dress with a midi length.jpg"
+    },
+    {
+        "scene_description": "Una donna in abito tradizionale indiano, specificatamente un sari, posa in uno studio con sfondo e arredi in tinta unita. L'ambiente è elegante e raffinato, complementare allo stile dell'abito.",
+        "colors": [
+            "rosso",
+            "verde",
+            "oro",
+            "arancione",
+            "grigio"
+        ],
+        "category": "Abbigliamento tradizionale indiano",
+        "materials": [
+            "seta",
+            "oro (filato)",
+            "pietre preziose"
+        ],
+        "design_elements": [
+            "ricami floreali",
+            "bordi dorati",
+            "mix di colori vivaci",
+            "drappeggio elaborato"
+        ],
+        "image_filename": "colorful saree.jpg"
+    },
+    {
+        "scene_description": "Una donna cammina lungo una strada con muro in pietra in background. Indossa un outfit elegante invernale composto da cappotto lungo e dolcevita, e tiene una borsa verde brillante.",
+        "colors": [
+            "Beige",
+            "Bianco",
+            "Verde"
+        ],
+        "category": "Abbigliamento e accessori femminili",
+        "materials": [
+            "Lana",
+            "Pelle"
+        ],
+        "design_elements": [
+            "Cappotto lungo con design minimalista",
+            "Borsa imbottita di colore verde vivo",
+            "Dolcevita"
+        ],
+        "image_filename": "cream-colored, long, open-front coat with wide lapels.jpg"
+    },
+    {
+        "scene_description": "Donna con un vestito elegante da cocktail di colore blu oceano. Il vestito presenta spalline sottili e dettagli luccicanti simili a piccole stelle o punti luce. La modella posa su uno sfondo neutro che mette in risalto il vestito.",
+        "colors": [
+            "blu oceano",
+            "argento"
+        ],
+        "category": "Abito da cocktail",
+        "materials": [
+            "velluto",
+            "elementi decorativi luccicanti"
+        ],
+        "design_elements": [
+            "spalline sottili",
+            "taglio aderente",
+            "dettagli luccicanti",
+            "drappeggiato"
+        ],
+        "image_filename": "dark blue, knee-length dress with thin straps.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito da sera. Lo sfondo è neutro e mette in evidenza l'abito.",
+        "colors": [
+            "blu navy"
+        ],
+        "category": "abito da sera",
+        "materials": [
+            "seta o un tessuto simile alla seta"
+        ],
+        "design_elements": [
+            "scollo a cuore",
+            "cuciture asimmetriche sul corpetto",
+            "gonna avvolgente con spacco laterale"
+        ],
+        "image_filename": "dark, elegant, sleeveless dress that reaches down to about mid-calf.jpg"
+    },
+    {
+        "scene_description": "Una donna siede accanto a una grande palla a specchio in un ambiente con sfondo decorato con frange argento brillante. Indossa un abito elegante color prugna e sandali con tacco alto argentati.",
+        "colors": [
+            "prugna",
+            "argento",
+            "grigio"
+        ],
+        "category": "Abbigliamento formale",
+        "materials": [
+            "seta",
+            "metallo"
+        ],
+        "design_elements": [
+            "abito con maniche a sbuffo",
+            "taglio asimmetrico sull'orlo",
+            "scollatura a V",
+            "sandali con cinturino alla caviglia e tacco largo"
+        ],
+        "image_filename": "deep burgundy, silky dress with long sleeves and a wrap-style front.jpg"
+    },
+    {
+        "scene_description": "Donna in piedi a mezzo busto con abito a maniche lunghe caratterizzato da un motivo a pied-de-poule bianco e nero. Lo sfondo è neutro, il che mette in risalto l'abito.",
+        "colors": [
+            "Bianco",
+            "Nero"
+        ],
+        "category": "Abito",
+        "materials": [
+            "Tessuto sintetico",
+            "Cotone"
+        ],
+        "design_elements": [
+            "Motivo a pied-de-poule",
+            "Maniche lunghe",
+            "Girocollo"
+        ],
+        "image_filename": "dress with a classic black and white houndstooth pattern.jpg"
+    },
+    {
+        "scene_description": "Una donna in uno sfondo interno minimalista posa con un abito moderno. L'ambiente è elegante e luminoso, caratterizzato da pareti con pannelli lineari di legno chiaro.",
+        "colors": [
+            "Bianco",
+            "Nero",
+            "Beige"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Tessuto a maglia",
+            "Cotone"
+        ],
+        "design_elements": [
+            "Motivo a spina di pesce",
+            "Maniche a sbuffo",
+            "Girocollo",
+            "Lunghezza mini"
+        ],
+        "image_filename": "fitted dress with a classic black and white houndstooth pattern.webp"
+    },
+    {
+        "scene_description": "Modella indossa un abito da donna color crema. L'abito è a manica lunga con una texture radunata e un design del busto che presenta una scollatura quadrata con un fiocco centrale.",
+        "colors": [
+            "Crema"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Probabilmente tessuto elastico"
+        ],
+        "design_elements": [
+            "Maniche lunghe",
+            "Texture radunata",
+            "Scollatura quadrata",
+            "Fiocco centrale"
+        ],
+        "image_filename": "fitted, cream-colored dress with long sheer sleeves.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito bianco aderente con taglio off-the-shoulder. Lo sfondo mostra un ambiente esterno arredato con piante verdi e mobili in tessuto chiaro.",
+        "colors": [
+            "Bianco",
+            "Verde",
+            "Beige"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Tessuto elasticizzato"
+        ],
+        "design_elements": [
+            "Taglio off-the-shoulder",
+            "Abito aderente",
+            "Pieghe orizzontali"
+        ],
+        "image_filename": "fitted, off-the-shoulder white dress with horizontal ribbed texture.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un abito aderente color cachi. L'ambiente intorno è sereno, la modella è ritratta semi-seduta su un mobile in vimini con sfondo verde e floreale.",
+        "colors": [
+            "Cachi"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Probabile misto cotone o sintetico"
+        ],
+        "design_elements": [
+            "Maniche lunghe",
+            "Scollatura a cuore",
+            "Effetto drappeggiato sul tessuto",
+            "Lunghezza mini"
+        ],
+        "image_filename": "fitted, ruched dress with a sweetheart neckline and long mesh sleeves.jpg"
+    },
+    {
+        "scene_description": "Una donna in posa su sfondo giallo, indossa un abito corto color senape con maniche a tre quarti.",
+        "colors": [
+            "Giallo senape"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Tessuto sintetico, potrebbe trattarsi di poliestere o una miscela"
+        ],
+        "design_elements": [
+            "Maniche a tre quarti",
+            "Colletto sottile",
+            "Taglio aderente"
+        ],
+        "image_filename": "fitted, short, yellow dress with short sleeves.jpeg"
+    },
+    {
+        "scene_description": "Una modella indossa un abito corto a maniche lunghe e scollatura quadrata. Lo sfondo è di colore rosa.",
+        "colors": [
+            "Nero",
+            "Rosa",
+            "Verde",
+            "Bianco"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Cotone",
+            "Poliestere"
+        ],
+        "design_elements": [
+            "Stampa floreale",
+            "Scollatura quadrata",
+            "Maniche a sbuffo",
+            "Orlo svasato"
+        ],
+        "image_filename": "floral dress with long sleeves.jpeg"
+    },
+    {
+        "scene_description": "Una donna indossa un abito estivo a balze, color verde salvia, con spalle scoperte e dettagli a smock. Completa il look con un cappello bianco ampio e stivali texani marrone chiaro. L'ambientazione è all'aperto, probabilmente in un giardino o in un cortile, con piante e vegetazione luminosa attorno.",
+        "colors": [
+            "Verde salvia",
+            "Bianco",
+            "Marrone chiaro"
+        ],
+        "category": "Abito estivo",
+        "materials": [
+            "Cotone",
+            "Lino"
+        ],
+        "design_elements": [
+            "Balze multiple",
+            "Spalle scoperte",
+            "Dettagli smock",
+            "Fascia elastica sul corpetto",
+            "Lunghezza asimmetrica"
+        ],
+        "image_filename": "flowing green off-shoulder dress.jpg"
+    },
+    {
+        "scene_description": "Una donna cammina elegantemente in uno spazio urbano esterno. Indossa un maglione a pelo lungo di colore bianco, una gonna lunga scintillante con paillettes dorate, sandali bianchi con tacchi, e porta una borsa elegante bianca.",
+        "colors": [
+            "bianco",
+            "oro"
+        ],
+        "category": "abbigliamento femminile",
+        "materials": [
+            "pelo sintetico",
+            "paillettes",
+            "pelle sintetica"
+        ],
+        "design_elements": [
+            "pelo lungo su maglione",
+            "gonna a paillettes",
+            "borsetta strutturata",
+            "sandali con cinturino"
+        ],
+        "image_filename": "fluffy, possibly faux fur or eyelash knit sweater with a cropped cut top.jpg"
+    },
+    {
+        "scene_description": "Una donna posa all'esterno vicino a una porta di acciaio. Indossa un abito stretto, a maniche lunghe con scollatura a V e cut-out sulla zona del torace e delle maniche.",
+        "colors": [
+            "Arancione",
+            "Blu",
+            "Nero"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Probabilmente tessuto sintetico o misto"
+        ],
+        "design_elements": [
+            "Stampa geometrica",
+            "Cut-out sul torace e sulle maniche",
+            "Scollatura a V",
+            "Maniche lunghe"
+        ],
+        "image_filename": "form-fitting dress with a vibrant pattern of yellow, blue, and black.jpg"
+    },
+    {
+        "scene_description": "Una donna posa su un balcone con balaustra, indossando un elegante abito da cocktail scintillante. Lo sfondo mostra una lussureggiante foresta verde.",
+        "colors": [
+            "bronzo",
+            "marrone chiaro",
+            "oro"
+        ],
+        "category": "Abito da cocktail",
+        "materials": [
+            "tessuto sintetico",
+            "paillettes"
+        ],
+        "design_elements": [
+            "taglio monospalla",
+            "crop top",
+            "gonna aderente",
+            "inserti trasparenti in vita"
+        ],
+        "image_filename": "glamorous two-piece outfit featuring a sequined design.jpeg"
+    },
+    {
+        "scene_description": "Una donna in piedi in un ambiente elegante, probabilmente un salotto o una hall di un hotel, con arredamento moderno e sofisticato. Indossa un abito lungo fino al ginocchio con pattern floreale verde su sfondo bianco, abbinato a pantaloni lunghi verde scuro e sandali color oro.",
+        "colors": [
+            "verde",
+            "bianco",
+            "oro",
+            "verde scuro"
+        ],
+        "category": "Abito Tradizionale / Etnico",
+        "materials": [
+            "cotone",
+            "seta"
+        ],
+        "design_elements": [
+            "pattern floreale",
+            "maniche lunghe",
+            "scollatura rotonda",
+            "abito sopra il ginocchio",
+            "pantaloni lunghi"
+        ],
+        "image_filename": "green dress with a floral pattern, paired with matching green trousers.jpg"
+    },
+    {
+        "scene_description": "Una donna veste eleganti abiti bianchi e un corsetto in stile contemporaneo. Lei sta in piedi in un luogo all'aperto, presumibilmente durante un evento sociale. L'ambientazione urbana aggiunge uno sfondo moderno all'immagine.",
+        "colors": [
+            "Bianco",
+            "Nero",
+            "Oro"
+        ],
+        "category": "Abbigliamento formale",
+        "materials": [
+            "Poliestere o simil-seta",
+            "Mesh di plastica",
+            "Metalli (accessori)"
+        ],
+        "design_elements": [
+            "Spalle scoperte",
+            "Volant a cascata",
+            "Panelli a rete",
+            "Tasche laterali sui pantaloni"
+        ],
+        "image_filename": "high-waisted white trousers paired with a structured, corset-style bodice featuring mesh.jpg"
+    },
+    {
+        "scene_description": "Modello femminile seduto su una sedia in legno con schienale di paglia, indossa un abito a maniche lunghe con stampa floreale in un ambiente interno luminoso.",
+        "colors": [
+            "Blu",
+            "Bianco"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Probabilmente cotone o una miscela di cotone"
+        ],
+        "design_elements": [
+            "Stampa floreale",
+            "Maniche a sbuffo",
+            "Scollatura quadrata",
+            "Vita elasticizzata"
+        ],
+        "image_filename": "l-htdrss7133-honky-tonky-original-imagszfhfghhs2rp.jpeg"
+    },
+    {
+        "scene_description": "Una modella posa su uno sfondo bianco, indossando un abito estivo senza maniche con stampa vivace e colorata. L'abito presenta una scollatura a V e una lunghezza midi.",
+        "colors": [
+            "Rosa",
+            "Marrone chiaro",
+            "Bianco"
+        ],
+        "category": "Abito casual",
+        "materials": [
+            "Cotone",
+            "Tessuto sintetico"
+        ],
+        "design_elements": [
+            "Stampa floreale e grafica",
+            "Orlo smerlato",
+            "Scollatura a V",
+            "Fascia in vita rosa"
+        ],
+        "image_filename": "ladies-party-wear-cotton-short-dress-full.jpg"
+    },
+    {
+        "scene_description": "Una modella posa in uno studio fotografico con uno sfondo neutro indossando un abito corto, a maniche lunghe con scollo a V e un tessuto brillante di colore azzurro.",
+        "colors": [
+            "Azzurro"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Tessuto sintetico luccicante"
+        ],
+        "design_elements": [
+            "Scollo a V",
+            "Maniche lunghe a campana",
+            "Fascia in vita",
+            "Tessuto brillante",
+            "Taglio avvolgente"
+        ],
+        "image_filename": "light blue, sequined dress with a V-neckline, long sleeves.jpg"
+    },
+    {
+        "scene_description": "Modello in piedi su sfondo nero, indossa un completo elegante senza maniche composto da gilet lungo e pantaloni dritti. Posizione eretta con mani sui fianchi, sguardo diretto verso la telecamera.",
+        "colors": [
+            "Beige"
+        ],
+        "category": "Abbigliamento formale",
+        "materials": [
+            "Lana",
+            "Seta"
+        ],
+        "design_elements": [
+            "Senza maniche",
+            "Colletto a lancia",
+            "Doppio petto con bottoni dorati",
+            "Taglio sartoriale",
+            "Pantaloni a palazzo"
+        ],
+        "image_filename": "light brown sleeveless double-breasted blazer paired with matching straight-leg trousers.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un abito corto di colore verde acqua in un ambiente esterno, probabilmente un giardino o cortile, con un tavolo da pranzo coperto da una tovaglia a pattern geometrico blu e bianco. Sul tavolo ci sono alcuni piatti con frutta.",
+        "colors": [
+            "verde acqua",
+            "blu",
+            "bianco"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Cotone",
+            "Pizzo"
+        ],
+        "design_elements": [
+            "Maniche corte",
+            "Scollatura a V",
+            "Orlo con pizzo",
+            "Cintura in vita"
+        ],
+        "image_filename": "light green, short dress with lace detailing around the waist and the edges of the sleeves and hem.jpg"
+    },
+    {
+        "scene_description": "Una donna elegante posa in un ambiente interno strutturato con un pannello artistico colorato sullo sfondo. Indossa un abito lungo fino al ginocchio di colore rosa pallido con dettagli raffinati.",
+        "colors": [
+            "Rosa pallido",
+            "Oro"
+        ],
+        "category": "Abito da cerimonia",
+        "materials": [
+            "Seta",
+            "Tessuto sintetico"
+        ],
+        "design_elements": [
+            "Maniche a sbuffo",
+            "Cintura in vita",
+            "Scollatura profonda",
+            "Lunghezza midi"
+        ],
+        "image_filename": "light peach, knee-length dress with off-the-shoulder sleeves.webp"
+    },
+    {
+        "scene_description": "Una donna in un ambiente elegante interni posa indossando un lungo abito da sera. Lo sfondo include uno specchio grande e piante verdi.",
+        "colors": [
+            "blu",
+            "verde",
+            "grigio"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "tulle",
+            "seta"
+        ],
+        "design_elements": [
+            "corpetto con scollo a cuore",
+            "maniche lunghe trasparenti",
+            "gonna ampia a più strati"
+        ],
+        "image_filename": "long, elegant blue dress with an off-the-shoulder design with sheer sleeves.jpg"
+    },
+    {
+        "scene_description": "Una donna in piedi in un giardino ben curato, indossa un lungo abito da sera blu con una spacco profondo. L'abito lascia scoperte le spalle ed è fluente, conferendo un'aria elegante e sofisticata. È volta di spalle e guarda verso un cespuglio fiorito di rose e altre piante ornamentali.",
+        "colors": [
+            "Blu",
+            "Verde",
+            "Rosa",
+            "Marrone"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Seta",
+            "Satin"
+        ],
+        "design_elements": [
+            "Spacco alto",
+            "Senza spalle",
+            "Tessuto lucido",
+            "Fluido"
+        ],
+        "image_filename": "long, elegant, teal dress with a high slit on one side.jpg"
+    },
+    {
+        "scene_description": "Una donna in piedi in un abito lungo e fluttuante con stampa floreale e ornamenti etnici. L'ambiente sembra essere un interno in legno, che aggiunge un tono rustico allo sfondo.",
+        "colors": [
+            "Blu navy",
+            "Rosso",
+            "Bianco",
+            "Grigio"
+        ],
+        "category": "Abito tradizionale",
+        "materials": [
+            "Cotone",
+            "Seta"
+        ],
+        "design_elements": [
+            "Stampa floreale",
+            "Orlo ornamentale",
+            "Maniche lunghe",
+            "Girovita aderente"
+        ],
+        "image_filename": "long, flowing dress with a full skirt.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito da sera lungo fino al suolo con una profonda scollatura e una spaccatura alta sulla gamba sinistra. L'ambientazione è esterna, probabilmente lungo un marciapiede vicino a delle piante.",
+        "colors": [
+            "Rosa cipria",
+            "Oro"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Seta",
+            "Paillettes"
+        ],
+        "design_elements": [
+            "Scollatura profonda",
+            "Spacco alto",
+            "Decorazioni con paillettes",
+            "Strascico"
+        ],
+        "image_filename": "long, flowing, pink dress with a sparkly texture.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un abito lungo e ricamato con maniche lunghe e scollatura a cuore. Comprende una stola nera che fluisce elegantemente dietro. Lo sfondo mostra un ambiente interno con pareti decorate e un tavolo con un vaso di fiori.",
+        "colors": [
+            "nero",
+            "grigio",
+            "oro"
+        ],
+        "category": "abito formale",
+        "materials": [
+            "tessuto sintetico",
+            "tulle"
+        ],
+        "design_elements": [
+            "ricami dorati",
+            "maniche lunghe in tulle",
+            "scollatura a cuore",
+            "stola lunga"
+        ],
+        "image_filename": "long, intricately designed dress with full sleeves.jpg"
+    },
+    {
+        "scene_description": "Modello di moda femminile indossa una giacca elaborata su sfondo naturale sfocato. La giacca ha uno stile distintivo con ornamenti dorati e frange lunghe.",
+        "colors": [
+            "Oro",
+            "Nero"
+        ],
+        "category": "Giacca",
+        "materials": [
+            "Tessuto sintetico",
+            "Metallo"
+        ],
+        "design_elements": [
+            "Ornamenti metallici",
+            "Frange",
+            "Colletto strutturato",
+            "Ricami dorati"
+        ],
+        "image_filename": "metallic-looking jacket with intricate designs and fringes hanging from the sleeves.jpg"
+    },
+    {
+        "scene_description": "Una donna in un ambiente elegante indossa un vestito da sera. Lo sfondo mostra un'ambientazione interna lussuosa con mobili classici e finiture in legno.",
+        "colors": [
+            "Giallo senape",
+            "Bianco",
+            "Argento"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Tessuto sintetico",
+            "Paillettes"
+        ],
+        "design_elements": [
+            "Collo alto con inserto a contrasto bianco",
+            "Spalle scoperte",
+            "Silhouette aderente",
+            "Lunghezza midi"
+        ],
+        "image_filename": "mustard yellow fitted dress with white off-the-shoulder sleeves.webp"
+    },
+    {
+        "scene_description": "Una donna con un abito elegante nero posa davanti a uno sfondo rosa acceso.",
+        "colors": [
+            "nero",
+            "rosa"
+        ],
+        "category": "Abito elegante",
+        "materials": [
+            "seta",
+            "tessuto sintetico"
+        ],
+        "design_elements": [
+            "scollatura a cuore",
+            "gonna ampia",
+            "maniche scese"
+        ],
+        "image_filename": "off-the-shoulder black ball gown.jpg"
+    },
+    {
+        "scene_description": "Una donna posa in uno spazio interno opulento, davanti a un tavolo da trucco con uno specchio decorativo. Indossa un elegante abito nero con una spalla scoperta, ricamato con paillettes nere che brillano e rifinisce sotto le ginocchia con frange.",
+        "colors": [
+            "Nero",
+            "Oro",
+            "Bianco"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Paillettes",
+            "Tessuto sintetico"
+        ],
+        "design_elements": [
+            "Una spalla scoperta",
+            "Frange alla base",
+            "Paillettes su tutto il vestito"
+        ],
+        "image_filename": "one-shoulder, black, sequined dress with fringe detailing at the hem.jpg"
+    },
+    {
+        "scene_description": "La foto mostra una parte di una modella indossando un mini abito monospalla scintillante, con un design asimmetrico e tessuti stratificati.",
+        "colors": [
+            "beige",
+            "oro"
+        ],
+        "category": "Abito da cocktail",
+        "materials": [
+            "paillettes",
+            "tessuto sintetico"
+        ],
+        "design_elements": [
+            "monospalla",
+            "taglio asimmetrico",
+            "stratificazione del tessuto",
+            "finitura scintillante"
+        ],
+        "image_filename": "one-shoulder, fitted dress that features sequin embellishments and sheer panels.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito lungo di colore rosa pallido con paillettes scintillanti. Tiene una piccola borsa a mano nera.",
+        "colors": [
+            "rosa pallido",
+            "nero"
+        ],
+        "category": "abito da sera",
+        "materials": [
+            "tessuto scintillante",
+            "paillettes"
+        ],
+        "design_elements": [
+            "spalline sottili",
+            "vestibilità aderente",
+            "lunghezza fino al ginocchio",
+            "dettagli scintillanti"
+        ],
+        "image_filename": "pink, knee-length dress that sparkles.jpg"
+    },
+    {
+        "scene_description": "Una modella posa con un abito floreale in un ambiente con sfondo neutro color beige. Lei tiene le braccia alzate sopra la testa, con le mani incrociate e gli occhi chiusi, esprimendo un senso di pace e serenità.",
+        "colors": [
+            "Rosso",
+            "Bianco",
+            "Beige"
+        ],
+        "category": "Abito",
+        "materials": [
+            "Cotone",
+            "Lino"
+        ],
+        "design_elements": [
+            "Stampa floreale",
+            "Maniche a tre quarti",
+            "Girovita elastico",
+            "Scollatura a V"
+        ],
+        "image_filename": "red dress adorned with an intricate white pattern.jpg"
+    },
+    {
+        "scene_description": "Una donna cammina elegantemente lungo un marciapiede in una zona urbana moderna, indossando un abito estivo corto a motivi.",
+        "colors": [
+            "rosso",
+            "bianco"
+        ],
+        "category": "Abito femminile",
+        "materials": [
+            "tessuto sintetico",
+            "cotone"
+        ],
+        "design_elements": [
+            "stampa leopardata",
+            "orlo con volant",
+            "maniche corte",
+            "scollo a V"
+        ],
+        "image_filename": "red dress with a pattern of small white flowers.jpg"
+    },
+    {
+        "scene_description": "Una modella indossa un elegante abito lungo fino al ginocchio di colore rosso scuro, con una spacco laterale. Lo sfondo è neutro di colore grigio.",
+        "colors": [
+            "Rosso scuro",
+            "Grigio"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Velluto"
+        ],
+        "design_elements": [
+            "Spalline sottili",
+            "Spacco laterale",
+            "Vestibilità aderente"
+        ],
+        "image_filename": "red velvet sheath midi dress.jpg"
+    },
+    {
+        "scene_description": "Una donna in abbigliamento elegante posa davanti a una vetrina in una zona urbana. Indossa un abito blu scuro senza spalle, cintura coordinata, cappello a tesa larga bianco, scarpe col tacco rosse, e porta una borsa bianca a tracolla.",
+        "colors": [
+            "blu scuro",
+            "bianco",
+            "rosso"
+        ],
+        "category": "Abbigliamento femminile",
+        "materials": [
+            "tessuto sintetico",
+            "pelle",
+            "feltro"
+        ],
+        "design_elements": [
+            "abito senza spalle",
+            "cintura con fibbia",
+            "cappello a tesa larga",
+            "scarpe col tacco"
+        ],
+        "image_filename": "royal blue off-shoulder dress.jpg"
+    },
+    {
+        "scene_description": "Una donna in piedi in un giardino, indossa un abito tradizionale sudasiatico in un vivace colore rosso. L'abito è arricchito da ricami dorati e dettagli decorativi.",
+        "colors": [
+            "Rosso",
+            "Dorato"
+        ],
+        "category": "Abito tradizionale",
+        "materials": [
+            "Cotone",
+            "Filati metallici"
+        ],
+        "design_elements": [
+            "Ricamo",
+            "Motivi floreali",
+            "Orlo dettagliato",
+            "Maniche lunghe"
+        ],
+        "image_filename": "salwar kameez in a vibrant red color with detailed embroidery.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un abito brillante a paillettes con una spalla scoperta e gonna avvolgente. Lo sfondo è neutro e luminoso, mettendo in risalto l'abbigliamento.",
+        "colors": [
+            "Viola"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Paillettes",
+            "Tessuto sintetico"
+        ],
+        "design_elements": [
+            "A paillettes",
+            "Una spalla",
+            "Gonna avvolgente",
+            "Taglio asimmetrico"
+        ],
+        "image_filename": "shiny purple sequined dress with a one-shoulder design.jpg"
+    },
+    {
+        "scene_description": "Una donna posa davanti a un albero di Natale decorato, in un interno elegante con pacchetti regalo. Indossa un abito cocktail argentato, adatto per occasioni festive.",
+        "colors": [
+            "argento",
+            "bianco",
+            "verde",
+            "rosso",
+            "oro"
+        ],
+        "category": "Abito da cocktail",
+        "materials": [
+            "seta",
+            "fibra sintetica"
+        ],
+        "design_elements": [
+            "taglio asimmetrico",
+            "scollatura a V",
+            "maniche lunghe",
+            "drappeggio sul davanti"
+        ],
+        "image_filename": "shiny, silver, wrap-style dress with long sleeves.jpg"
+    },
+    {
+        "scene_description": "Una donna cammina su un marciapiede vicino a un edificio storico. E' vestita con un miniabito a maniche lunghe con una stampa floreale vivace.",
+        "colors": [
+            "Blu",
+            "Verde",
+            "Bianco"
+        ],
+        "category": "Abito",
+        "materials": [
+            "Probabilmente cotone o una miscela sintetica"
+        ],
+        "design_elements": [
+            "Stampa floreale",
+            "Maniche a sbuffo",
+            "Scollatura quadrata",
+            "Lunghezza mini"
+        ],
+        "image_filename": "short, blue floral dress with long puffed sleeves.jpg"
+    },
+    {
+        "scene_description": "Una modella indossa un mini abito bianco in una posizione semi-laterale con uno sguardo verso lo spettatore. È presente anche una piccola borsa con dettagli metallici.",
+        "colors": [
+            "bianco",
+            "argento"
+        ],
+        "category": "abito",
+        "materials": [
+            "seta",
+            "metallo"
+        ],
+        "design_elements": [
+            "spalline sottili",
+            "taglio aderente",
+            "scollatura bassa sul retro",
+            "dettagli metallici sulla borsa"
+        ],
+        "image_filename": "short, white, sleeveless dress with thin straps.jpg"
+    },
+    {
+        "scene_description": "Modello femminile che indossa un abito con paillettes rosa e argento con uno sfondo neutro.",
+        "colors": [
+            "Rosa",
+            "Argento"
+        ],
+        "category": "Abito da cocktail",
+        "materials": [
+            "Paillettes",
+            "Tessuto sintetico"
+        ],
+        "design_elements": [
+            "Paillettes su tutta la superficie",
+            "Taglio senza maniche",
+            "Scollatura rotonda"
+        ],
+        "image_filename": "sleeveless dress adorned with pink sequins.jpg"
+    },
+    {
+        "scene_description": "Modella con un abito senza maniche, taglio aderente e lunghezza media. Il vestito presenta un design dettagliato con motivo floreale e un tessuto trasparente sovrapposto su una base più scura.",
+        "colors": [
+            "Grigio",
+            "Nero",
+            "Blu"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Pizzo",
+            "Tessuto trasparente"
+        ],
+        "design_elements": [
+            "Motivo floreale",
+            "Senza maniche",
+            "Collo alto"
+        ],
+        "image_filename": "sleeveless dress with a high neckline.jpeg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito bianco corto, con scollo a barca e maniche corte. L'abito presenta un design aderente e drappeggiato che enfatizza la figura. La scena è ambientata su un balcone con arredo in legno e piante verdi.",
+        "colors": [
+            "Bianco",
+            "Marrone chiaro",
+            "Verde"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Tessuto sintetico"
+        ],
+        "design_elements": [
+            "Scollo a barca",
+            "Maniche corte",
+            "Design aderente",
+            "Drappeggiato"
+        ],
+        "image_filename": "Sleeveless-Ruched-Tight-Fashion-Sexy-Bodycon-Party-Women-Club-Dresses.webp"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito blu con una parte inferiore a stampa floreale. È in piedi su una scalinata esterna con piante fiorite all'arredamento.",
+        "colors": [
+            "Blu scuro",
+            "Rosa",
+            "Arancione",
+            "Verde",
+            "Bianco"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Tessuto sintetico",
+            "Cotone"
+        ],
+        "design_elements": [
+            "Colletto a revers",
+            "Cintura in vita",
+            "Gonna a-line a stampa floreale",
+            "Maniche lunghe"
+        ],
+        "image_filename": "solid dark blue top and a floral pattern on the bottom.jpg"
+    },
+    {
+        "scene_description": "Una modella in posa contro uno sfondo in tessuto dorato, indossando un elegante abito nero monospalla con dettagli a ruches sulle spalle.",
+        "colors": [
+            "Nero",
+            "Dorado",
+            "Bianco Argento"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Tessuto sintetico",
+            "Metallo"
+        ],
+        "design_elements": [
+            "Taglio monospalla",
+            "Ruches sulla spalla",
+            "Tessuto liscio e aderente",
+            "Orecchini cerchio con pendenti"
+        ],
+        "image_filename": "sophisticated black dress with an asymmetrical design with one sleeve and a strapless neckline on the opposite side.jpg"
+    },
+    {
+        "scene_description": "Una donna in piedi di fronte a un banco bar, indossa un mini abito aderente con maniche lunghe. L'ambiente ha un'atmosfera rustica e casual.",
+        "colors": [
+            "bianco",
+            "argento"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "paillettes",
+            "tessuto sintetico"
+        ],
+        "design_elements": [
+            "maniche lunghe",
+            "mini lunghezza",
+            "completamente decorato con paillettes"
+        ],
+        "image_filename": "sparkling white dress with long sleeves.jpg"
+    },
+    {
+        "scene_description": "Una modella posa con uno sfondo neutro color nocciola, tenendo un bicchiere di champagne. Indossa un abito mini aderente con paillettes, maniche lunghe e scollatura a V.",
+        "colors": [
+            "argento",
+            "nero",
+            "grigio"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "paillettes",
+            "tessuto sintetico"
+        ],
+        "design_elements": [
+            "paillettes luccicanti",
+            "scollatura a V",
+            "maniche lunghe",
+            "taglio aderente"
+        ],
+        "image_filename": "sparkling, fitted dress 2.jpeg"
+    },
+    {
+        "scene_description": "Modello di sesso femminile in posa contro uno sfondo monocromatico beige. Indossa un abito corto e scintillante con maniche lunghe e una scollatura a V.",
+        "colors": [
+            "argento",
+            "nero",
+            "beige"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "paillettes",
+            "tessuto sintetico"
+        ],
+        "design_elements": [
+            "maniche lunghe",
+            "scollatura a V",
+            "stoffa drappeggiata",
+            "taglio asimmetrico"
+        ],
+        "image_filename": "sparkling, fitted dress with long sleeves.jpg"
+    },
+    {
+        "scene_description": "Modello femminile con un abito stretto a maniche lunghe riflettente. L'abito presenta una scollatura a V profonda e una cintura di tessuto dello stesso pattern presa in vita. Lo sfondo è uniforme e neutro per mettere in risalto il vestito.",
+        "colors": [
+            "nero",
+            "argentato",
+            "grigio"
+        ],
+        "category": "abito da sera",
+        "materials": [
+            "seta",
+            "paillettes"
+        ],
+        "design_elements": [
+            "maniche lunghe",
+            "scollo a V",
+            "vestibilità aderente",
+            "cintura in vita"
+        ],
+        "image_filename": "sparkling, sequined dress.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito da sera di colore rosso. L'abito è senza spalline con un design aderente che enfatizza la figura. Termina appena sotto il ginocchio con un orlo a sirena.",
+        "colors": [
+            "Rosso"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Probabilmente poliestere o una miscela di tessuti sintetici"
+        ],
+        "design_elements": [
+            "Senza spalline",
+            "Adattamento su misura",
+            "Orlo a sirena",
+            "Colore unico"
+        ],
+        "image_filename": "strapless red midi dress with a mermaid silhouette.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un abito corto senza spalline, decorato con paillettes multicolore che creano un effetto brillante e cangiante. Lo sfondo è neutro.",
+        "colors": [
+            "argento",
+            "blu",
+            "viola",
+            "verde"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "paillettes",
+            "tessuto sintetico"
+        ],
+        "design_elements": [
+            "senza spalline",
+            "minidress",
+            "silhouette aderente"
+        ],
+        "image_filename": "strapless, sequined dress that sparkles with multiple colors.jpg"
+    },
+    {
+        "scene_description": "Una donna indossa un elegante abito bianco in uno spazioso ambiente interno luminoso con arredamento classico.",
+        "colors": [
+            "Bianco"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Tessuto elasticizzato"
+        ],
+        "design_elements": [
+            "Spalle scoperte",
+            "Scollatura a cuore",
+            "Drappi laterali",
+            "Lunghezza al ginocchio"
+        ],
+        "image_filename": "tight-fitting, off-the-shoulder white dress 2.jpg"
+    },
+    {
+        "scene_description": "Una modella indossa un abito corto bianco aderente in un ambiente elegante con arredamento classico e luci sfavillanti in sottofondo.",
+        "colors": [
+            "Bianco"
+        ],
+        "category": "Abito da donna",
+        "materials": [
+            "Probabilmente cotone o miscela di cotone con sintetici per elasticità"
+        ],
+        "design_elements": [
+            "Scollatura asimmetrica",
+            "Abito aderente",
+            "Maniche corte"
+        ],
+        "image_filename": "tight-fitting, off-the-shoulder white dress.webp"
+    },
+    {
+        "scene_description": "La modella indossa un elegante abito da sera in un ambiente esterno luminoso. L'abito combina un corpetto ricamato in blu con una gonna lunga che sfuma dal bianco al blu, abbellita con ricami floreali multicolori.",
+        "colors": [
+            "Bianco",
+            "Blu",
+            "Marrone",
+            "Rosso",
+            "Verde"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Seta",
+            "Tulle"
+        ],
+        "design_elements": [
+            "Ricami floreali",
+            "Sfumatura di colore",
+            "Orlo asimmetrico",
+            "Strati trasparenti"
+        ],
+        "image_filename": "vibrant blue and a neutral tone adorned with colorful floral patterns.jpg"
+    },
+    {
+        "scene_description": "Una donna è ritratta indossando un abito alla moda in un ambiente di studio con sfondo grigio. L'abito consiste in un vestito bianco al ginocchio con motivi floreali colorati e un cardigan lungo di colore rosa cipria legato in vita con una cintura sottile dello stesso tessuto e colore.",
+        "colors": [
+            "bianco",
+            "rosa cipria",
+            "giallo",
+            "rosso",
+            "verde"
+        ],
+        "category": "Abito femminile",
+        "materials": [
+            "cotone",
+            "poliestere"
+        ],
+        "design_elements": [
+            "vestito al ginocchio",
+            "motivo floreale",
+            "cardigan lungo",
+            "cintura in tessuto"
+        ],
+        "image_filename": "white dress adorned with colorful floral patterns.jpg"
+    },
+    {
+        "scene_description": "Donna indossa un abito lungo elegante, evidente in un contesto urbano moderno con sfondo costituito da un ingresso in vetro e pietra.",
+        "colors": [
+            "Blu navy",
+            "Bianco"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "Satin",
+            "Tulle",
+            "Perline"
+        ],
+        "design_elements": [
+            "Top con corpetto ricamato di perline",
+            "Gonna ampia in satin",
+            "Scollatura a cuore",
+            "Vita accentuata"
+        ],
+        "image_filename": "white, intricately detailed top and a flowing dark blue skirt.jpg"
+    },
+    {
+        "scene_description": "Una donna elegante posa in un ambiente di interni di lusso, indossando un abito da sera lungo. L'abito ha una parte superiore ornata con pizzo dorato e una gonna ampia di color beige dorato. La modella tiene una piccola borsetta grigia.",
+        "colors": [
+            "dorato",
+            "beige dorato",
+            "grigio"
+        ],
+        "category": "Abito da sera",
+        "materials": [
+            "pizzo",
+            "seta o satin"
+        ],
+        "design_elements": [
+            "scollatura a cuore",
+            "ricami in pizzo sulla parte superiore",
+            "gonna ampia e fluida"
+        ],
+        "image_filename": "Women-off-the-shoulder-sexy-embroidery-fashion-party-dress-1.png"
+    },
+    {
+        "scene_description": "Una modella indossa un elegante abito tradizionale indiano in una stanza ben arredata con fiori e arredi d'epoca.",
+        "colors": [
+            "Giallo Oro",
+            "Beige"
+        ],
+        "category": "Abbigliamento tradizionale",
+        "materials": [
+            "Seta",
+            "Pizzo"
+        ],
+        "design_elements": [
+            "Ricami floreali",
+            "Trasparenze",
+            "Maniche lunghe",
+            "Gonna ampia",
+            "Dupatta lungo"
+        ],
+        "image_filename": "yellow, intricately designed Anarkali suit.jpeg"
+    }
+]
