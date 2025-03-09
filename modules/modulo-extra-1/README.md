@@ -1,4 +1,4 @@
-# Modulo Extra: Fashion Concept Graph – Analisi delle Immagini e Creazione di Grafi Semantici.
+# Modulo Extra 1: Fashion Concept Graph – Analisi delle Immagini e Creazione di Grafi Semantici.
 
 ## Introduzione
 
@@ -6,37 +6,37 @@
 
 ---
 
-## 1. Dataset e Contesto
+## 8.1. Dataset e Contesto
 
 - **Dataset:** Utilizziamo il *Women’s Fashion Image Dataset* di Kaggle (vedi README). Contiene immagini di abbigliamento femminile, con vari stili e colori.
 - **Utilità:** Consente di analizzare colore, texture, silhouette, materiali, stili, con l’obiettivo di realizzare raccomandazioni, ricerche per simili o analisi di trend nella moda.
 
 ---
 
-## 2. Due Approcci: Interattivo vs. Automatizzato
+## 8.2. Due Approcci: Interattivo vs. Automatizzato
 
-### 2.1. Interattivo (Manuale)
+### 8.2.1. Interattivo (Manuale)
 - Utile per piccoli dataset o prove rapide.
 - **Processo:** L’utente inserisce un testo descrittivo, ChatGPT risponde con JSON, suggerimenti, descrizioni marketing, ecc.
 - Richiede intervento umano per ogni immagine o gruppo di immagini.
 
-### 2.2. Automatizzato (Python + AI/NLP)
+### 8.2.2. Automatizzato (Python + AI/NLP)
 - Gestisce dataset medio-grandi in modo coerente e ripetibile.
 - **Pipeline:** Si possono programmare batch di analisi, archiviare i risultati in JSON e CSV.
 - **Configurazione:** I parametri sono definiti nel file `graph_setup.json` per personalizzare filtri, layout dei grafi, ecc.
 
 ---
 
-## 3. Fasi Principali del Progetto
+## 8.3. Fasi Principali del Progetto
 
-### **Fase 0: Download e Setup Dataset**
+### **8.3.1. Fase 0: Download e Setup Dataset**
 - **Manuale:** Vai su Kaggle, scarica manualmente il dataset e spostalo in `./image-dataset`.
 - **Automatizzato:**
   ```bash
   python 00_download_dataset.py
   ```
 
-### **Fase 1: Estrazione Tratti Visivi**
+### **8.3.2. Fase 1: Estrazione Tratti Visivi**
 - **Manuale:** Carica un’immagine in ChatGPT.
   - **Prompt:**
     ```
@@ -62,7 +62,7 @@
   - Analizza tutte le immagini in `./image-dataset/`, genera `fashion_data.json` e `fashion_data.csv`.
   - Internamente, lo script invia richieste all’API di OpenAI GPT-4 Turbo per estrarre i campi desiderati.
 
-### **Fase 2: Contestualizzazione Culturale**
+### **8.3.3. Fase 2: Contestualizzazione Culturale**
 - **Manuale:**
   - Prendi il testo generato nella Fase 1.
   - **Prompt:**
@@ -78,7 +78,7 @@
   python 02_gen_cultural_context.py
   ```
 
-### **Fase 3: Estrazione di Concetti Chiave (NLP)**
+### **8.3.4. Fase 3: Estrazione di Concetti Chiave (NLP)**
 - **Manuale:**
   - **Prompt:**
     ```
@@ -93,13 +93,13 @@
   python 03_extract_concepts_nlp.py
   ```
 
-### **Fase 4: Costruzione del Grafo di Concetti**
+### **8.3.5. Fase 4: Costruzione del Grafo di Concetti**
 - **Automatizzato:**
   ```bash
   python 04_build_graph_data.py
   ```
 
-### **Fase 5: Visualizzazione del Grafo**
+### **8.3.6. Fase 5: Visualizzazione del Grafo**
 - **Automatizzato:**
   ```bash
   python 05_visualise_graph.py
@@ -107,7 +107,7 @@
 
 ---
 
-## 4. Esempio di Utilizzo: Manuale vs Automatizzato
+## 8.4. Esempio di Utilizzo: Manuale vs Automatizzato
 
 ### **Scenario:** Analisi di immagini di abiti floreali
 
@@ -133,7 +133,7 @@
 
 ---
 
-## 5. Conclusioni
+## 8.5. Conclusioni
 
 Questo modulo dimostra come i dati visivi possano essere arricchiti con AI e NLP per costruire mappe semantiche dei concetti di moda. 
 - Il **metodo interattivo** è utile per piccole analisi rapide.
@@ -215,16 +215,17 @@ Il workshop è suddiviso in sette parti principali:
 8. [Modulo Extra 1: Fashion Concept Graph](/modules/modulo-extra-1/README.md)
    - [8.1. Dataset e Contesto](/modules/modulo-extra-1/README.md#81-dataset-e-contesto)
    - [8.2. Due Approcci: Interattivo vs. Automatizzato](/modules/modulo-extra-1/README.md#82-due-approcci-interattivo-vs-automatizzato)
+     - [8.2.1. Interattivo (Manuale)](/modules/modulo-extra-1/README.md#821-interattivo-manuale)
+     - [8.2.2. Automatizzato (Python + AI/NLP)](/modules/modulo-extra-1/README.md#822-automatizzato-python-ai-nlp)
    - [8.3. Fasi Principali del Progetto](/modules/modulo-extra-1/README.md#83-fasi-principali-del-progetto)
-     - [Fase 0: Download e Setup Dataset](/modules/modulo-extra-1/README.md#fase-0-download-e-setup-dataset)
-     - [Fase 1: Estrazione Tratti Visivi](/modules/modulo-extra-1/README.md#fase-1-estrazione-tratti-visivi)
-     - [Fase 2: Contestualizzazione Culturale](/modules/modulo-extra-1/README.md#fase-2-contestualizzazione-culturale)
-     - [Fase 3: Estrazione di Concetti Chiave (NLP)](/modules/modulo-extra-1/README.md#fase-3-estrazione-di-concetti-chiave-nlp)
-     - [Fase 4: Costruzione del Grafo di Concetti](/modules/modulo-extra-1/README.md#fase-4-costruzione-del-grafo-di-concetti)
-     - [Fase 5: Visualizzazione del Grafo](/modules/modulo-extra-1/README.md#fase-5-visualizzazione-del-grafo)
+     - [8.3.1. Fase 0: Download e Setup Dataset](/modules/modulo-extra-1/README.md#831-fase-0-download-e-setup-dataset)
+     - [8.3.2. Fase 1: Estrazione Tratti Visivi](/modules/modulo-extra-1/README.md#832-fase-1-estrazione-tratti-visivi)
+     - [8.3.3. Fase 2: Contestualizzazione Culturale](/modules/modulo-extra-1/README.md#833-fase-2-contestualizzazione-culturale)
+     - [8.3.4. Fase 3: Estrazione di Concetti Chiave (NLP)](/modules/modulo-extra-1/README.md#834-fase-3-estrazione-di-concetti-chiave-nlp)
+     - [8.3.5. Fase 4: Costruzione del Grafo di Concetti](/modules/modulo-extra-1/README.md#835-fase-4-costruzione-del-grafo-di-concetti)
+     - [8.3.6. Fase 5: Visualizzazione del Grafo](/modules/modulo-extra-1/README.md#836-fase-5-visualizzazione-del-grafo)
    - [8.4. Esempio di Utilizzo Manuale vs Automatizzato](/modules/modulo-extra-1/README.md#84-esempio-di-utilizzo-manuale-vs-automatizzato)
    - [8.5. Conclusioni](/modules/modulo-extra-1/README.md#85-conclusioni)
-
 
 
 ---
