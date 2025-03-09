@@ -111,6 +111,16 @@
 
 ### **Scenario:** Analisi di immagini di abiti floreali
 
+Tutti i materiali, inclusi dataset di immagini e script, si trovano nei seguenti percorsi:
+
+📂 **Archivio delle immagini:**  
+Il dataset di immagini per il test si trova nella cartella principale del repository:  
+[`fashion-workshop_data-science/extra/Archivio-Photo`](../../extra/Archivio-Photo)
+
+📄 **Documentazione del modulo:**  
+Il README con la guida completa è disponibile in:  
+[`fashion-workshop_data-science/modules/modulo-extra-1/README.md`](README.md)
+
 #### **Metodo Manuale:**
 1. Caricare ogni immagine in ChatGPT.
 2. Estrarre JSON con descrizione, colori, materiali, elementi di design.
