@@ -213,17 +213,17 @@ Il workshop è suddiviso in sette parti principali:
    - [GLOSSARIO](/modules/glossario/README.md#glossario)
 
 8. [Modulo Extra 1: Fashion Concept Graph](#modulo-extra-1-fashion-concept-graph)
-   - [8.1. Dataset e Contesto](#81-dataset-e-contesto)
-   - [8.2. Due Approcci: Interattivo vs. Automatizzato](#82-due-approcci-interattivo-vs-automatizzato)
-   - [8.3. Fasi Principali del Progetto](#83-fasi-principali-del-progetto)
+   - [8-1 Dataset e Contesto](#8-1-dataset-e-contesto)
+   - [8-2 Due Approcci: Interattivo vs. Automatizzato](#8-2-due-approcci-interattivo-vs-automatizzato)
+   - [8-3 Fasi Principali del Progetto](#8-3-fasi-principali-del-progetto)
      - [Fase 0: Download e Setup Dataset](#fase-0-download-e-setup-dataset)
      - [Fase 1: Estrazione Tratti Visivi](#fase-1-estrazione-tratti-visivi)
      - [Fase 2: Contestualizzazione Culturale](#fase-2-contestualizzazione-culturale)
      - [Fase 3: Estrazione di Concetti Chiave (NLP)](#fase-3-estrazione-di-concetti-chiave-nlp)
      - [Fase 4: Costruzione del Grafo di Concetti](#fase-4-costruzione-del-grafo-di-concetti)
      - [Fase 5: Visualizzazione del Grafo](#fase-5-visualizzazione-del-grafo)
-   - [8.4. Esempio di Utilizzo Manuale vs Automatizzato](#84-esempio-di-utilizzo-manuale-vs-automatizzato)
-   - [8.5. Conclusioni](#85-conclusioni)
+   - [8-4 Esempio di Utilizzo Manuale vs Automatizzato](#8-4-esempio-di-utilizzo-manuale-vs-automatizzato)
+   - [8-5 Conclusioni](#8-5-conclusioni)
 
 ---
 ## Contatti
