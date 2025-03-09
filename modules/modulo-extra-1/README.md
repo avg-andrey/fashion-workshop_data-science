@@ -212,18 +212,19 @@ Il workshop è suddiviso in sette parti principali:
    - [Termini Aggiuntivi Utili](/modules/glossario/README.md#termini-aggiuntivi-utili)
    - [GLOSSARIO](/modules/glossario/README.md#glossario)
 
-8. [Modulo Extra 1: Fashion Concept Graph](#modulo-extra-1-fashion-concept-graph)
-   - [8-1 Dataset e Contesto](#8-1-dataset-e-contesto)
-   - [8-2 Due Approcci: Interattivo vs. Automatizzato](#8-2-due-approcci-interattivo-vs-automatizzato)
-   - [8-3 Fasi Principali del Progetto](#8-3-fasi-principali-del-progetto)
-     - [Fase 0: Download e Setup Dataset](#fase-0-download-e-setup-dataset)
-     - [Fase 1: Estrazione Tratti Visivi](#fase-1-estrazione-tratti-visivi)
-     - [Fase 2: Contestualizzazione Culturale](#fase-2-contestualizzazione-culturale)
-     - [Fase 3: Estrazione di Concetti Chiave (NLP)](#fase-3-estrazione-di-concetti-chiave-nlp)
-     - [Fase 4: Costruzione del Grafo di Concetti](#fase-4-costruzione-del-grafo-di-concetti)
-     - [Fase 5: Visualizzazione del Grafo](#fase-5-visualizzazione-del-grafo)
-   - [8-4 Esempio di Utilizzo Manuale vs Automatizzato](#8-4-esempio-di-utilizzo-manuale-vs-automatizzato)
-   - [8-5 Conclusioni](#8-5-conclusioni)
+8. [Modulo Extra 1: Fashion Concept Graph](/modules/modulo-extra-1/README.md)
+   - [8.1. Dataset e Contesto](/modules/modulo-extra-1/README.md#81-dataset-e-contesto)
+   - [8.2. Due Approcci: Interattivo vs. Automatizzato](/modules/modulo-extra-1/README.md#82-due-approcci-interattivo-vs-automatizzato)
+   - [8.3. Fasi Principali del Progetto](/modules/modulo-extra-1/README.md#83-fasi-principali-del-progetto)
+     - [8.3.1. Fase 0: Download e Setup Dataset](/modules/modulo-extra-1/README.md#831-fase-0-download-e-setup-dataset)
+     - [8.3.2. Fase 1: Estrazione Tratti Visivi](/modules/modulo-extra-1/README.md#832-fase-1-estrazione-tratti-visivi)
+     - [8.3.3. Fase 2: Contestualizzazione Culturale](/modules/modulo-extra-1/README.md#833-fase-2-contestualizzazione-culturale)
+     - [8.3.4. Fase 3: Estrazione di Concetti Chiave (NLP)](/modules/modulo-extra-1/README.md#834-fase-3-estrazione-di-concetti-chiave-nlp)
+     - [8.3.5. Fase 4: Costruzione del Grafo di Concetti](/modules/modulo-extra-1/README.md#835-fase-4-costruzione-del-grafo-di-concetti)
+     - [8.3.6. Fase 5: Visualizzazione del Grafo](/modules/modulo-extra-1/README.md#836-fase-5-visualizzazione-del-grafo)
+   - [8.4. Esempio di Utilizzo Manuale vs Automatizzato](/modules/modulo-extra-1/README.md#84-esempio-di-utilizzo-manuale-vs-automatizzato)
+   - [8.5. Conclusioni](/modules/modulo-extra-1/README.md#85-conclusioni)
+
 
 ---
 ## Contatti
