@@ -147,7 +147,6 @@ Il workshop è suddiviso in sette parti principali:
    - [Termini Aggiuntivi Utili](/modules/glossario/README.md#termini-aggiuntivi-utili)
    - [GLOSSARIO](/modules/glossario/README.md#glossario)
 
-
 8. [Modulo Extra 1: Fashion Concept Graph](/modules/modulo-extra-1/README.md)
    - [8.1. Dataset e Contesto](/modules/modulo-extra-1/README.md#81-dataset-e-contesto)
    - [8.2. Due Approcci: Interattivo vs. Automatizzato](/modules/modulo-extra-1/README.md#82-due-approcci-interattivo-vs-automatizzato)
