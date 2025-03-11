@@ -25,6 +25,31 @@
 - **Pipeline:** Si possono programmare batch di analisi, archiviare i risultati in JSON e CSV.
 - **Configurazione:** I parametri sono definiti nel file `graph_setup.json` per personalizzare filtri, layout dei grafi, ecc.
 
+### 8.2.3. Caratteristiche Estratte Automaticamente e Limiti
+
+| **Caratteristiche Estratte Automaticamente (AI + LLM)** | **Descrizione** |
+|--------------------------------|----------------------------------------------------------------|
+| **Caratteristiche cromatiche** | Palette di colori principali e secondari, bilanciamento cromatico (monocromatico, contrastato, pastello, ecc.) |
+| **Composizione dell'immagine** | Tipo di inquadratura (primo piano, mezza figura, figura intera), orientamento (verticale, orizzontale), posizionamento del soggetto (centrato, asimmetrico) |
+| **Scenografia e ambiente** | Tipo di sfondo (monocromatico, architettura, texture, natura), presenza di elementi scenografici, illuminazione (morbida, contrastata, silhouette) |
+| **Analisi dello stile e delle forme** | Tipo di capo (abito, tailleur, blusa), silhouette (aderente, ampia, strutturata), materiali e texture visibili (trasparenze, pelle, superfici lucide), elementi decorativi (ricami, strass, drappeggi), stile generale (minimalista, architettonico, retrò) |
+| **Generazione di descrizioni testuali** | Breve descrizione della scena, descrizione dettagliata degli elementi visivi, generazione automatica di tag basati sull’immagine |
+
+| **Caratteristiche Derivate da AI + LLM (richiedono conoscenza esterna)** | **Descrizione** |
+|--------------------------------|----------------------------------------------------------------|
+| **Pattern e motivi decorativi** | Identificazione del tipo di motivo (floreale, geometrico, astratto), associazione con periodi storici o movimenti artistici (Art Deco, Barocco) |
+| **Caratterizzazione avanzata dei tessuti** | Classificazione approssimativa del materiale (seta, velluto, lino), associazione con categorie note (es. “Chiffon” per un materiale trasparente e leggero) |
+| **Tipologie di costruzione sartoriale** | Identificazione dello stile di taglio e lavorazione (es. “taglio a sbieco”, “drappeggio couture”), possibile correlazione con tecniche sartoriali specifiche (plissé Fortuny) |
+| **Interpretazione e contesto culturale** | Possibile ispirazione stilistica basata su elementi visivi (es. kimono giapponese, toga romana), connessioni con icone della moda o epoche storiche |
+| **Attribuzione stilistica basata su riferimenti noti** | Associazione con tendenze specifiche di designer (es. "architettura tessile" → Ferré, "decostruzione" → Margiela), collegamento con collezioni precedenti dello stesso brand se emergono elementi ricorrenti |
+
+| **Caratteristiche Non Estratte Automaticamente (richiedono fonti esterne)** | **Descrizione** |
+|--------------------------------|----------------------------------------------------------------|
+| **Dati d’archivio e attribuzioni** | Nome del fotografo, luogo e data dello scatto, diritti di utilizzo dell'immagine |
+| **Contesto della collezione e del brand** | Nome e concept della collezione, contesto storico della creazione del capo, fonti d’ispirazione del designer |
+| **Materiali e produzione** | Tessuti utilizzati (se non chiaramente visibili), atelier di produzione del capo, fornitori di materiali e tecniche di lavorazione |
+| **Collegamenti con l’archivio e documentazione** | Codice dello schizzo originale corrispondente, ubicazione di campioni di tessuto o cartamodelli, pubblicazioni su riviste legate all’immagine |
+
 ---
 
 ## 8.3. Fasi Principali del Progetto
