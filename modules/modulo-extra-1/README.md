@@ -107,19 +107,23 @@
 
 ---
 
-## 8.4. Esempio di Utilizzo: Manuale vs Automatizzato
+## 8.4. Esempio di Utilizzo: Manuale vs Automatizzato  
 
-### **Scenario:** Analisi di immagini di abiti floreali
+### **Scenario:** Analisi di immagini di abiti floreali  
 
 Tutti i materiali, inclusi dataset di immagini e script, si trovano nei seguenti percorsi:
 
 📂 **Archivio delle immagini:**  
 Il dataset di immagini per il test si trova nella cartella principale del repository:  
-[`fashion-workshop_data-science/extra/Archivio-Photo`](../../extra/Archivio-Photo)
+[`fashion-workshop_data-science/extra/Archivio-Photo`](../../extra/Archivio-Photo)  
 
 📄 **Documentazione del modulo:**  
-Il README con la guida completa è disponibile in:  
-[`fashion-workshop_data-science/modules/modulo-extra-1/README.md`](README.md)
+Per una guida dettagliata sul modulo (questa pagina) **"Extra 1: Fashion Concept Graph – Analisi delle Immagini e Creazione di Grafi Semantici"**, consultare il seguente documento:  
+[`fashion-workshop_data-science/modules/modulo-extra-1/README.md`](../../modules/modulo-extra-1/README.md)  
+
+📑 **Guida tecnica e istruzioni di implementazione:**  
+Per le istruzioni tecniche relative al repository, alla configurazione del codice e all'esecuzione dell'esercizio pratico, fare riferimento a:  
+[`fashion-workshop_data-science/extra/Archivio-Photo/README.md`](../../extra/Archivio-Photo/README.md)
 
 #### **Metodo Manuale:**
 1. Caricare ogni immagine in ChatGPT.

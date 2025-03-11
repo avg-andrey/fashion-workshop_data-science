@@ -8,37 +8,37 @@ Questo progetto costruisce una mappa concettuale dei termini legati alla moda a 
 
 ```
 📦 Workshop_DataScience_AI/extra/Archivio-Photo
-├── 📂 docs                         # Documentazione e note di progetto
-├── 📂 image-dataset                # Dataset delle immagini di moda
-├── 📂 src                          # Directory principale del codice
-│   ├── 00_download_dataset.py      # Scarica il dataset da KaggleHub
-│   ├── 01_extract_visual_features.py # Estrae le caratteristiche visive delle immagini
-│   ├── 02_gen_cultural_context.py  # Arricchisce i dati con il contesto culturale
-│   ├── 03_extract_concepts_nlp.py  # Estrae parole chiave con NLP
-│   ├── 04_build_graph_data.py      # Costruisce la struttura del grafo semantico
-│   ├── 05_visualise_graph.py       # Genera visualizzazioni statiche e interattive del grafo
-│   ├── 📂 config                   # Configurazione del progetto
-│   │   ├── api_key.txt             # Chiave API OpenAI
-│   │   ├── graph_setup.json        # Configurazione dei parametri del grafo
-│   ├── 📂 input-data               # Dati elaborati in ogni fase della pipeline
-│   │   ├── fashion_data.json       # Dati estratti dalle immagini
+├── 📂 docs                           # Documentazione e note di progetto
+├── 📂 image-dataset                  # Dataset delle immagini di moda
+├── 📂 src                            # Directory principale del codice
+│   ├── 00_download_dataset.py         # Scarica il dataset da KaggleHub
+│   ├── 01_extract_visual_features.py  # Estrae le caratteristiche visive delle immagini
+│   ├── 02_gen_cultural_context.py     # Arricchisce i dati con il contesto culturale
+│   ├── 03_extract_concepts_nlp.py     # Estrae parole chiave con NLP
+│   ├── 04_build_graph_data.py         # Costruisce la struttura del grafo semantico
+│   ├── 05_visualise_graph.py          # Genera visualizzazioni statiche e interattive del grafo
+│   ├── 📂 config                      # Configurazione del progetto
+│   │   ├── api_key.txt                # Chiave API OpenAI
+│   │   ├── graph_setup.json           # Configurazione dei parametri del grafo
+│   ├── 📂 input-data                 # Dati elaborati in ogni fase della pipeline
+│   │   ├── fashion_data.json          # Dati estratti dalle immagini
 │   │   ├── fashion_data_enriched.json  # Dati con contesto culturale
 │   │   ├── fashion_data_final.json     # Dati con parole chiave estratte
-│   │   ├── graph-data.json         # Struttura finale del grafo
+│   │   ├── graph-data.json            # Struttura finale del grafo
 │   │   ├── graph-data_full-graph.json  # Struttura completa del grafo senza filtri
-│   ├── 📂 output-data              # Risultati e visualizzazioni finali
-│   │   ├── fashion_data.csv        # Dati estratti in formato tabellare
+│   ├── 📂 output-data                 # Risultati e visualizzazioni finali
+│   │   ├── fashion_data.csv           # Dati estratti in formato tabellare
 │   │   ├── fashion_data_enriched.csv  # Dati con contesto culturale (CSV)
 │   │   ├── fashion_data_final.csv     # Dati finali con parole chiave estratte (CSV)
-│   │   ├── graph-data.json         # Struttura del grafo generata
-│   │   ├── graph_keywords.csv      # Lista delle parole chiave e frequenze
-│   │   ├── graph_relations.csv     # Relazioni tra parole chiave
-│   │   ├── graph-spring_layout_*.png   # Visualizzazione statica (Spring Layout)
+│   │   ├── graph-data.json            # Struttura del grafo generata
+│   │   ├── graph_keywords.csv         # Lista delle parole chiave e frequenze
+│   │   ├── graph_relations.csv        # Relazioni tra parole chiave
+│   │   ├── graph-spring_layout_*.png     # Visualizzazione statica (Spring Layout)
 │   │   ├── graph-kamada_kawai_layout_*.png  # Visualizzazione statica (Kamada-Kawai Layout)
 │   │   ├── graph-circular_layout_*.png  # Visualizzazione statica (Circular Layout)
 │   │   ├── interactive_graph_*.html    # Grafico interattivo Pyvis
-├── README.md                       # Documentazione del progetto
-├── requirements.txt                 # Dipendenze del progetto
+├── README.md                           # Documentazione del progetto
+├── requirements.txt                    # Dipendenze del progetto
 
 ```
 
