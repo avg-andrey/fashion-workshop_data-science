@@ -20,7 +20,7 @@
 - **Processo:** L’utente inserisce un testo descrittivo, ChatGPT risponde con JSON, suggerimenti, descrizioni marketing, ecc.
 - Richiede intervento umano per ogni immagine o gruppo di immagini.
 
-### 8.2.2. Automatizzato (Python + AI/NLP)
+### 8.2.2. Automatizzato (Python x AI + NLP)
 - Gestisce dataset medio-grandi in modo coerente e ripetibile.
 - **Pipeline:** Si possono programmare batch di analisi, archiviare i risultati in JSON e CSV.
 - **Configurazione:** I parametri sono definiti nel file `graph_setup.json` per personalizzare filtri, layout dei grafi, ecc.
@@ -255,7 +255,7 @@ Il workshop è suddiviso in sette parti principali:
    - [8.1. Dataset e Contesto](/modules/modulo-extra-1/README.md#81-dataset-e-contesto)
    - [8.2. Due Approcci: Interattivo vs. Automatizzato](/modules/modulo-extra-1/README.md#82-due-approcci-interattivo-vs-automatizzato)
      - [8.2.1. Interattivo (Manuale)](/modules/modulo-extra-1/README.md#821-interattivo-manuale)
-     - [8.2.2. Automatizzato (Python + AI/NLP)](/modules/modulo-extra-1/README.md#822-automatizzato-python-ai-nlp)
+     - [8.2.2. Automatizzato (Python x AI + NLP)](/modules/modulo-extra-1/README.md#822-automatizzato-python-ai-nlp)
      - [8.2.3. Caratteristiche Estratte Automaticamente e Limiti](/modules/modulo-extra-1/README.md#823-caratteristiche-estratte-automaticamente-e-limiti)
    - [8.3. Fasi Principali del Progetto](/modules/modulo-extra-1/README.md#83-fasi-principali-del-progetto)
      - [8.3.1. Fase 0: Download e Setup Dataset](/modules/modulo-extra-1/README.md#831-fase-0-download-e-setup-dataset)
